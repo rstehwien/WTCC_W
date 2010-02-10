@@ -933,13 +933,13 @@
     <modifier type="focus" name="Unwieldy (All)" cost="-2" has_ranks="false" source="WT2E"/>
   </modifiers>
   <tables>
-    <measurements type="stat" link="body" name="Lift" units="lbs" boost="10" beyond="2">
+    <table type="stat" link="body" name="Lift" units="lbs" boost="10" beyond="2">
       <measurement pool="1" value="50"/>
-    </measurements>
-    <measurements type="stat" link="body" name="Throw" units="lbs" boost="10" beyond="2">
+    </table>
+    <table type="stat" link="body" name="Throw" units="lbs" boost="10" beyond="2">
       <measurement pool="1" value="6.25"/>
-    </measurements>
-    <measurements type="stat" link="body" name="Damage">
+    </table>
+    <table type="stat" link="body" name="Damage">
       <measurement pool="1" text="Shock"/>
       <measurement pool="2" text="Shock"/>
       <measurement pool="3" text="Shock"/>
@@ -950,8 +950,8 @@
       <measurement pool="8" text="Shock and Killing"/>
       <measurement pool="9" text="Shock and Killing"/>
       <measurement pool="10" text="Shock and Killing"/>
-    </measurements>
-    <measurements type="stat" link="body" name="Sprint" units="mph" boost="2" beyond="1.25">
+    </table>
+    <table type="stat" link="body" name="Sprint" units="mph" boost="2" beyond="1.25">
       <measurement pool="1" value="8"/>
       <measurement pool="2" value="10"/>
       <measurement pool="3" value="12"/>
@@ -962,8 +962,8 @@
       <measurement pool="8" value="40"/>
       <measurement pool="9" value="50"/>
       <measurement pool="10" value="60"/>
-    </measurements>
-    <measurements type="stat" link="body" name="Long Jump" units="yards" boost="2" beyond="1.25">
+    </table>
+    <table type="stat" link="body" name="Long Jump" units="yards" boost="2" beyond="1.25">
       <measurement pool="1" value="2"/>
       <measurement pool="2" value="3"/>
       <measurement pool="3" value="4"/>
@@ -974,8 +974,8 @@
       <measurement pool="8" value="40"/>
       <measurement pool="9" value="50"/>
       <measurement pool="10" value="20"/>
-    </measurements>
-    <measurements type="stat" link="body" name="High Jump" units="yards" boost="2" beyond="1.25">
+    </table>
+    <table type="stat" link="body" name="High Jump" units="yards" boost="2" beyond="1.25">
       <measurement pool="1" value="0.5"/>
       <measurement pool="2" value="1"/>
       <measurement pool="3" value="1"/>
@@ -986,17 +986,17 @@
       <measurement pool="8" value="3"/>
       <measurement pool="9" value="4"/>
       <measurement pool="10" value="5"/>
-    </measurements>
-    <measurements type="capacity" link="mass" name="Mass" units="lbs" boost="10" beyond="2">
+    </table>
+    <table type="capacity" link="mass" name="Mass" units="lbs" boost="10" beyond="2">
       <measurement pool="1" value="50"/>
-    </measurements>
-    <measurements type="capacity" link="range" name="Range" units="yards" boost="10" beyond="2">
+    </table>
+    <table type="capacity" link="range" name="Range" units="yards" boost="10" beyond="2">
       <measurement pool="1" value="10"/>
-    </measurements>
-    <measurements type="capacity" link="speed" name="Speed" units="mph" boost="10" beyond="2">
+    </table>
+    <table type="capacity" link="speed" name="Speed" units="mph" boost="10" beyond="2">
       <measurement pool="1" value="2.5"/>
-    </measurements>
-    <measurements type="stat" link="coordination">
+    </table>
+    <table type="stat" link="coordination">
       <measurement pool="1" text="You can cross a room safely if there’s nothing in the way."/>
       <measurement pool="2" text="You play a decent game of darts."/>
       <measurement pool="3" text="You’re a great juggler."/>
@@ -1007,8 +1007,8 @@
       <measurement pool="8" text="You can catch fast objects such as arrows in flight without rolling—if they’re not aimed at you."/>
       <measurement pool="9" text="You can literally move faster than people can see."/>
       <measurement pool="10" text="Every external muscle in your body is under your conscious control."/>
-    </measurements>
-    <measurements type="stat" link="sense">
+    </table>
+    <table type="stat" link="sense">
       <measurement pool="1" text="You notice when someone’s talking to you—sometimes."/>
       <measurement pool="2" text="Loud noises wake you up."/>
       <measurement pool="3" text="You’re unusually sharp_eyed."/>
@@ -1019,8 +1019,8 @@
       <measurement pool="8" text="You can differentiate between dozens of sounds amidst a cacophony."/>
       <measurement pool="9" text="You can see in the dark, read by touch, and identify targets by smell."/>
       <measurement pool="10" text="It takes a Miracle (literally) to sneak up on you."/>
-    </measurements>
-    <measurements type="stat" link="mind">
+    </table>
+    <table type="stat" link="mind">
       <measurement pool="1" text="When people call you an intellectual, you can’t always tell they’re joking."/>
       <measurement pool="2" text="You can get high grades with a lot of work."/>
       <measurement pool="3" text="You’re notably bright and learning comes easily."/>
@@ -1031,8 +1031,8 @@
       <measurement pool="8" text="All modern theory is the equivalent of a monkey banging two stones together."/>
       <measurement pool="9" text="You can recall with perfect clarity anything you previously sensed without rolling."/>
       <measurement pool="10" text="You can consider intellectual problems even while asleep."/>
-    </measurements>
-    <measurements type="stat" link="charm">
+    </table>
+    <table type="stat" link="charm">
       <measurement pool="1" text="You’re a wallflower."/>
       <measurement pool="2" text="You get along with most people."/>
       <measurement pool="3" text="You often defuse tense situations."/>
@@ -1043,8 +1043,8 @@
       <measurement pool="8" text="You can convince anyone of anything in 5–width hours of persuasion."/>
       <measurement pool="9" text="You can convince anyone of anything in 5–width minutes of persuasion."/>
       <measurement pool="10" text="You can convince anyone of anything in 5–width rounds of persuasion."/>
-    </measurements>
-    <measurements type="stat" link="command">
+    </table>
+    <table type="stat" link="command">
       <measurement pool="1" text="You are easily startled."/>
       <measurement pool="2" text="You’re a regular Joe or Jane."/>
       <measurement pool="3" text="You’re charismatic and graceful under pressure."/>
@@ -1055,8 +1055,8 @@
       <measurement pool="8" text="You are completely immune to pain and discomfort."/>
       <measurement pool="9" text="All your feelings and autonomic physical responses (breathing, heartbeat) are under your conscious control without a roll. You never need to make Trauma Checks."/>
       <measurement pool="10" text="On a successful roll, you can bark an order in a voice that causes a person to obey before considering the consequences, as long as it takes no more than a single round."/>
-    </measurements>
-    <measurements type="skill">
+    </table>
+    <table type="skill">
       <measurement pool="1" text="Basic training" example="(Athletics) Can barely dog paddle."/>
       <measurement pool="2" text="Moderate training and some experience" example="(Athletics) Can throw a football 20 yards accurately."/>
       <measurement pool="3" text="Extensive training and experience" example="(Perception) Can detect a tap on the phone line."/>
@@ -1067,8 +1067,8 @@
       <measurement pool="8" text="Astonishing" example="(Dodge) Can catch arrows in mid_air."/>
       <measurement pool="9" text="Unparalleled" example="(Perception) Can see in near_complete darkness."/>
       <measurement pool="10" text="Supreme" example="(Knowledge (Education)) Can teach any subject from memory."/>
-    </measurements>
-    <measurements type="booster" link="range">
+    </table>
+    <table type="booster" link="range">
       <measurement pool="5" text="Distance across the U.S."/>
       <measurement pool="7" text="Distance to the Moon"/>
       <measurement pool="9" text="Distance to Mars"/>
@@ -1076,18 +1076,18 @@
       <measurement pool="15" text="Range of one light year"/>
       <measurement pool="16" text="Distance to the Fish homeworld (42 light years)"/>
       <measurement pool="24" text="Range to the farthest part of the visible universe"/>
-    </measurements>
-    <measurements type="booster" link="mass">
+    </table>
+    <table type="booster" link="mass">
       <measurement pool="6" text="Mass of an aircraft carrier"/>
       <measurement pool="7" text="Mass of a skyscraper"/>
       <measurement pool="10" text="Mass of the Great Pyramid of Cheops"/>
       <measurement pool="20" text="Mass of the Moon"/>
       <measurement pool="22" text="Mass of the Earth"/>
       <measurement pool="26" text="Mass of the Sun"/>
-    </measurements>
-    <measurements type="booster" link="speed">
+    </table>
+    <table type="booster" link="speed">
       <measurement pool="13" text="Speed of light"/>
-    </measurements>
+    </table>
   </tables>
   <character version="1" ref="default_character" name="" points="0" points_stats="0" points_skills="0" points_willpower="0" points_powers="0" points_archetype="0">
     <infos>

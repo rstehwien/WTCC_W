@@ -25,9 +25,9 @@
           <xs:element ref="infos" minOccurs="0"/>
           <xs:element ref="willpower" minOccurs="0"/>
           <xs:element ref="custom_modifiers" minOccurs="0"/>
-          <xs:element ref="measurements" minOccurs="0"/>
-          <xs:element maxOccurs="unbounded" minOccurs="0" ref="pools"/>
+          <xs:element maxOccurs="1" minOccurs="0" ref="pools"/>
           <xs:element minOccurs="0" ref="meta_qualities"/>
+          <xs:element minOccurs="0" ref="measurements"/>
         </xs:choice>
       </xs:sequence>
       <xs:attribute form="unqualified" name="version" type="xs:integer" use="required"/>
@@ -191,12 +191,12 @@
   <xs:element name="tables">
     <xs:complexType>
       <xs:sequence>
-        <xs:element maxOccurs="unbounded" ref="measurements" minOccurs="0"/>
+        <xs:element maxOccurs="unbounded" ref="table" minOccurs="0"/>
       </xs:sequence>
       <xs:attribute name="id" type="xs:ID"/>
     </xs:complexType>
   </xs:element>
-  <xs:element name="measurements">
+  <xs:element name="table">
     <xs:complexType>
       <xs:sequence>
         <xs:element maxOccurs="unbounded" ref="measurement" minOccurs="0"/>
@@ -229,6 +229,14 @@
     <xs:complexType>
       <xs:sequence>
         <xs:element maxOccurs="unbounded" minOccurs="0" ref="meta_qualities"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="measurements">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" minOccurs="0" ref="measurement"/>
       </xs:sequence>
       <xs:attribute name="id" type="xs:ID"/>
     </xs:complexType>
