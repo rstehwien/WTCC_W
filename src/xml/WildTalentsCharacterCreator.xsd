@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="data">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice maxOccurs="unbounded" minOccurs="0">
+          <xs:element minOccurs="1" ref="character"/>
+          <xs:element minOccurs="1" ref="tables"/>
+          <xs:element ref="modifiers"/>
+          <xs:element ref="pools"/>
+          <xs:element ref="archetypes"/>
+          <xs:element maxOccurs="1" minOccurs="1" ref="meta_qualities"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute form="unqualified" name="version" type="xs:integer" use="required"/>
+      <xs:attribute name="cost_willpower" type="xs:positiveInteger" use="required"/>
+      <xs:attribute name="cost_willpower_base" type="xs:positiveInteger" use="required"/>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="character">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice maxOccurs="unbounded" minOccurs="0">
+          <xs:element ref="infos" minOccurs="0"/>
+          <xs:element ref="willpower" minOccurs="0"/>
+          <xs:element ref="custom_modifiers" minOccurs="0"/>
+          <xs:element ref="measurements" minOccurs="0"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" ref="pools"/>
+          <xs:element minOccurs="0" ref="meta_qualities"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute form="unqualified" name="version" type="xs:integer" use="required"/>
+      <xs:attribute name="ref" type="xs:NCName"/>
+      <xs:attribute name="name" type="xs:string" use="required"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:attribute name="points_archetype" use="required" type="xs:integer"/>
+      <xs:attribute name="points_powers" use="required" type="xs:nonNegativeInteger"/>
+      <xs:attribute name="points_skills" use="required" type="xs:nonNegativeInteger"/>
+      <xs:attribute name="points_stats" use="required" type="xs:nonNegativeInteger"/>
+      <xs:attribute name="points_willpower" use="required" type="xs:nonNegativeInteger"/>
+      <xs:attribute name="points" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="infos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="info" minOccurs="0"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="info">
+    <xs:complexType mixed="true">
+      <xs:attribute name="ref" type="xs:NCName"/>
+      <xs:attribute name="name" type="xs:string" use="required"/>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="willpower">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" minOccurs="0" ref="motivation"/>
+      </xs:sequence>
+      <xs:attribute name="base" use="required" type="xs:nonNegativeInteger"/>
+      <xs:attribute name="current" use="required" type="xs:nonNegativeInteger"/>
+      <xs:attribute name="ref" type="xs:NCName"/>
+      <xs:attribute name="name" type="xs:string"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:attribute default="0" name="points" type="xs:nonNegativeInteger"/>
+      <xs:attribute default="0" name="min_base" type="xs:nonNegativeInteger"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="motivation">
+    <xs:complexType>
+      <xs:attribute name="type" use="required" type="xs:string"/>
+      <xs:attribute name="value" use="required" type="xs:nonNegativeInteger"/>
+      <xs:attribute name="ref" type="xs:NCName"/>
+      <xs:attribute name="name" type="xs:string" use="required"/>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="custom_modifiers">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="effect" minOccurs="0"/>
+      </xs:sequence>
+      <xs:attribute name="ref" type="xs:NCName" use="optional"/>
+      <xs:attribute name="name" type="xs:string" use="optional"/>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="effect">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" minOccurs="0" ref="modifier"/>
+      </xs:sequence>
+      <xs:attribute name="type" use="required" type="xs:string"/>
+      <xs:attribute name="cost" type="xs:nonNegativeInteger" default="0"/>
+      <xs:attribute name="include_measurement" type="xs:boolean" default="false"/>
+      <xs:attribute name="special" type="xs:string"/>
+      <xs:attribute name="special_required" type="xs:boolean" default="false"/>
+      <xs:attribute name="link" type="xs:NCName"/>
+      <xs:attribute default="false" name="link_required" type="xs:boolean"/>
+      <xs:attribute name="source" type="xs:string"/>
+      <xs:attribute name="ref" type="xs:NCName"/>
+      <xs:attribute name="name" type="xs:string"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:attribute default="0" name="die_cost" type="xs:nonNegativeInteger"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="pools">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" minOccurs="0" ref="pool"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:attribute default="0" name="points" type="xs:nonNegativeInteger"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="pool">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" minOccurs="0" ref="effect"/>
+      </xs:sequence>
+      <xs:attribute name="source" type="xs:string"/>
+      <xs:attribute name="die_cost" type="xs:nonNegativeInteger" default="0"/>
+      <xs:attribute name="hard" type="xs:nonNegativeInteger" default="0"/>
+      <xs:attribute name="normal" type="xs:nonNegativeInteger" default="0"/>
+      <xs:attribute name="type" type="xs:NCName" use="required"/>
+      <xs:attribute name="wiggle" type="xs:nonNegativeInteger" default="0"/>
+      <xs:attribute name="ref" type="xs:NCName"/>
+      <xs:attribute name="name" type="xs:string"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:attribute default="0" name="points" type="xs:nonNegativeInteger"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="modifiers">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="modifier"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="modifier">
+    <xs:complexType>
+      <xs:attribute name="source" type="xs:string"/>
+      <xs:attribute name="cost" use="required" type="xs:integer"/>
+      <xs:attribute name="special" type="xs:string"/>
+      <xs:attribute name="special_required" type="xs:boolean" default="false"/>
+      <xs:attribute name="has_ranks" type="xs:boolean" default="false"/>
+      <xs:attribute name="ranks" type="xs:positiveInteger" default="1"/>
+      <xs:attribute name="type" use="required" type="xs:string"/>
+      <xs:attribute name="link" type="xs:NCName"/>
+      <xs:attribute default="false" name="link_required" type="xs:boolean"/>
+      <xs:attribute name="ref" type="xs:NCName"/>
+      <xs:attribute name="name" type="xs:string" use="required"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:attribute name="mod" type="xs:integer" use="optional" default="0"/>
+      <xs:attribute default="false" name="primary_capacity" type="xs:boolean"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="meta_qualities">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" minOccurs="0" ref="meta_quality"/>
+      </xs:sequence>
+      <xs:attribute name="points" type="xs:integer" default="0"/>
+      <xs:attribute name="source" type="xs:string"/>
+      <xs:attribute name="ref" type="xs:NCName"/>
+      <xs:attribute name="name" type="xs:string"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:attribute name="type" type="xs:NCName" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="meta_quality">
+    <xs:complexType>
+      <xs:attribute name="source" type="xs:string"/>
+      <xs:attribute name="cost" type="xs:integer" use="required"/>
+      <xs:attribute name="custom" type="xs:boolean" default="false"/>
+      <xs:attribute name="special" type="xs:string"/>
+      <xs:attribute name="special_required" type="xs:boolean" default="false"/>
+      <xs:attribute name="ref" type="xs:NCName"/>
+      <xs:attribute name="name" type="xs:string" use="required"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:attribute name="type" type="xs:NCName" use="required"/>
+      <xs:attribute default="true" name="chosen" type="xs:boolean"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="tables">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="measurements" minOccurs="0"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="measurements">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="measurement" minOccurs="0"/>
+      </xs:sequence>
+      <xs:attribute name="beyond" type="xs:decimal"/>
+      <xs:attribute name="boost" type="xs:decimal"/>
+      <xs:attribute name="type" type="xs:NCName"/>
+      <xs:attribute name="units" type="xs:string"/>
+      <xs:attribute name="ref" type="xs:NCName"/>
+      <xs:attribute name="name" type="xs:string"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:attribute name="link" type="xs:NCName" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="measurement">
+    <xs:complexType>
+      <xs:attribute name="type" type="xs:NCName"/>
+      <xs:attribute name="pool" use="required" type="xs:nonNegativeInteger"/>
+      <xs:attribute name="text" type="xs:string"/>
+      <xs:attribute name="units" type="xs:string"/>
+      <xs:attribute name="value" type="xs:decimal"/>
+      <xs:attribute name="example" type="xs:string"/>
+      <xs:attribute name="ref" type="xs:NCName"/>
+      <xs:attribute name="name" type="xs:string"/>
+      <xs:attribute name="id" type="xs:ID"/>
+      <xs:attribute name="link" type="xs:NCName" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="archetypes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" minOccurs="0" ref="meta_qualities"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

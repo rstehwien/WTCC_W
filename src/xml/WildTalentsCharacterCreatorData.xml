@@ -1,0 +1,1135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="WildTalentsCharacterCreator.xsd" version="1" cost_willpower="1" cost_willpower_base="3">
+  <!-- 
+    Notes 
+    * all elements have a
+      * id _ unique identifier, optional
+      * ref_ reference for lookups, can have duplicates, optional
+      * name _ display name, optional
+    * ref or id used when linking elements together
+    * cost for stats and skills doesn't include Native modifier 
+  -->
+  <pools>
+    <!--
+        Stats
+      -->
+    <pool type="stat" name="Body">
+      <effect type="stat" name="Body" ref="body" cost="4"/>
+    </pool>
+    <pool type="stat" name="Coordination">
+      <effect type="stat" name="Coordination" ref="coordination" cost="4"/>
+    </pool>
+    <pool type="stat" name="Sense">
+      <effect type="stat" name="Sense" ref="sense" cost="4"/>
+    </pool>
+    <pool type="stat" name="Mind">
+      <effect type="stat" name="Mind" ref="mind" cost="4"/>
+    </pool>
+    <pool type="stat" name="Charm">
+      <effect type="stat" name="Charm" ref="charm" cost="4"/>
+    </pool>
+    <pool type="stat" name="Command">
+      <effect type="stat" name="Command" ref="command" cost="4"/>
+    </pool>
+    <!--
+        Skills, starting with custom ones
+      -->
+    <pool type="skill" name="Custom Standard Skill">
+      <effect type="skill" cost="1" name="Custom Standard Skill" source="WT2E"/>
+    </pool>
+    <pool type="skill" name="Custom Build Skill">
+      <effect type="skill" cost="0" name="Custom Build Skill" source="WT2E"/>
+    </pool>
+    <!-- Wild Talent Skills -->
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Athletics" link="body" special_required="true" source="WT2E"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Block" link="body" source="WT2E"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Brawling" link="body" source="WT2E"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Endurance" link="body" source="WT2E"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Melee Weapon" link="body" special_required="true" source="WT2E"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Dodge" link="coordination" source="WT2E"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Driving" link="coordination" special_required="true" source="WT2E"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Ranged Weapon" link="coordination" special_required="true" source="WT2E"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Stealth" link="coordination" source="WT2E"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Empathy" link="sense" source="WT2E"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Perception" link="sense" source="WT2E"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Scrutiny" link="sense" source="WT2E"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="First Aid" link="mind" source="WT2E"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Knowledge" link="mind" special_required="true" source="WT2E"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Language" link="mind" special_required="true" source="WT2E"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Medicine" link="mind" source="WT2E"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Navigation" link="mind" source="WT2E"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Research" link="mind" source="WT2E"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Security Systems" link="mind" source="WT2E"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Streetwise" link="mind" source="WT2E"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Survival" link="mind" source="WT2E"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Tatics" link="mind" source="WT2E"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Lie" link="charm" source="WT2E"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Performance" link="charm" special_required="true" source="WT2E"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Persuasion" link="charm" source="WT2E"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Interrogation" link="command" source="WT2E"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Intimidation" link="command" source="WT2E"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Leadership" link="command" source="WT2E"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Stability" link="command" source="WT2E"/>
+    </pool>
+    <!-- Basic Skills KC -->
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Boxing" link="body" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Lifting" link="body" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Running" link="body" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Sports" link="body" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Wrestling" link="body" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Acrobatics" link="coordination" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Archery" link="coordination" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Climb" link="coordination" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Dodge" link="coordination" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Evasion" link="coordination" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Horsemanship" link="coordination" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Pistol" link="coordination" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Rifle" link="coordination" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Empathy" link="sense" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Hear" link="sense" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Notice" link="sense" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Reflexes" link="sense" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Search" link="sense" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="See" link="sense" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Smell" link="sense" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Taste" link="sense" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Touch" link="sense" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Track" link="sense" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="A Single Academic Field" link="mind" special_required="true" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="A Language" link="mind" special_required="true" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Act" link="command" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Intimidate" link="command" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Lie" link="command" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Stability" link="command" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Bluff" link="charm" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Feign" link="charm" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Innocence" link="charm" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Lie" link="charm" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Seduce" link="charm" source="KC"/>
+    </pool>
+    <!-- Advanced Skills KC -->
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Athletics" link="body" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Brawling" link="body" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Might" link="body" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Driving" link="coordination" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Shooting" link="coordination" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Sportsman" link="coordination" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Awareness" link="sense" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Investigate" link="sense" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Education" link="mind" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Finance" link="mind" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Linguistics" link="mind" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Discipline" link="command" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Inspire" link="command" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Iron Will" link="command" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Leadership" link="command" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Deceive" link="charm" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Influence" link="charm" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+      </effect>
+    </pool>
+    <!-- Backgrounds KC -->
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Black Sheep" link="Any" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+        <modifier type="skill" name="Flexible" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Brush With Occult Horrors" link="Any" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+        <modifier type="skill" name="Flexible" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Criminal History" link="Any" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+        <modifier type="skill" name="Flexible" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Educated Abroady" link="Any" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+        <modifier type="skill" name="Flexible" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Elite Boarding School" link="Any" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+        <modifier type="skill" name="Flexible" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Escaped Slave" link="Any" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+        <modifier type="skill" name="Flexible" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Evil Temper" link="Any" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+        <modifier type="skill" name="Flexible" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Military Brat" link="Any" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+        <modifier type="skill" name="Flexible" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Songs of War" link="Any" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+        <modifier type="skill" name="Flexible" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Street Urchin" link="Any" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+        <modifier type="skill" name="Flexible" cost="1"/>
+      </effect>
+    </pool>
+    <!-- Social Positions KC -->
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Country Vicar" link="command" source="KC">
+        <modifier type="skill" name="Influence" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Cultist" link="command" source="KC">
+        <modifier type="skill" name="Influence" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Faerie Fascination" link="command" source="KC">
+        <modifier type="skill" name="Influence" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Holder of Her Majesty’s Commission" link="command" source="KC">
+        <modifier type="skill" name="Influence" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Inherited Fortune" link="command" source="KC">
+        <modifier type="skill" name="Influence" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Kerberan" link="command" source="KC">
+        <modifier type="skill" name="Influence" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Member of Parliament" link="command" source="KC">
+        <modifier type="skill" name="Influence" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Noble Title" link="command" source="KC">
+        <modifier type="skill" name="Influence" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Underworld Influence" link="command" source="KC">
+        <modifier type="skill" name="Influence" cost="1"/>
+      </effect>
+    </pool>
+    <!-- Occupations KC -->
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Actor" link="Any" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+        <modifier type="skill" name="Flexible" cost="1"/>
+        <modifier type="skill" name="Influence" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Assassin" link="Any" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+        <modifier type="skill" name="Flexible" cost="1"/>
+        <modifier type="skill" name="Influence" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Confidential Agent" link="Any" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+        <modifier type="skill" name="Flexible" cost="1"/>
+        <modifier type="skill" name="Influence" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Crime Boss" link="Any" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+        <modifier type="skill" name="Flexible" cost="1"/>
+        <modifier type="skill" name="Influence" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Detective" link="Any" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+        <modifier type="skill" name="Flexible" cost="1"/>
+        <modifier type="skill" name="Influence" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Explorer" link="Any" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+        <modifier type="skill" name="Flexible" cost="1"/>
+        <modifier type="skill" name="Influence" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Journalist" link="Any" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+        <modifier type="skill" name="Flexible" cost="1"/>
+        <modifier type="skill" name="Influence" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Natural Scientist" link="Any" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+        <modifier type="skill" name="Flexible" cost="1"/>
+        <modifier type="skill" name="Influence" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Occult Revolutionary" link="Any" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+        <modifier type="skill" name="Flexible" cost="1"/>
+        <modifier type="skill" name="Influence" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Officer and Gentleman" link="Any" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+        <modifier type="skill" name="Flexible" cost="1"/>
+        <modifier type="skill" name="Influence" cost="1"/>
+      </effect>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="0" name="Politician" link="Any" source="KC">
+        <modifier type="skill" name="Broad" cost="1"/>
+        <modifier type="skill" name="Flexible" cost="1"/>
+        <modifier type="skill" name="Influence" cost="1"/>
+      </effect>
+    </pool>
+    <!-- Standard Style KC Skills -->
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Block" link="body" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Brawling" link="body" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Endurance" link="body" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Melee Weapon" link="body" special_required="true" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Sport" link="body" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Dodge" link="coordination" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Driving" link="coordination" special_required="true" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Ranged Weapon" link="coordination" special_required="true" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Riding" link="coordination" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Stealth" link="coordination" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Empathy" link="sense" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Perception" link="sense" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Scrutiny" link="sense" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="First Aid" link="mind" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Knowledge" link="mind" special_required="true" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Language" link="mind" special_required="true" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Medicine" link="mind" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Navigation" link="mind" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Research" link="mind" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Streetwise" link="mind" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Survival" link="mind" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Tatics" link="mind" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Lie" link="charm" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Performance" link="charm" special_required="true" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Persuasion" link="charm" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Interrogation" link="command" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Intimidation" link="command" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Leadership" link="command" source="KC"/>
+    </pool>
+    <pool type="skill" name="">
+      <effect type="skill" cost="1" name="Stability" link="command" source="KC"/>
+    </pool>
+    <!--
+        Powers, starting with generic ones
+      -->
+    <pool type="power">
+      <effect type="power" name="Attacks" cost="2"/>
+    </pool>
+    <pool type="power">
+      <effect type="power" name="Defends" cost="2"/>
+    </pool>
+    <pool type="power">
+      <effect type="power" name="Useful" cost="2" special_required="true"/>
+    </pool>
+    <pool type="power">
+      <effect type="power" name="Dud" cost="1" special_required="true"/>
+    </pool>
+    <pool type="power" name="Blink" normal="0" hard="0" wiggle="0" die_cost="2" points="0" source="WT2E">
+      <effect type="power" name="Defends" cost="2">
+        <modifier type="capacity" primary_capacity="true" name="Self" cost="0"/>
+        <modifier type="extra" name="Duration" cost="2"/>
+      </effect>
+    </pool>
+    <pool name="I’ll Never Grow Old" type="power" normal="0" hard="0" wiggle="0" die_cost="1" points="0" source="WT2E">
+      <effect type="power" name="Dud" special="I’ll Never Grow Old" cost="1">
+        <modifier type="capacity" primary_capacity="true" name="Self" cost="0"/>
+      </effect>
+    </pool>
+    <pool type="power" name="Unbreakable Claws" normal="0" hard="0" wiggle="0" die_cost="9" points="0" source="WT2E">
+      <effect type="skill" name="Brawling" link="body" cost="1" source="WT2E">
+        <modifier type="level" name="Attacks" cost="1" ranks="2"/>
+        <modifier type="extra" name="Deadly (Killing)" cost="1" has_ranks="false" source="WT2E"/>
+        <modifier type="extra" name="Penetration" cost="1" ranks="4" source="WT2E"/>
+      </effect>
+    </pool>
+    <pool name="Supress Nuclear Fusion" type="power" normal="0" hard="0" wiggle="0" die_cost="42" points="0" source="WT2E">
+      <effect type="power" cost="2" name="Useful" special="Supress Nuclear Fusion">
+        <modifier type="capacity" primary_capacity="true" name="Mass" cost="0"/>
+        <modifier type="capacity" primary_capacity="false" name="Range" cost="2"/>
+        <modifier type="extra" name="Duration" cost="2"/>
+        <modifier type="capacity_extra" name="Booster" link="Mass" link_required="true" cost="1" ranks="26"/>
+        <modifier type="capacity_extra" name="Booster" link="Range" link_required="true" cost="1" ranks="10"/>
+      </effect>
+    </pool>
+    <pool type="focus" normal="10" hard="0" wiggle="0" die_cost="1" points="10" ref="M_23_Rifle" name="M_23 Rifle" source="WT2E">
+      <effect type="power" cost="2" name="Attacks">
+        <modifier type="capacity" primary_capacity="true" name="Range" cost="0"/>
+        <modifier type="level" name="Attacks" cost="1" ranks="2"/>
+        <modifier type="flaw" name="Focus" cost="-1" has_ranks="false"/>
+        <modifier type="focus" name="Accessible" cost="-1" has_ranks="false"/>
+        <modifier type="focus" name="Adaptation" cost="-2" has_ranks="false"/>
+        <modifier type="focus" name="Manufacturable" cost="2" has_ranks="false"/>
+        <modifier type="focus" name="Operational Skill" link="Rifle" cost="0" link_required="true" has_ranks="false"/>
+        <modifier type="flaw" name="Obvious" cost="-1" has_ranks="false"/>
+      </effect>
+    </pool>
+    <pool name="Attached M_23 Attached Recoilless Autofire" type="power" normal="4" hard="0" wiggle="1" die_cost="4" points="32" source="WT2E">
+      <effect type="power" cost="2" name="Useful" special="M_23 Attached Recoilless Autofire">
+        <modifier type="capacity" primary_capacity="true" name="Range" cost="0"/>
+        <modifier type="level" name="Attacks" cost="1" ranks="2"/>
+        <modifier type="flaw" name="Attached" link="M_23_Rifle" cost="-2" has_ranks="false" link_required="true"/>
+        <modifier type="extra" name="Augment" cost="4" has_ranks="false" source="WT2E"/>
+        <modifier type="flaw" name="If/Then" special="must declare Augment in the declare phase" cost="-1" has_ranks="false" special_required="true" source="WT2E"/>
+        <modifier type="flaw" name="If/Then" special="Wiggle Die requires a rolled set" cost="-1" has_ranks="false" special_required="true" source="WT2E"/>
+      </effect>
+    </pool>
+    <pool type="power" name="Aces" die_cost="12" source="WT2E">
+      <effect type="power" name="Attacks" cost="2">
+        <modifier type="capacity" primary_capacity="true" cost="0" name="Self"/>
+        <modifier type="extra" name="Augment" cost="4" has_ranks="false" source="WT2E"/>
+        <modifier type="flaw" name="Willpower Cost" cost="-2" has_ranks="false" source="WT2E"/>
+      </effect>
+      <effect type="power" name="Defends" cost="2">
+        <modifier type="capacity" primary_capacity="true" cost="0" name="Self"/>
+        <modifier type="extra" name="Augment" cost="4" has_ranks="false" source="WT2E"/>
+        <modifier type="flaw" name="Willpower Cost" cost="-2" has_ranks="false" source="WT2E"/>
+      </effect>
+      <effect type="power" name="Useful" cost="2">
+        <modifier type="capacity" primary_capacity="true" cost="0" name="Self"/>
+        <modifier type="extra" name="Augment" cost="4" has_ranks="false" source="WT2E"/>
+        <modifier type="flaw" name="Willpower Cost" cost="-2" has_ranks="false" source="WT2E"/>
+      </effect>
+    </pool>
+    <pool type="power" name="Alternate Forms" die_cost="18" source="WT2E">
+      <effect type="power" name="Attacks" cost="2">
+        <modifier type="capacity" primary_capacity="true" cost="0" name="Self"/>
+        <modifier type="extra" name="Duration" cost="2" has_ranks="false" source="WT2E"/>
+        <modifier type="flaw" name="If/Then" special="Variable Effect is only for shapechanging" cost="-1" has_ranks="false" special_required="true" source="WT2E"/>
+        <modifier type="flaw" name="If/Then" special="only for Variable Effect" cost="-1" has_ranks="false" special_required="true" source="WT2E"/>
+        <modifier type="extra" name="Variable Effect" cost="4" has_ranks="false" source="WT2E"/>
+      </effect>
+      <effect type="power" name="Defends" cost="2">
+        <modifier type="capacity" primary_capacity="true" cost="0" name="Self"/>
+        <modifier type="extra" name="Duration" cost="2" has_ranks="false" source="WT2E"/>
+        <modifier type="flaw" name="If/Then" special="Variable Effect is only for shapechanging" cost="-1" has_ranks="false" special_required="true" source="WT2E"/>
+        <modifier type="flaw" name="If/Then" special="only for Variable Effect" cost="-1" has_ranks="false" special_required="true" source="WT2E"/>
+        <modifier type="extra" name="Variable Effect" cost="4" has_ranks="false" source="WT2E"/>
+      </effect>
+      <effect type="power" name="Useful" cost="2">
+        <modifier type="capacity" primary_capacity="true" cost="0" name="Self"/>
+        <modifier type="extra" name="Duration" cost="2" has_ranks="false" source="WT2E"/>
+        <modifier type="flaw" name="If/Then" special="Variable Effect is only for shapechanging" cost="-1" has_ranks="false" special_required="true" source="WT2E"/>
+        <modifier type="flaw" name="If/Then" special="only for Variable Effect" cost="-1" has_ranks="false" special_required="true" source="WT2E"/>
+        <modifier type="extra" name="Variable Effect" cost="4" has_ranks="false" source="WT2E"/>
+      </effect>
+    </pool>
+    <pool type="power" name="Bind" die_cost="2" points="0" source="WT2E">
+      <effect type="power" name="Useful" cost="2">
+        <modifier type="capacity" primary_capacity="true" cost="0" name="Range"/>
+        <modifier type="capacity" primary_capacity="false" name="Mass" cost="2"/>
+      </effect>
+    </pool>
+    <pool type="power" name="Block" die_cost="4" points="0" source="WT2E">
+      <effect type="power" name="Defends" cost="2">
+        <modifier type="capacity" primary_capacity="true" cost="0" name="Self"/>
+      </effect>
+    </pool>
+  </pools>
+  <meta_qualities type="data">
+    <meta_quality chosen="true" type="source" name="Conduit" cost="5" source="WT2E"/>
+    <meta_quality chosen="true" type="source" name="Construct" cost="5" source="WT2E"/>
+    <meta_quality chosen="true" type="source" name="Cyborg" cost="5" source="WT2E"/>
+    <meta_quality chosen="true" type="source" name="Divine" cost="5" source="WT2E"/>
+    <meta_quality chosen="true" type="source" name="Driven" cost="5" source="WT2E"/>
+    <meta_quality chosen="true" type="source" name="Extraterrestrial" cost="5" source="WT2E"/>
+    <meta_quality chosen="true" type="source" name="Extradimensional" cost="5" source="WT2E"/>
+    <meta_quality chosen="true" type="source" name="Genetic" cost="5" source="WT2E"/>
+    <meta_quality chosen="true" type="source" name="Life Force" cost="5" source="WT2E"/>
+    <meta_quality chosen="true" type="source" name="Paranormal" cost="5" source="WT2E"/>
+    <meta_quality chosen="true" type="source" name="Power Focus" cost="-8" source="WT2E"/>
+    <meta_quality chosen="true" type="source" name="Psi" cost="5" source="WT2E"/>
+    <meta_quality chosen="true" type="source" name="Technological" cost="5" source="WT2E"/>
+    <meta_quality chosen="true" type="source" name="Unknown" cost="-5" source="WT2E"/>
+    <meta_quality chosen="true" type="source" name="Otherworldly" cost="5" source="KC"/>
+    <meta_quality chosen="true" type="permission" name="Hypertrained" cost="5" source="WT2E"/>
+    <meta_quality chosen="true" type="permission" name="Inhuman Stats" cost="0" custom="true" source="WT2E"/>
+    <meta_quality chosen="true" type="permission" name="Inventor" cost="5" source="WT2E"/>
+    <meta_quality chosen="true" type="permission" name="One Power" cost="1" source="WT2E"/>
+    <meta_quality chosen="true" type="permission" name="Peak Performer" cost="5" source="WT2E"/>
+    <meta_quality chosen="true" type="permission" name="Power Theme" cost="5" special_required="true" source="WT2E"/>
+    <meta_quality chosen="true" type="permission" name="Prime Specimen" cost="5" source="WT2E"/>
+    <meta_quality chosen="true" type="permission" name="Super" cost="15" source="WT2E"/>
+    <meta_quality chosen="true" type="permission" name="Super_Equipment" cost="2" source="WT2E"/>
+    <meta_quality chosen="true" type="intrinsic" name="Allergy" cost="0" custom="true" source="WT2E"/>
+    <meta_quality chosen="true" type="intrinsic" name="Brute" cost="-8" source="WT2E"/>
+    <meta_quality chosen="true" type="intrinsic" name="Frail" cost="-8" source="WT2E"/>
+    <meta_quality chosen="true" type="intrinsic" name="Custom Stat" cost="5" special_required="true" source="WT2E"/>
+    <meta_quality chosen="true" type="intrinsic" name="Globular" cost="8" source="WT2E"/>
+    <meta_quality chosen="true" type="intrinsic" name="Inhuman" cost="-8" source="WT2E"/>
+    <meta_quality chosen="true" type="intrinsic" name="Mandatory Power" cost="0" special_required="true" source="WT2E"/>
+    <meta_quality chosen="true" type="intrinsic" name="Mutable" cost="15" source="WT2E"/>
+    <meta_quality chosen="true" type="intrinsic" name="No Base Will" cost="-10" source="WT2E"/>
+    <meta_quality chosen="true" type="intrinsic" name="No Willpower" cost="-5" source="WT2E"/>
+    <meta_quality chosen="true" type="intrinsic" name="No Willpower No Way" cost="-5" source="WT2E"/>
+    <meta_quality chosen="true" type="intrinsic" name="Unhealing" cost="-8" source="WT2E"/>
+    <meta_quality chosen="true" type="intrinsic" name="Vulnerable" cost="-2" source="WT2E"/>
+    <meta_quality chosen="true" type="intrinsic" name="Willpower Contest" cost="-10" source="WT2E"/>
+    <meta_quality chosen="true" type="intrinsic" name="Curse of Conviction" cost="-5" source="KC"/>
+    <meta_quality chosen="true" type="intrinsic" name="Matter Over Mind" cost="-15" source="KC"/>
+    <meta_quality chosen="true" type="intrinsic" name="Oathbound" cost="-5" source="KC"/>
+    <meta_quality chosen="true" type="intrinsic" name="Obsessed" cost="8" special_required="true" source="KC"/>
+  </meta_qualities>
+  <archetypes>
+    <meta_qualities type="archetype" name="Adept" source="WT2E">
+      <meta_quality chosen="true" type="source" name="Life Force" cost="5"/>
+      <meta_quality chosen="true" type="permission" name="Hypertrained" cost="5"/>
+    </meta_qualities>
+    <meta_qualities type="archetype" name="Alien">
+      <meta_quality chosen="false" type="source" name="Extraterrestrial" cost="5"/>
+      <meta_quality chosen="false" type="source" name="Extradimensional" cost="5"/>
+      <meta_quality chosen="true" type="permission" name="Power Theme" cost="5"/>
+    </meta_qualities>
+    <meta_qualities type="archetype" name="Anachronist" source="WT2E">
+      <meta_quality chosen="false" type="source" name="Genetic" cost="5"/>
+      <meta_quality chosen="false" type="source" name="Life Force" cost="5"/>
+      <meta_quality chosen="false" type="source" name="Paranormal" cost="5"/>
+      <meta_quality chosen="false" type="source" name="Technological" cost="5"/>
+      <meta_quality chosen="false" type="source" name="Extraterrestrial" cost="5"/>
+      <meta_quality chosen="false" type="source" name="Extradimensional" cost="5"/>
+      <meta_quality chosen="true" type="permission" name="Inventor" cost="5"/>
+      <meta_quality chosen="true" type="intrinsic" name="Mutable" cost="15"/>
+    </meta_qualities>
+    <meta_qualities type="archetype" name="Artificial" source="WT2E">
+      <meta_quality chosen="true" type="source" name="Genetic" cost="5"/>
+      <meta_quality chosen="true" type="permission" name="Super" cost="15"/>
+      <meta_quality chosen="true" type="intrinsic" name="Mutable" cost="15"/>
+      <meta_quality chosen="true" type="intrinsic" name="No Base Will" cost="-10"/>
+      <meta_quality chosen="true" type="intrinsic" name="Unhealing" cost="-8"/>
+    </meta_qualities>
+    <meta_qualities type="archetype" name="Godlike Talent" source="WT2E">
+      <meta_quality chosen="true" type="source" name="Psi" cost="5"/>
+      <meta_quality chosen="true" type="permission" name="Super" cost="15"/>
+      <meta_quality chosen="true" type="intrinsic" name="Mandatory Power" cost="0" special="Perceive Godlike Talents 2hd"/>
+      <meta_quality chosen="true" type="intrinsic" name="No Willpower No Way" cost="-5" source="WT2E"/>
+      <meta_quality chosen="true" type="intrinsic" name="Willpower Contest" cost="-10" source="WT2E"/>
+    </meta_qualities>
+    <meta_qualities type="archetype" name="Godling" source="WT2E">
+      <meta_quality chosen="true" type="source" name="Divine" cost="5"/>
+      <meta_quality chosen="true" type="source" name="Paranormal" cost="5"/>
+      <meta_quality chosen="true" type="permission" name="Super" cost="15"/>
+    </meta_qualities>
+    <meta_qualities type="archetype" name="Human+" source="WT2E">
+      <meta_quality chosen="false" type="source" name="Genetic" cost="5"/>
+      <meta_quality chosen="false" type="source" name="Psi" cost="5"/>
+      <meta_quality chosen="false" type="source" name="Technological" cost="5"/>
+      <meta_quality chosen="true" type="permission" name="Super" cost="15"/>
+    </meta_qualities>
+    <meta_qualities type="archetype" name="Mutant" source="WT2E">
+      <meta_quality chosen="true" type="source" name="Genetic" cost="5"/>
+      <meta_quality chosen="true" type="permission" name="Power Theme" cost="5" special_required="true"/>
+    </meta_qualities>
+    <meta_qualities type="archetype" name="Mystic" source="WT2E">
+      <meta_quality chosen="true" type="source" name="Paranormal" cost="5"/>
+      <meta_quality chosen="true" type="permission" name="One Power" cost="1" special="Cosmic Power"/>
+      <meta_quality chosen="true" type="permission" name="Inventor" cost="5"/>
+      <meta_quality chosen="true" type="intrinsic" name="Mutable" cost="15"/>
+    </meta_qualities>
+    <meta_qualities type="archetype" name="Super_Normal" source="WT2E">
+      <meta_quality chosen="true" type="source" name="Driven" cost="5"/>
+      <meta_quality chosen="true" type="permission" name="Peak Performer" cost="5"/>
+    </meta_qualities>
+    <meta_qualities type="archetype" name="Faerie" source="KC">
+      <meta_quality chosen="true" type="source" name="Otherworldly" cost="5"/>
+      <meta_quality chosen="true" type="permission" name="Super" cost="15"/>
+      <meta_quality chosen="true" type="intrinsic" name="Curse of Conviction" cost="-5"/>
+      <meta_quality chosen="true" type="intrinsic" name="Matter Over Mind" cost="-15"/>
+      <meta_quality chosen="true" type="intrinsic" name="Oathbound" cost="-5"/>
+      <meta_quality chosen="true" type="intrinsic" name="Mandatory Power" cost="0" special="Faerie Glamor 4d"/>
+      <meta_quality chosen="true" type="intrinsic" name="Mutable" cost="15"/>
+    </meta_qualities>
+    <meta_qualities type="archetype" name="Magus" source="KC">
+      <meta_quality chosen="true" type="source" name="Otherworldly" cost="5"/>
+      <meta_quality chosen="true" type="permission" name="One Power" cost="1" special="Sacred Magic or Profane Magic"/>
+      <meta_quality chosen="true" type="intrinsic" name="Obsessed" cost="8" special_required="true"/>
+    </meta_qualities>
+  </archetypes>
+  <modifiers>
+    <!-- Skill Quality Levels -->
+    <modifier type="skill" name="Broad" cost="1" source="KC"/>
+    <modifier type="skill" name="Flexible" cost="1" source="KC"/>
+    <modifier type="skill" name="Influence" cost="1" source="KC"/>
+    <!-- also allow type="custom" which looks for effect with that name -->
+    <modifier type="extra" name="Custom" cost="1"/>
+    <modifier type="flaw" name="Custom" cost="-1"/>
+    <modifier type="focus" name="Custom" cost="0"/>
+    <!-- Power Quality Levels -->
+    <modifier type="level" name="Attacks" cost="1"/>
+    <modifier type="level" name="Defends" cost="1"/>
+    <modifier type="level" name="Useful" cost="1"/>
+    <!-- Capacity Modifiers -->
+    <modifier type="capacity" primary_capacity="false" name="Mass" cost="2" source="WT2E" has_ranks="false" special_required="false" link_required="false"/>
+    <modifier type="capacity" primary_capacity="false" name="Range" cost="2" source="WT2E" has_ranks="false" special_required="false" link_required="false"/>
+    <modifier type="capacity" primary_capacity="false" name="Speed" cost="2" source="WT2E" has_ranks="false" special_required="false" link_required="false"/>
+    <modifier type="capacity" primary_capacity="false" name="Touch" cost="1" source="WT2E" has_ranks="false" special_required="false" link_required="false"/>
+    <modifier type="capacity" primary_capacity="false" name="Self" cost="2" source="WT2E" has_ranks="false" special_required="false" link_required="false"/>
+    <modifier type="capacity_extra" name="Booster" cost="1" source="WT2E" link_required="true"/>
+    <modifier type="capacity_extra" name="High Capacity" cost="1" source="WT2E" link_required="true"/>
+    <modifier type="capacity_flaw" name="Reduced Capacities" cost="-1" source="WT2E"/>
+    <!-- Extras -->
+    <modifier type="extra" name="Area" cost="1" source="WT2E"/>
+    <modifier type="extra" name="Augment" cost="4" has_ranks="false" source="WT2E"/>
+    <modifier type="extra" name="Burn" cost="2" has_ranks="false" source="WT2E"/>
+    <modifier type="extra" name="Controlled Effect" cost="1" has_ranks="false" source="WT2E"/>
+    <modifier type="extra" name="Daze" cost="1" has_ranks="false" source="WT2E"/>
+    <modifier type="extra" name="Deadly (Killing)" cost="1" has_ranks="false" source="WT2E"/>
+    <modifier type="extra" name="Deadly (Shock and Killing)" cost="1" has_ranks="false" source="WT2E"/>
+    <modifier type="extra" name="Disintegrate" cost="2" has_ranks="false" source="WT2E"/>
+    <modifier type="extra" name="Duration" cost="2" has_ranks="false" source="WT2E"/>
+    <modifier type="extra" name="Electrocuting" cost="1" has_ranks="false" source="WT2E"/>
+    <modifier type="extra" name="Endless" cost="3" has_ranks="false" source="WT2E"/>
+    <modifier type="extra" name="Engulf" cost="2" has_ranks="false" source="WT2E"/>
+    <modifier type="extra" name="Go First" cost="1" source="WT2E"/>
+    <modifier type="extra" name="Hardened Defense" cost="2" has_ranks="false" source="WT2E"/>
+    <modifier type="extra" name="Interference" cost="3" has_ranks="false" source="WT2E"/>
+    <modifier type="extra" name="Native" ref="native" cost="1" has_ranks="false" source="WT2E"/>
+    <modifier type="extra" name="No Physics" cost="1" has_ranks="false" source="WT2E"/>
+    <modifier type="extra" name="No Upward Limit" cost="2" has_ranks="false" source="WT2E"/>
+    <modifier type="extra" name="Non_Physical" cost="2" has_ranks="false" source="WT2E"/>
+    <modifier type="extra" name="On Sight" cost="1" has_ranks="false" source="WT2E"/>
+    <modifier type="extra" name="Penetration" cost="1" source="WT2E"/>
+    <modifier type="extra" name="Permanent" cost="4" has_ranks="false" source="WT2E"/>
+    <modifier type="extra" name="Radius" cost="2" source="WT2E"/>
+    <modifier type="extra" name="Speeding Bullet" cost="2" has_ranks="false" source="WT2E"/>
+    <modifier type="extra" name="Spray (Normal)" cost="1" source="WT2E"/>
+    <modifier type="extra" name="Spray (Hard)" cost="2" source="WT2E"/>
+    <modifier type="extra" name="Spray (Wiggle)" cost="4" source="WT2E"/>
+    <modifier type="extra" name="Subtle" cost="1" has_ranks="false" source="WT2E"/>
+    <modifier type="extra" name="Traumatic" cost="1" has_ranks="false" source="WT2E"/>
+    <modifier type="extra" name="Useable By Others" cost="2" has_ranks="false" source="WT2E"/>
+    <modifier type="extra" name="Variable Effect" cost="4" has_ranks="false" source="WT2E"/>
+    <!-- Flaws -->
+    <modifier type="flaw" name="Always On" cost="-1" has_ranks="false" source="WT2E"/>
+    <modifier type="flaw" name="Armored Defense" cost="-2" has_ranks="false" source="WT2E"/>
+    <modifier type="flaw" name="Attached" cost="-2" has_ranks="false" link_required="true" source="WT2E"/>
+    <modifier type="flaw" name="Attached (Stat)" cost="-1" has_ranks="false" link_required="true" source="WT2E"/>
+    <modifier type="flaw" name="Automatic" cost="-1" has_ranks="false" source="WT2E"/>
+    <modifier type="flaw" name="Backfires" cost="-2" has_ranks="false" source="WT2E"/>
+    <modifier type="flaw" name="Base Will Cost" cost="-4" has_ranks="false" source="WT2E"/>
+    <modifier type="flaw" name="Delayed Effect" cost="-2" has_ranks="false" source="WT2E"/>
+    <modifier type="flaw" name="Depleted" cost="-1" has_ranks="false" source="WT2E"/>
+    <modifier type="flaw" name="Direct Feed" cost="-2" has_ranks="false" source="WT2E"/>
+    <modifier type="flaw" name="Exhausted" cost="-3" has_ranks="false" source="WT2E"/>
+    <modifier type="flaw" name="Focus" cost="-1" has_ranks="false" source="WT2E"/>
+    <modifier type="flaw" name="Fragile" cost="-1" has_ranks="false" source="WT2E"/>
+    <modifier type="flaw" name="Full Power Only" cost="-1" has_ranks="false" source="WT2E"/>
+    <modifier type="flaw" name="Go Last" cost="-1" has_ranks="false" source="WT2E"/>
+    <modifier type="flaw" name="Horrifying" cost="-1" has_ranks="false" source="WT2E"/>
+    <modifier type="flaw" name="If/Then" cost="-1" has_ranks="false" special_required="true" source="WT2E"/>
+    <modifier type="flaw" name="Limited Damage" cost="-1" has_ranks="false" source="WT2E"/>
+    <modifier type="flaw" name="Limited Width" cost="-1" has_ranks="false" source="WT2E"/>
+    <modifier type="flaw" name="Locational" cost="-1" has_ranks="false" source="WT2E"/>
+    <modifier type="flaw" name="Loopy" cost="-1" has_ranks="false" source="WT2E"/>
+    <modifier type="flaw" name="Mental Strain" cost="-2" has_ranks="false" source="WT2E"/>
+    <modifier type="flaw" name="Touch Only" cost="-2" has_ranks="false" source="WT2E"/>
+    <modifier type="flaw" name="No Physical Change" cost="-1" has_ranks="false" source="WT2E"/>
+    <modifier type="flaw" name="Obvious" cost="-1" has_ranks="false" source="WT2E"/>
+    <modifier type="flaw" name="One Use" cost="-4" has_ranks="false" source="WT2E"/>
+    <modifier type="flaw" name="Scattered Damage" cost="-1" has_ranks="false" source="WT2E"/>
+    <modifier type="flaw" name="Self Only" cost="-3" has_ranks="false" source="WT2E"/>
+    <modifier type="flaw" name="Slow" cost="-2" has_ranks="false" source="WT2E"/>
+    <modifier type="flaw" name="Uncontrollable" cost="-2" has_ranks="false" source="WT2E"/>
+    <modifier type="flaw" name="Willpower Bid" cost="-1" has_ranks="false" source="WT2E"/>
+    <modifier type="flaw" name="Willpower Cost" cost="-2" has_ranks="false" source="WT2E"/>
+    <modifier type="flaw" name="Willpower Cost (Powerful)" cost="0" has_ranks="false" source="WT2E"/>
+    <modifier type="flaw" name="Willpower Investment" cost="-1" has_ranks="false" source="WT2E"/>
+    <!-- Focus Extras/Flaws -->
+    <modifier type="focus" name="Booby_Trapped" cost="1" has_ranks="false" special_required="true" source="WT2E"/>
+    <modifier type="focus" name="Durable" cost="1" has_ranks="false" source="WT2E"/>
+    <modifier type="focus" name="Friends Only" cost="2" has_ranks="false" source="WT2E"/>
+    <modifier type="focus" name="Indestructible" cost="2" has_ranks="false" source="WT2E"/>
+    <modifier type="focus" name="Secret" cost="1" has_ranks="false" source="WT2E"/>
+    <modifier type="focus" name="Accessible" cost="-1" has_ranks="false" source="WT2E"/>
+    <modifier type="focus" name="Adaptation" cost="-2" has_ranks="false" source="WT2E"/>
+    <modifier type="focus" name="Bulky" cost="-1" has_ranks="false" source="WT2E"/>
+    <modifier type="focus" name="Crew" cost="-1" has_ranks="false" source="WT2E"/>
+    <modifier type="focus" name="Delicate" cost="-1" has_ranks="false" source="WT2E"/>
+    <modifier type="focus" name="Environment_Bound" has_ranks="false" cost="-1" source="WT2E"/>
+    <modifier type="focus" name="Immutable" cost="-1" has_ranks="false" source="WT2E"/>
+    <modifier type="focus" name="Irreplaceable" cost="-2" has_ranks="false" source="WT2E"/>
+    <modifier type="focus" name="Manufacturable" cost="2" has_ranks="false" source="WT2E"/>
+    <modifier type="focus" name="Operational Skill" cost="0" has_ranks="false" link_required="true" source="WT2E"/>
+    <modifier type="focus" name="Unwieldy (Initiative)" cost="-1" has_ranks="false" source="WT2E"/>
+    <modifier type="focus" name="Unwieldy (All)" cost="-2" has_ranks="false" source="WT2E"/>
+  </modifiers>
+  <tables>
+    <measurements type="stat" link="body" name="Lift" units="lbs" boost="10" beyond="2">
+      <measurement pool="1" value="50"/>
+    </measurements>
+    <measurements type="stat" link="body" name="Throw" units="lbs" boost="10" beyond="2">
+      <measurement pool="1" value="6.25"/>
+    </measurements>
+    <measurements type="stat" link="body" name="Damage">
+      <measurement pool="1" text="Shock"/>
+      <measurement pool="2" text="Shock"/>
+      <measurement pool="3" text="Shock"/>
+      <measurement pool="4" text="Shock"/>
+      <measurement pool="5" text="Shock"/>
+      <measurement pool="6" text="Killing"/>
+      <measurement pool="7" text="Killing"/>
+      <measurement pool="8" text="Shock and Killing"/>
+      <measurement pool="9" text="Shock and Killing"/>
+      <measurement pool="10" text="Shock and Killing"/>
+    </measurements>
+    <measurements type="stat" link="body" name="Sprint" units="mph" boost="2" beyond="1.25">
+      <measurement pool="1" value="8"/>
+      <measurement pool="2" value="10"/>
+      <measurement pool="3" value="12"/>
+      <measurement pool="4" value="15"/>
+      <measurement pool="5" value="20"/>
+      <measurement pool="6" value="25"/>
+      <measurement pool="7" value="30"/>
+      <measurement pool="8" value="40"/>
+      <measurement pool="9" value="50"/>
+      <measurement pool="10" value="60"/>
+    </measurements>
+    <measurements type="stat" link="body" name="Long Jump" units="yards" boost="2" beyond="1.25">
+      <measurement pool="1" value="2"/>
+      <measurement pool="2" value="3"/>
+      <measurement pool="3" value="4"/>
+      <measurement pool="4" value="5"/>
+      <measurement pool="5" value="6"/>
+      <measurement pool="6" value="8"/>
+      <measurement pool="7" value="10"/>
+      <measurement pool="8" value="40"/>
+      <measurement pool="9" value="50"/>
+      <measurement pool="10" value="20"/>
+    </measurements>
+    <measurements type="stat" link="body" name="High Jump" units="yards" boost="2" beyond="1.25">
+      <measurement pool="1" value="0.5"/>
+      <measurement pool="2" value="1"/>
+      <measurement pool="3" value="1"/>
+      <measurement pool="4" value="1"/>
+      <measurement pool="5" value="1.5"/>
+      <measurement pool="6" value="2"/>
+      <measurement pool="7" value="2.5"/>
+      <measurement pool="8" value="3"/>
+      <measurement pool="9" value="4"/>
+      <measurement pool="10" value="5"/>
+    </measurements>
+    <measurements type="capacity" link="mass" name="Mass" units="lbs" boost="10" beyond="2">
+      <measurement pool="1" value="50"/>
+    </measurements>
+    <measurements type="capacity" link="range" name="Range" units="yards" boost="10" beyond="2">
+      <measurement pool="1" value="10"/>
+    </measurements>
+    <measurements type="capacity" link="speed" name="Speed" units="mph" boost="10" beyond="2">
+      <measurement pool="1" value="2.5"/>
+    </measurements>
+    <measurements type="stat" link="coordination">
+      <measurement pool="1" text="You can cross a room safely if there’s nothing in the way."/>
+      <measurement pool="2" text="You play a decent game of darts."/>
+      <measurement pool="3" text="You’re a great juggler."/>
+      <measurement pool="4" text="You’re nimble as an aikido master."/>
+      <measurement pool="5" text="You’re agile as an Olympic gymnast."/>
+      <measurement pool="6" text="You can attempt to dodge or block any attack, even gunshots."/>
+      <measurement pool="7" text="You can move so fast, you’re a blur."/>
+      <measurement pool="8" text="You can catch fast objects such as arrows in flight without rolling—if they’re not aimed at you."/>
+      <measurement pool="9" text="You can literally move faster than people can see."/>
+      <measurement pool="10" text="Every external muscle in your body is under your conscious control."/>
+    </measurements>
+    <measurements type="stat" link="sense">
+      <measurement pool="1" text="You notice when someone’s talking to you—sometimes."/>
+      <measurement pool="2" text="Loud noises wake you up."/>
+      <measurement pool="3" text="You’re unusually sharp_eyed."/>
+      <measurement pool="4" text="You’re an uncanny tracker."/>
+      <measurement pool="5" text="You are one with your environment."/>
+      <measurement pool="6" text="You can use your senses to compensate for each other; you can use minute sounds, the touch of air pressure, smells and taste to search a pitch_black room."/>
+      <measurement pool="7" text="With a successful roll, you can sense movement up to a quarter mile away."/>
+      <measurement pool="8" text="You can differentiate between dozens of sounds amidst a cacophony."/>
+      <measurement pool="9" text="You can see in the dark, read by touch, and identify targets by smell."/>
+      <measurement pool="10" text="It takes a Miracle (literally) to sneak up on you."/>
+    </measurements>
+    <measurements type="stat" link="mind">
+      <measurement pool="1" text="When people call you an intellectual, you can’t always tell they’re joking."/>
+      <measurement pool="2" text="You can get high grades with a lot of work."/>
+      <measurement pool="3" text="You’re notably bright and learning comes easily."/>
+      <measurement pool="4" text="You can have your pick of Ivy_league scholarships."/>
+      <measurement pool="5" text="You have a photographic memory (sight only) with a successful roll."/>
+      <measurement pool="6" text="You have a photographic memory (all senses) with a successful roll. If you need a clue based on something you experienced at any time in the past, it’s yours."/>
+      <measurement pool="7" text="Einstein and Hawking seem somewhat childish to you."/>
+      <measurement pool="8" text="All modern theory is the equivalent of a monkey banging two stones together."/>
+      <measurement pool="9" text="You can recall with perfect clarity anything you previously sensed without rolling."/>
+      <measurement pool="10" text="You can consider intellectual problems even while asleep."/>
+    </measurements>
+    <measurements type="stat" link="charm">
+      <measurement pool="1" text="You’re a wallflower."/>
+      <measurement pool="2" text="You get along with most people."/>
+      <measurement pool="3" text="You often defuse tense situations."/>
+      <measurement pool="4" text="Any time there’s a social function, you’re invited."/>
+      <measurement pool="5" text="Your élan is legendary, and others struggle to win your favor."/>
+      <measurement pool="6" text="With a successful roll you can make someone want to do something otherwise completely unpalatable."/>
+      <measurement pool="7" text="You can convince anyone of anything after 5–width days of persuasion."/>
+      <measurement pool="8" text="You can convince anyone of anything in 5–width hours of persuasion."/>
+      <measurement pool="9" text="You can convince anyone of anything in 5–width minutes of persuasion."/>
+      <measurement pool="10" text="You can convince anyone of anything in 5–width rounds of persuasion."/>
+    </measurements>
+    <measurements type="stat" link="command">
+      <measurement pool="1" text="You are easily startled."/>
+      <measurement pool="2" text="You’re a regular Joe or Jane."/>
+      <measurement pool="3" text="You’re charismatic and graceful under pressure."/>
+      <measurement pool="4" text="You’re a born leader and seemingly immune to stress."/>
+      <measurement pool="5" text="Your presence commands attention and respect."/>
+      <measurement pool="6" text="You don’t suffer the usual penalty die from injury or distraction."/>
+      <measurement pool="7" text="You can use the Command Stat instead of Body with the Endurance Skill."/>
+      <measurement pool="8" text="You are completely immune to pain and discomfort."/>
+      <measurement pool="9" text="All your feelings and autonomic physical responses (breathing, heartbeat) are under your conscious control without a roll. You never need to make Trauma Checks."/>
+      <measurement pool="10" text="On a successful roll, you can bark an order in a voice that causes a person to obey before considering the consequences, as long as it takes no more than a single round."/>
+    </measurements>
+    <measurements type="skill">
+      <measurement pool="1" text="Basic training" example="(Athletics) Can barely dog paddle."/>
+      <measurement pool="2" text="Moderate training and some experience" example="(Athletics) Can throw a football 20 yards accurately."/>
+      <measurement pool="3" text="Extensive training and experience" example="(Perception) Can detect a tap on the phone line."/>
+      <measurement pool="4" text="Expert training" example="(Knowledge (Chess)) Nationally_ranked chess champion."/>
+      <measurement pool="5" text="Master (human perfection)" example="(Lie) Can talk your way into a military facility."/>
+      <measurement pool="6" text="Superhuman" example="(Intimidate) Can bully the heavyweight boxing champion."/>
+      <measurement pool="7" text="Extraordinary" example="(Athletics) Can leap from limb to limb 40 feet up in a tree."/>
+      <measurement pool="8" text="Astonishing" example="(Dodge) Can catch arrows in mid_air."/>
+      <measurement pool="9" text="Unparalleled" example="(Perception) Can see in near_complete darkness."/>
+      <measurement pool="10" text="Supreme" example="(Knowledge (Education)) Can teach any subject from memory."/>
+    </measurements>
+    <measurements type="booster" link="range">
+      <measurement pool="5" text="Distance across the U.S."/>
+      <measurement pool="7" text="Distance to the Moon"/>
+      <measurement pool="9" text="Distance to Mars"/>
+      <measurement pool="10" text="Distance to the Sun"/>
+      <measurement pool="15" text="Range of one light year"/>
+      <measurement pool="16" text="Distance to the Fish homeworld (42 light years)"/>
+      <measurement pool="24" text="Range to the farthest part of the visible universe"/>
+    </measurements>
+    <measurements type="booster" link="mass">
+      <measurement pool="6" text="Mass of an aircraft carrier"/>
+      <measurement pool="7" text="Mass of a skyscraper"/>
+      <measurement pool="10" text="Mass of the Great Pyramid of Cheops"/>
+      <measurement pool="20" text="Mass of the Moon"/>
+      <measurement pool="22" text="Mass of the Earth"/>
+      <measurement pool="26" text="Mass of the Sun"/>
+    </measurements>
+    <measurements type="booster" link="speed">
+      <measurement pool="13" text="Speed of light"/>
+    </measurements>
+  </tables>
+  <character version="1" ref="default_character" name="" points="0" points_stats="0" points_skills="0" points_willpower="0" points_powers="0" points_archetype="0">
+    <infos>
+      <info name="Player"/>
+      <info name="Description"><![CDATA[  ]]></info>
+      <info name="Occupation"/>
+    </infos>
+    <willpower base="2" current="2"> </willpower>
+    <meta_qualities type="archetype"/>
+    <pools>
+      <pool type="stat" name="Body" die_cost="5" normal="1" points="5">
+        <effect type="stat" name="Body" ref="body" cost="4">
+          <modifier type="extra" name="Native" ref="native" cost="1" has_ranks="false" source="WT2E"/>
+        </effect>
+      </pool>
+      <pool type="stat" name="Coordination" die_cost="5" normal="1" points="5">
+        <effect type="stat" name="Coordination" ref="coordination" cost="4">
+          <modifier type="extra" name="Native" ref="native" cost="1" has_ranks="false" source="WT2E"/>
+        </effect>
+      </pool>
+      <pool type="stat" name="Sense" die_cost="5" normal="1" points="5">
+        <effect type="stat" name="Sense" ref="sense" cost="4">
+          <modifier type="extra" name="Native" ref="native" cost="1" has_ranks="false" source="WT2E"/>
+        </effect>
+      </pool>
+      <pool type="stat" name="Mind" die_cost="5" normal="1" points="5">
+        <effect type="stat" name="Mind" ref="mind" cost="4">
+          <modifier type="extra" name="Native" ref="native" cost="1" has_ranks="false" source="WT2E"/>
+        </effect>
+      </pool>
+      <pool type="stat" name="Charm" die_cost="5" normal="1" points="5">
+        <effect type="stat" name="Charm" ref="charm" cost="4">
+          <modifier type="extra" name="Native" ref="native" cost="1" has_ranks="false" source="WT2E"/>
+        </effect>
+      </pool>
+      <pool type="stat" name="Command" die_cost="5" normal="1" points="5">
+        <effect type="stat" name="Command" ref="command" cost="4">
+          <modifier type="extra" name="Native" ref="native" cost="1" has_ranks="false" source="WT2E"/>
+        </effect>
+      </pool>
+    </pools>
+    <custom_modifiers> </custom_modifiers>
+    <measurements> </measurements>
+  </character>
+</data>
