@@ -218,7 +218,7 @@
       <xs:attribute name="text" type="xs:string"/>
       <xs:attribute name="units" type="xs:string"/>
       <xs:attribute name="value" type="xs:decimal"/>
-      <xs:attribute name="example" type="xs:string"/>
+      <xs:attribute name="text_cols" type="xs:string"/>
       <xs:attribute name="ref" type="xs:NCName"/>
       <xs:attribute name="name" type="xs:string"/>
       <xs:attribute name="id" type="xs:ID"/>

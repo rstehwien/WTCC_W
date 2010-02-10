@@ -1057,16 +1057,16 @@
       <measurement pool="10" text="On a successful roll, you can bark an order in a voice that causes a person to obey before considering the consequences, as long as it takes no more than a single round."/>
     </table>
     <table type="skill">
-      <measurement pool="1" text="Basic training" example="(Athletics) Can barely dog paddle."/>
-      <measurement pool="2" text="Moderate training and some experience" example="(Athletics) Can throw a football 20 yards accurately."/>
-      <measurement pool="3" text="Extensive training and experience" example="(Perception) Can detect a tap on the phone line."/>
-      <measurement pool="4" text="Expert training" example="(Knowledge (Chess)) Nationally_ranked chess champion."/>
-      <measurement pool="5" text="Master (human perfection)" example="(Lie) Can talk your way into a military facility."/>
-      <measurement pool="6" text="Superhuman" example="(Intimidate) Can bully the heavyweight boxing champion."/>
-      <measurement pool="7" text="Extraordinary" example="(Athletics) Can leap from limb to limb 40 feet up in a tree."/>
-      <measurement pool="8" text="Astonishing" example="(Dodge) Can catch arrows in mid_air."/>
-      <measurement pool="9" text="Unparalleled" example="(Perception) Can see in near_complete darkness."/>
-      <measurement pool="10" text="Supreme" example="(Knowledge (Education)) Can teach any subject from memory."/>
+      <measurement pool="1" text_cols="Training:Example" text="Basic training: (Athletics) Can barely dog paddle."/>
+      <measurement pool="2" text_cols="Training,Example" text="Moderate training and some experience: (Athletics) Can throw a football 20 yards accurately."/>
+      <measurement pool="3" text_cols="Training,Example" text="Extensive training and experience: (Perception) Can detect a tap on the phone line."/>
+      <measurement pool="4" text_cols="Training,Example" text="Expert training: (Knowledge (Chess)) Nationally_ranked chess champion."/>
+      <measurement pool="5" text_cols="Training,Example" text="Master (human perfection): (Lie) Can talk your way into a military facility."/>
+      <measurement pool="6" text_cols="Training,Example" text="Superhuman: (Intimidate) Can bully the heavyweight boxing champion."/>
+      <measurement pool="7" text_cols="Training,Example" text="Extraordinary: (Athletics) Can leap from limb to limb 40 feet up in a tree."/>
+      <measurement pool="8" text_cols="Training,Example" text="Astonishing: (Dodge) Can catch arrows in mid_air."/>
+      <measurement pool="9" text_cols="Training,Example" text="Unparalleled: (Perception) Can see in near_complete darkness."/>
+      <measurement pool="10" text_cols="Training,Example" text="Supreme: (Knowledge (Education)) Can teach any subject from memory."/>
     </table>
     <table type="booster" link="range">
       <measurement pool="5" text="Distance across the U.S."/>
