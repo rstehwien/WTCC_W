@@ -97,11 +97,11 @@
       </xs:sequence>
       <xs:attribute name="type" use="required" type="xs:string"/>
       <xs:attribute name="cost" type="xs:nonNegativeInteger" default="0"/>
-      <xs:attribute name="include_measurement" type="xs:boolean" default="false"/>
-      <xs:attribute name="special" type="xs:string"/>
-      <xs:attribute name="special_required" type="xs:boolean" default="false"/>
+      <xs:attribute name="is_add_measurement" type="xs:boolean" default="false"/>
+      <xs:attribute name="note" type="xs:string"/>
+      <xs:attribute name="is_note_required" type="xs:boolean" default="false"/>
       <xs:attribute name="link" type="xs:NCName"/>
-      <xs:attribute default="false" name="link_required" type="xs:boolean"/>
+      <xs:attribute default="false" name="is_link_required" type="xs:boolean"/>
       <xs:attribute name="source" type="xs:string"/>
       <xs:attribute name="ref" type="xs:NCName"/>
       <xs:attribute name="name" type="xs:string"/>
@@ -147,18 +147,18 @@
     <xs:complexType>
       <xs:attribute name="source" type="xs:string"/>
       <xs:attribute name="cost" use="required" type="xs:integer"/>
-      <xs:attribute name="special" type="xs:string"/>
-      <xs:attribute name="special_required" type="xs:boolean" default="false"/>
+      <xs:attribute name="note" type="xs:string"/>
+      <xs:attribute name="is_note_required" type="xs:boolean" default="false"/>
       <xs:attribute name="has_ranks" type="xs:boolean" default="false"/>
       <xs:attribute name="ranks" type="xs:positiveInteger" default="1"/>
       <xs:attribute name="type" use="required" type="xs:string"/>
       <xs:attribute name="link" type="xs:NCName"/>
-      <xs:attribute default="false" name="link_required" type="xs:boolean"/>
+      <xs:attribute default="false" name="is_link_required" type="xs:boolean"/>
       <xs:attribute name="ref" type="xs:NCName"/>
       <xs:attribute name="name" type="xs:string" use="required"/>
       <xs:attribute name="id" type="xs:ID"/>
       <xs:attribute name="mod" type="xs:integer" use="optional" default="0"/>
-      <xs:attribute default="false" name="primary_capacity" type="xs:boolean"/>
+      <xs:attribute default="false" name="is_chosen" type="xs:boolean"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="meta_qualities">
@@ -178,14 +178,14 @@
     <xs:complexType>
       <xs:attribute name="source" type="xs:string"/>
       <xs:attribute name="cost" type="xs:integer" use="required"/>
-      <xs:attribute name="custom" type="xs:boolean" default="false"/>
-      <xs:attribute name="special" type="xs:string"/>
-      <xs:attribute name="special_required" type="xs:boolean" default="false"/>
+      <xs:attribute name="is_custom" type="xs:boolean" default="false"/>
+      <xs:attribute name="note" type="xs:string"/>
+      <xs:attribute name="is_note_required" type="xs:boolean" default="false"/>
       <xs:attribute name="ref" type="xs:NCName"/>
       <xs:attribute name="name" type="xs:string" use="required"/>
       <xs:attribute name="id" type="xs:ID"/>
       <xs:attribute name="type" type="xs:NCName" use="required"/>
-      <xs:attribute default="true" name="chosen" type="xs:boolean"/>
+      <xs:attribute default="true" name="is_chosen" type="xs:boolean"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="tables">

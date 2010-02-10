@@ -42,7 +42,7 @@
     </pool>
     <!-- Wild Talent Skills -->
     <pool type="skill" name="">
-      <effect type="skill" cost="1" name="Athletics" link="body" special_required="true" source="WT2E"/>
+      <effect type="skill" cost="1" name="Athletics" link="body" is_note_required="true" source="WT2E"/>
     </pool>
     <pool type="skill" name="">
       <effect type="skill" cost="1" name="Block" link="body" source="WT2E"/>
@@ -54,16 +54,16 @@
       <effect type="skill" cost="1" name="Endurance" link="body" source="WT2E"/>
     </pool>
     <pool type="skill" name="">
-      <effect type="skill" cost="1" name="Melee Weapon" link="body" special_required="true" source="WT2E"/>
+      <effect type="skill" cost="1" name="Melee Weapon" link="body" is_note_required="true" source="WT2E"/>
     </pool>
     <pool type="skill" name="">
       <effect type="skill" cost="1" name="Dodge" link="coordination" source="WT2E"/>
     </pool>
     <pool type="skill" name="">
-      <effect type="skill" cost="1" name="Driving" link="coordination" special_required="true" source="WT2E"/>
+      <effect type="skill" cost="1" name="Driving" link="coordination" is_note_required="true" source="WT2E"/>
     </pool>
     <pool type="skill" name="">
-      <effect type="skill" cost="1" name="Ranged Weapon" link="coordination" special_required="true" source="WT2E"/>
+      <effect type="skill" cost="1" name="Ranged Weapon" link="coordination" is_note_required="true" source="WT2E"/>
     </pool>
     <pool type="skill" name="">
       <effect type="skill" cost="1" name="Stealth" link="coordination" source="WT2E"/>
@@ -81,10 +81,10 @@
       <effect type="skill" cost="1" name="First Aid" link="mind" source="WT2E"/>
     </pool>
     <pool type="skill" name="">
-      <effect type="skill" cost="1" name="Knowledge" link="mind" special_required="true" source="WT2E"/>
+      <effect type="skill" cost="1" name="Knowledge" link="mind" is_note_required="true" source="WT2E"/>
     </pool>
     <pool type="skill" name="">
-      <effect type="skill" cost="1" name="Language" link="mind" special_required="true" source="WT2E"/>
+      <effect type="skill" cost="1" name="Language" link="mind" is_note_required="true" source="WT2E"/>
     </pool>
     <pool type="skill" name="">
       <effect type="skill" cost="1" name="Medicine" link="mind" source="WT2E"/>
@@ -111,7 +111,7 @@
       <effect type="skill" cost="1" name="Lie" link="charm" source="WT2E"/>
     </pool>
     <pool type="skill" name="">
-      <effect type="skill" cost="1" name="Performance" link="charm" special_required="true" source="WT2E"/>
+      <effect type="skill" cost="1" name="Performance" link="charm" is_note_required="true" source="WT2E"/>
     </pool>
     <pool type="skill" name="">
       <effect type="skill" cost="1" name="Persuasion" link="charm" source="WT2E"/>
@@ -199,10 +199,10 @@
       <effect type="skill" cost="0" name="Track" link="sense" source="KC"/>
     </pool>
     <pool type="skill" name="">
-      <effect type="skill" cost="0" name="A Single Academic Field" link="mind" special_required="true" source="KC"/>
+      <effect type="skill" cost="0" name="A Single Academic Field" link="mind" is_note_required="true" source="KC"/>
     </pool>
     <pool type="skill" name="">
-      <effect type="skill" cost="0" name="A Language" link="mind" special_required="true" source="KC"/>
+      <effect type="skill" cost="0" name="A Language" link="mind" is_note_required="true" source="KC"/>
     </pool>
     <pool type="skill" name="">
       <effect type="skill" cost="0" name="Act" link="command" source="KC"/>
@@ -513,7 +513,7 @@
       <effect type="skill" cost="1" name="Endurance" link="body" source="KC"/>
     </pool>
     <pool type="skill" name="">
-      <effect type="skill" cost="1" name="Melee Weapon" link="body" special_required="true" source="KC"/>
+      <effect type="skill" cost="1" name="Melee Weapon" link="body" is_note_required="true" source="KC"/>
     </pool>
     <pool type="skill" name="">
       <effect type="skill" cost="1" name="Sport" link="body" source="KC"/>
@@ -522,10 +522,10 @@
       <effect type="skill" cost="1" name="Dodge" link="coordination" source="KC"/>
     </pool>
     <pool type="skill" name="">
-      <effect type="skill" cost="1" name="Driving" link="coordination" special_required="true" source="KC"/>
+      <effect type="skill" cost="1" name="Driving" link="coordination" is_note_required="true" source="KC"/>
     </pool>
     <pool type="skill" name="">
-      <effect type="skill" cost="1" name="Ranged Weapon" link="coordination" special_required="true" source="KC"/>
+      <effect type="skill" cost="1" name="Ranged Weapon" link="coordination" is_note_required="true" source="KC"/>
     </pool>
     <pool type="skill" name="">
       <effect type="skill" cost="1" name="Riding" link="coordination" source="KC"/>
@@ -546,10 +546,10 @@
       <effect type="skill" cost="1" name="First Aid" link="mind" source="KC"/>
     </pool>
     <pool type="skill" name="">
-      <effect type="skill" cost="1" name="Knowledge" link="mind" special_required="true" source="KC"/>
+      <effect type="skill" cost="1" name="Knowledge" link="mind" is_note_required="true" source="KC"/>
     </pool>
     <pool type="skill" name="">
-      <effect type="skill" cost="1" name="Language" link="mind" special_required="true" source="KC"/>
+      <effect type="skill" cost="1" name="Language" link="mind" is_note_required="true" source="KC"/>
     </pool>
     <pool type="skill" name="">
       <effect type="skill" cost="1" name="Medicine" link="mind" source="KC"/>
@@ -573,7 +573,7 @@
       <effect type="skill" cost="1" name="Lie" link="charm" source="KC"/>
     </pool>
     <pool type="skill" name="">
-      <effect type="skill" cost="1" name="Performance" link="charm" special_required="true" source="KC"/>
+      <effect type="skill" cost="1" name="Performance" link="charm" is_note_required="true" source="KC"/>
     </pool>
     <pool type="skill" name="">
       <effect type="skill" cost="1" name="Persuasion" link="charm" source="KC"/>
@@ -600,20 +600,20 @@
       <effect type="power" name="Defends" cost="2"/>
     </pool>
     <pool type="power">
-      <effect type="power" name="Useful" cost="2" special_required="true"/>
+      <effect type="power" name="Useful" cost="2" is_note_required="true"/>
     </pool>
     <pool type="power">
-      <effect type="power" name="Dud" cost="1" special_required="true"/>
+      <effect type="power" name="Dud" cost="1" is_note_required="true"/>
     </pool>
     <pool type="power" name="Blink" normal="0" hard="0" wiggle="0" die_cost="2" points="0" source="WT2E">
       <effect type="power" name="Defends" cost="2">
-        <modifier type="capacity" primary_capacity="true" name="Self" cost="0"/>
+        <modifier type="capacity" is_chosen="true" name="Self" cost="0"/>
         <modifier type="extra" name="Duration" cost="2"/>
       </effect>
     </pool>
     <pool name="I’ll Never Grow Old" type="power" normal="0" hard="0" wiggle="0" die_cost="1" points="0" source="WT2E">
-      <effect type="power" name="Dud" special="I’ll Never Grow Old" cost="1">
-        <modifier type="capacity" primary_capacity="true" name="Self" cost="0"/>
+      <effect type="power" name="Dud" note="I’ll Never Grow Old" cost="1">
+        <modifier type="capacity" is_chosen="true" name="Self" cost="0"/>
       </effect>
     </pool>
     <pool type="power" name="Unbreakable Claws" normal="0" hard="0" wiggle="0" die_cost="9" points="0" source="WT2E">
@@ -624,204 +624,204 @@
       </effect>
     </pool>
     <pool name="Supress Nuclear Fusion" type="power" normal="0" hard="0" wiggle="0" die_cost="42" points="0" source="WT2E">
-      <effect type="power" cost="2" name="Useful" special="Supress Nuclear Fusion">
-        <modifier type="capacity" primary_capacity="true" name="Mass" cost="0"/>
-        <modifier type="capacity" primary_capacity="false" name="Range" cost="2"/>
+      <effect type="power" cost="2" name="Useful" note="Supress Nuclear Fusion">
+        <modifier type="capacity" is_chosen="true" name="Mass" cost="0"/>
+        <modifier type="capacity" is_chosen="false" name="Range" cost="2"/>
         <modifier type="extra" name="Duration" cost="2"/>
-        <modifier type="capacity_extra" name="Booster" link="Mass" link_required="true" cost="1" ranks="26"/>
-        <modifier type="capacity_extra" name="Booster" link="Range" link_required="true" cost="1" ranks="10"/>
+        <modifier type="capacity_extra" name="Booster" link="Mass" is_link_required="true" cost="1" ranks="26"/>
+        <modifier type="capacity_extra" name="Booster" link="Range" is_link_required="true" cost="1" ranks="10"/>
       </effect>
     </pool>
     <pool type="focus" normal="10" hard="0" wiggle="0" die_cost="1" points="10" ref="M_23_Rifle" name="M_23 Rifle" source="WT2E">
       <effect type="power" cost="2" name="Attacks">
-        <modifier type="capacity" primary_capacity="true" name="Range" cost="0"/>
+        <modifier type="capacity" is_chosen="true" name="Range" cost="0"/>
         <modifier type="level" name="Attacks" cost="1" ranks="2"/>
         <modifier type="flaw" name="Focus" cost="-1" has_ranks="false"/>
         <modifier type="focus" name="Accessible" cost="-1" has_ranks="false"/>
         <modifier type="focus" name="Adaptation" cost="-2" has_ranks="false"/>
         <modifier type="focus" name="Manufacturable" cost="2" has_ranks="false"/>
-        <modifier type="focus" name="Operational Skill" link="Rifle" cost="0" link_required="true" has_ranks="false"/>
+        <modifier type="focus" name="Operational Skill" link="Rifle" cost="0" is_link_required="true" has_ranks="false"/>
         <modifier type="flaw" name="Obvious" cost="-1" has_ranks="false"/>
       </effect>
     </pool>
     <pool name="Attached M_23 Attached Recoilless Autofire" type="power" normal="4" hard="0" wiggle="1" die_cost="4" points="32" source="WT2E">
-      <effect type="power" cost="2" name="Useful" special="M_23 Attached Recoilless Autofire">
-        <modifier type="capacity" primary_capacity="true" name="Range" cost="0"/>
+      <effect type="power" cost="2" name="Useful" note="M_23 Attached Recoilless Autofire">
+        <modifier type="capacity" is_chosen="true" name="Range" cost="0"/>
         <modifier type="level" name="Attacks" cost="1" ranks="2"/>
-        <modifier type="flaw" name="Attached" link="M_23_Rifle" cost="-2" has_ranks="false" link_required="true"/>
+        <modifier type="flaw" name="Attached" link="M_23_Rifle" cost="-2" has_ranks="false" is_link_required="true"/>
         <modifier type="extra" name="Augment" cost="4" has_ranks="false" source="WT2E"/>
-        <modifier type="flaw" name="If/Then" special="must declare Augment in the declare phase" cost="-1" has_ranks="false" special_required="true" source="WT2E"/>
-        <modifier type="flaw" name="If/Then" special="Wiggle Die requires a rolled set" cost="-1" has_ranks="false" special_required="true" source="WT2E"/>
+        <modifier type="flaw" name="If/Then" note="must declare Augment in the declare phase" cost="-1" has_ranks="false" is_note_required="true" source="WT2E"/>
+        <modifier type="flaw" name="If/Then" note="Wiggle Die requires a rolled set" cost="-1" has_ranks="false" is_note_required="true" source="WT2E"/>
       </effect>
     </pool>
     <pool type="power" name="Aces" die_cost="12" source="WT2E">
       <effect type="power" name="Attacks" cost="2">
-        <modifier type="capacity" primary_capacity="true" cost="0" name="Self"/>
+        <modifier type="capacity" is_chosen="true" cost="0" name="Self"/>
         <modifier type="extra" name="Augment" cost="4" has_ranks="false" source="WT2E"/>
         <modifier type="flaw" name="Willpower Cost" cost="-2" has_ranks="false" source="WT2E"/>
       </effect>
       <effect type="power" name="Defends" cost="2">
-        <modifier type="capacity" primary_capacity="true" cost="0" name="Self"/>
+        <modifier type="capacity" is_chosen="true" cost="0" name="Self"/>
         <modifier type="extra" name="Augment" cost="4" has_ranks="false" source="WT2E"/>
         <modifier type="flaw" name="Willpower Cost" cost="-2" has_ranks="false" source="WT2E"/>
       </effect>
       <effect type="power" name="Useful" cost="2">
-        <modifier type="capacity" primary_capacity="true" cost="0" name="Self"/>
+        <modifier type="capacity" is_chosen="true" cost="0" name="Self"/>
         <modifier type="extra" name="Augment" cost="4" has_ranks="false" source="WT2E"/>
         <modifier type="flaw" name="Willpower Cost" cost="-2" has_ranks="false" source="WT2E"/>
       </effect>
     </pool>
     <pool type="power" name="Alternate Forms" die_cost="18" source="WT2E">
       <effect type="power" name="Attacks" cost="2">
-        <modifier type="capacity" primary_capacity="true" cost="0" name="Self"/>
+        <modifier type="capacity" is_chosen="true" cost="0" name="Self"/>
         <modifier type="extra" name="Duration" cost="2" has_ranks="false" source="WT2E"/>
-        <modifier type="flaw" name="If/Then" special="Variable Effect is only for shapechanging" cost="-1" has_ranks="false" special_required="true" source="WT2E"/>
-        <modifier type="flaw" name="If/Then" special="only for Variable Effect" cost="-1" has_ranks="false" special_required="true" source="WT2E"/>
+        <modifier type="flaw" name="If/Then" note="Variable Effect is only for shapechanging" cost="-1" has_ranks="false" is_note_required="true" source="WT2E"/>
+        <modifier type="flaw" name="If/Then" note="only for Variable Effect" cost="-1" has_ranks="false" is_note_required="true" source="WT2E"/>
         <modifier type="extra" name="Variable Effect" cost="4" has_ranks="false" source="WT2E"/>
       </effect>
       <effect type="power" name="Defends" cost="2">
-        <modifier type="capacity" primary_capacity="true" cost="0" name="Self"/>
+        <modifier type="capacity" is_chosen="true" cost="0" name="Self"/>
         <modifier type="extra" name="Duration" cost="2" has_ranks="false" source="WT2E"/>
-        <modifier type="flaw" name="If/Then" special="Variable Effect is only for shapechanging" cost="-1" has_ranks="false" special_required="true" source="WT2E"/>
-        <modifier type="flaw" name="If/Then" special="only for Variable Effect" cost="-1" has_ranks="false" special_required="true" source="WT2E"/>
+        <modifier type="flaw" name="If/Then" note="Variable Effect is only for shapechanging" cost="-1" has_ranks="false" is_note_required="true" source="WT2E"/>
+        <modifier type="flaw" name="If/Then" note="only for Variable Effect" cost="-1" has_ranks="false" is_note_required="true" source="WT2E"/>
         <modifier type="extra" name="Variable Effect" cost="4" has_ranks="false" source="WT2E"/>
       </effect>
       <effect type="power" name="Useful" cost="2">
-        <modifier type="capacity" primary_capacity="true" cost="0" name="Self"/>
+        <modifier type="capacity" is_chosen="true" cost="0" name="Self"/>
         <modifier type="extra" name="Duration" cost="2" has_ranks="false" source="WT2E"/>
-        <modifier type="flaw" name="If/Then" special="Variable Effect is only for shapechanging" cost="-1" has_ranks="false" special_required="true" source="WT2E"/>
-        <modifier type="flaw" name="If/Then" special="only for Variable Effect" cost="-1" has_ranks="false" special_required="true" source="WT2E"/>
+        <modifier type="flaw" name="If/Then" note="Variable Effect is only for shapechanging" cost="-1" has_ranks="false" is_note_required="true" source="WT2E"/>
+        <modifier type="flaw" name="If/Then" note="only for Variable Effect" cost="-1" has_ranks="false" is_note_required="true" source="WT2E"/>
         <modifier type="extra" name="Variable Effect" cost="4" has_ranks="false" source="WT2E"/>
       </effect>
     </pool>
     <pool type="power" name="Bind" die_cost="2" points="0" source="WT2E">
       <effect type="power" name="Useful" cost="2">
-        <modifier type="capacity" primary_capacity="true" cost="0" name="Range"/>
-        <modifier type="capacity" primary_capacity="false" name="Mass" cost="2"/>
+        <modifier type="capacity" is_chosen="true" cost="0" name="Range"/>
+        <modifier type="capacity" is_chosen="false" name="Mass" cost="2"/>
       </effect>
     </pool>
     <pool type="power" name="Block" die_cost="4" points="0" source="WT2E">
       <effect type="power" name="Defends" cost="2">
-        <modifier type="capacity" primary_capacity="true" cost="0" name="Self"/>
+        <modifier type="capacity" is_chosen="true" cost="0" name="Self"/>
       </effect>
     </pool>
   </pools>
   <meta_qualities type="data">
-    <meta_quality chosen="true" type="source" name="Conduit" cost="5" source="WT2E"/>
-    <meta_quality chosen="true" type="source" name="Construct" cost="5" source="WT2E"/>
-    <meta_quality chosen="true" type="source" name="Cyborg" cost="5" source="WT2E"/>
-    <meta_quality chosen="true" type="source" name="Divine" cost="5" source="WT2E"/>
-    <meta_quality chosen="true" type="source" name="Driven" cost="5" source="WT2E"/>
-    <meta_quality chosen="true" type="source" name="Extraterrestrial" cost="5" source="WT2E"/>
-    <meta_quality chosen="true" type="source" name="Extradimensional" cost="5" source="WT2E"/>
-    <meta_quality chosen="true" type="source" name="Genetic" cost="5" source="WT2E"/>
-    <meta_quality chosen="true" type="source" name="Life Force" cost="5" source="WT2E"/>
-    <meta_quality chosen="true" type="source" name="Paranormal" cost="5" source="WT2E"/>
-    <meta_quality chosen="true" type="source" name="Power Focus" cost="-8" source="WT2E"/>
-    <meta_quality chosen="true" type="source" name="Psi" cost="5" source="WT2E"/>
-    <meta_quality chosen="true" type="source" name="Technological" cost="5" source="WT2E"/>
-    <meta_quality chosen="true" type="source" name="Unknown" cost="-5" source="WT2E"/>
-    <meta_quality chosen="true" type="source" name="Otherworldly" cost="5" source="KC"/>
-    <meta_quality chosen="true" type="permission" name="Hypertrained" cost="5" source="WT2E"/>
-    <meta_quality chosen="true" type="permission" name="Inhuman Stats" cost="0" custom="true" source="WT2E"/>
-    <meta_quality chosen="true" type="permission" name="Inventor" cost="5" source="WT2E"/>
-    <meta_quality chosen="true" type="permission" name="One Power" cost="1" source="WT2E"/>
-    <meta_quality chosen="true" type="permission" name="Peak Performer" cost="5" source="WT2E"/>
-    <meta_quality chosen="true" type="permission" name="Power Theme" cost="5" special_required="true" source="WT2E"/>
-    <meta_quality chosen="true" type="permission" name="Prime Specimen" cost="5" source="WT2E"/>
-    <meta_quality chosen="true" type="permission" name="Super" cost="15" source="WT2E"/>
-    <meta_quality chosen="true" type="permission" name="Super_Equipment" cost="2" source="WT2E"/>
-    <meta_quality chosen="true" type="intrinsic" name="Allergy" cost="0" custom="true" source="WT2E"/>
-    <meta_quality chosen="true" type="intrinsic" name="Brute" cost="-8" source="WT2E"/>
-    <meta_quality chosen="true" type="intrinsic" name="Frail" cost="-8" source="WT2E"/>
-    <meta_quality chosen="true" type="intrinsic" name="Custom Stat" cost="5" special_required="true" source="WT2E"/>
-    <meta_quality chosen="true" type="intrinsic" name="Globular" cost="8" source="WT2E"/>
-    <meta_quality chosen="true" type="intrinsic" name="Inhuman" cost="-8" source="WT2E"/>
-    <meta_quality chosen="true" type="intrinsic" name="Mandatory Power" cost="0" special_required="true" source="WT2E"/>
-    <meta_quality chosen="true" type="intrinsic" name="Mutable" cost="15" source="WT2E"/>
-    <meta_quality chosen="true" type="intrinsic" name="No Base Will" cost="-10" source="WT2E"/>
-    <meta_quality chosen="true" type="intrinsic" name="No Willpower" cost="-5" source="WT2E"/>
-    <meta_quality chosen="true" type="intrinsic" name="No Willpower No Way" cost="-5" source="WT2E"/>
-    <meta_quality chosen="true" type="intrinsic" name="Unhealing" cost="-8" source="WT2E"/>
-    <meta_quality chosen="true" type="intrinsic" name="Vulnerable" cost="-2" source="WT2E"/>
-    <meta_quality chosen="true" type="intrinsic" name="Willpower Contest" cost="-10" source="WT2E"/>
-    <meta_quality chosen="true" type="intrinsic" name="Curse of Conviction" cost="-5" source="KC"/>
-    <meta_quality chosen="true" type="intrinsic" name="Matter Over Mind" cost="-15" source="KC"/>
-    <meta_quality chosen="true" type="intrinsic" name="Oathbound" cost="-5" source="KC"/>
-    <meta_quality chosen="true" type="intrinsic" name="Obsessed" cost="8" special_required="true" source="KC"/>
+    <meta_quality is_chosen="true" type="source" name="Conduit" cost="5" source="WT2E"/>
+    <meta_quality is_chosen="true" type="source" name="Construct" cost="5" source="WT2E"/>
+    <meta_quality is_chosen="true" type="source" name="Cyborg" cost="5" source="WT2E"/>
+    <meta_quality is_chosen="true" type="source" name="Divine" cost="5" source="WT2E"/>
+    <meta_quality is_chosen="true" type="source" name="Driven" cost="5" source="WT2E"/>
+    <meta_quality is_chosen="true" type="source" name="Extraterrestrial" cost="5" source="WT2E"/>
+    <meta_quality is_chosen="true" type="source" name="Extradimensional" cost="5" source="WT2E"/>
+    <meta_quality is_chosen="true" type="source" name="Genetic" cost="5" source="WT2E"/>
+    <meta_quality is_chosen="true" type="source" name="Life Force" cost="5" source="WT2E"/>
+    <meta_quality is_chosen="true" type="source" name="Paranormal" cost="5" source="WT2E"/>
+    <meta_quality is_chosen="true" type="source" name="Power Focus" cost="-8" source="WT2E"/>
+    <meta_quality is_chosen="true" type="source" name="Psi" cost="5" source="WT2E"/>
+    <meta_quality is_chosen="true" type="source" name="Technological" cost="5" source="WT2E"/>
+    <meta_quality is_chosen="true" type="source" name="Unknown" cost="-5" source="WT2E"/>
+    <meta_quality is_chosen="true" type="source" name="Otherworldly" cost="5" source="KC"/>
+    <meta_quality is_chosen="true" type="permission" name="Hypertrained" cost="5" source="WT2E"/>
+    <meta_quality is_chosen="true" type="permission" name="Inhuman Stats" cost="0" is_custom="true" source="WT2E"/>
+    <meta_quality is_chosen="true" type="permission" name="Inventor" cost="5" source="WT2E"/>
+    <meta_quality is_chosen="true" type="permission" name="One Power" cost="1" source="WT2E"/>
+    <meta_quality is_chosen="true" type="permission" name="Peak Performer" cost="5" source="WT2E"/>
+    <meta_quality is_chosen="true" type="permission" name="Power Theme" cost="5" is_note_required="true" source="WT2E"/>
+    <meta_quality is_chosen="true" type="permission" name="Prime Specimen" cost="5" source="WT2E"/>
+    <meta_quality is_chosen="true" type="permission" name="Super" cost="15" source="WT2E"/>
+    <meta_quality is_chosen="true" type="permission" name="Super_Equipment" cost="2" source="WT2E"/>
+    <meta_quality is_chosen="true" type="intrinsic" name="Allergy" cost="0" is_custom="true" source="WT2E"/>
+    <meta_quality is_chosen="true" type="intrinsic" name="Brute" cost="-8" source="WT2E"/>
+    <meta_quality is_chosen="true" type="intrinsic" name="Frail" cost="-8" source="WT2E"/>
+    <meta_quality is_chosen="true" type="intrinsic" name="Custom Stat" cost="5" is_note_required="true" source="WT2E"/>
+    <meta_quality is_chosen="true" type="intrinsic" name="Globular" cost="8" source="WT2E"/>
+    <meta_quality is_chosen="true" type="intrinsic" name="Inhuman" cost="-8" source="WT2E"/>
+    <meta_quality is_chosen="true" type="intrinsic" name="Mandatory Power" cost="0" is_note_required="true" source="WT2E"/>
+    <meta_quality is_chosen="true" type="intrinsic" name="Mutable" cost="15" source="WT2E"/>
+    <meta_quality is_chosen="true" type="intrinsic" name="No Base Will" cost="-10" source="WT2E"/>
+    <meta_quality is_chosen="true" type="intrinsic" name="No Willpower" cost="-5" source="WT2E"/>
+    <meta_quality is_chosen="true" type="intrinsic" name="No Willpower No Way" cost="-5" source="WT2E"/>
+    <meta_quality is_chosen="true" type="intrinsic" name="Unhealing" cost="-8" source="WT2E"/>
+    <meta_quality is_chosen="true" type="intrinsic" name="Vulnerable" cost="-2" source="WT2E"/>
+    <meta_quality is_chosen="true" type="intrinsic" name="Willpower Contest" cost="-10" source="WT2E"/>
+    <meta_quality is_chosen="true" type="intrinsic" name="Curse of Conviction" cost="-5" source="KC"/>
+    <meta_quality is_chosen="true" type="intrinsic" name="Matter Over Mind" cost="-15" source="KC"/>
+    <meta_quality is_chosen="true" type="intrinsic" name="Oathbound" cost="-5" source="KC"/>
+    <meta_quality is_chosen="true" type="intrinsic" name="Obsessed" cost="8" is_note_required="true" source="KC"/>
   </meta_qualities>
   <archetypes>
     <meta_qualities type="archetype" name="Adept" source="WT2E">
-      <meta_quality chosen="true" type="source" name="Life Force" cost="5"/>
-      <meta_quality chosen="true" type="permission" name="Hypertrained" cost="5"/>
+      <meta_quality is_chosen="true" type="source" name="Life Force" cost="5"/>
+      <meta_quality is_chosen="true" type="permission" name="Hypertrained" cost="5"/>
     </meta_qualities>
     <meta_qualities type="archetype" name="Alien">
-      <meta_quality chosen="false" type="source" name="Extraterrestrial" cost="5"/>
-      <meta_quality chosen="false" type="source" name="Extradimensional" cost="5"/>
-      <meta_quality chosen="true" type="permission" name="Power Theme" cost="5"/>
+      <meta_quality is_chosen="false" type="source" name="Extraterrestrial" cost="5"/>
+      <meta_quality is_chosen="false" type="source" name="Extradimensional" cost="5"/>
+      <meta_quality is_chosen="true" type="permission" name="Power Theme" cost="5"/>
     </meta_qualities>
     <meta_qualities type="archetype" name="Anachronist" source="WT2E">
-      <meta_quality chosen="false" type="source" name="Genetic" cost="5"/>
-      <meta_quality chosen="false" type="source" name="Life Force" cost="5"/>
-      <meta_quality chosen="false" type="source" name="Paranormal" cost="5"/>
-      <meta_quality chosen="false" type="source" name="Technological" cost="5"/>
-      <meta_quality chosen="false" type="source" name="Extraterrestrial" cost="5"/>
-      <meta_quality chosen="false" type="source" name="Extradimensional" cost="5"/>
-      <meta_quality chosen="true" type="permission" name="Inventor" cost="5"/>
-      <meta_quality chosen="true" type="intrinsic" name="Mutable" cost="15"/>
+      <meta_quality is_chosen="false" type="source" name="Genetic" cost="5"/>
+      <meta_quality is_chosen="false" type="source" name="Life Force" cost="5"/>
+      <meta_quality is_chosen="false" type="source" name="Paranormal" cost="5"/>
+      <meta_quality is_chosen="false" type="source" name="Technological" cost="5"/>
+      <meta_quality is_chosen="false" type="source" name="Extraterrestrial" cost="5"/>
+      <meta_quality is_chosen="false" type="source" name="Extradimensional" cost="5"/>
+      <meta_quality is_chosen="true" type="permission" name="Inventor" cost="5"/>
+      <meta_quality is_chosen="true" type="intrinsic" name="Mutable" cost="15"/>
     </meta_qualities>
     <meta_qualities type="archetype" name="Artificial" source="WT2E">
-      <meta_quality chosen="true" type="source" name="Genetic" cost="5"/>
-      <meta_quality chosen="true" type="permission" name="Super" cost="15"/>
-      <meta_quality chosen="true" type="intrinsic" name="Mutable" cost="15"/>
-      <meta_quality chosen="true" type="intrinsic" name="No Base Will" cost="-10"/>
-      <meta_quality chosen="true" type="intrinsic" name="Unhealing" cost="-8"/>
+      <meta_quality is_chosen="true" type="source" name="Genetic" cost="5"/>
+      <meta_quality is_chosen="true" type="permission" name="Super" cost="15"/>
+      <meta_quality is_chosen="true" type="intrinsic" name="Mutable" cost="15"/>
+      <meta_quality is_chosen="true" type="intrinsic" name="No Base Will" cost="-10"/>
+      <meta_quality is_chosen="true" type="intrinsic" name="Unhealing" cost="-8"/>
     </meta_qualities>
     <meta_qualities type="archetype" name="Godlike Talent" source="WT2E">
-      <meta_quality chosen="true" type="source" name="Psi" cost="5"/>
-      <meta_quality chosen="true" type="permission" name="Super" cost="15"/>
-      <meta_quality chosen="true" type="intrinsic" name="Mandatory Power" cost="0" special="Perceive Godlike Talents 2hd"/>
-      <meta_quality chosen="true" type="intrinsic" name="No Willpower No Way" cost="-5" source="WT2E"/>
-      <meta_quality chosen="true" type="intrinsic" name="Willpower Contest" cost="-10" source="WT2E"/>
+      <meta_quality is_chosen="true" type="source" name="Psi" cost="5"/>
+      <meta_quality is_chosen="true" type="permission" name="Super" cost="15"/>
+      <meta_quality is_chosen="true" type="intrinsic" name="Mandatory Power" cost="0" note="Perceive Godlike Talents 2hd"/>
+      <meta_quality is_chosen="true" type="intrinsic" name="No Willpower No Way" cost="-5" source="WT2E"/>
+      <meta_quality is_chosen="true" type="intrinsic" name="Willpower Contest" cost="-10" source="WT2E"/>
     </meta_qualities>
     <meta_qualities type="archetype" name="Godling" source="WT2E">
-      <meta_quality chosen="true" type="source" name="Divine" cost="5"/>
-      <meta_quality chosen="true" type="source" name="Paranormal" cost="5"/>
-      <meta_quality chosen="true" type="permission" name="Super" cost="15"/>
+      <meta_quality is_chosen="true" type="source" name="Divine" cost="5"/>
+      <meta_quality is_chosen="true" type="source" name="Paranormal" cost="5"/>
+      <meta_quality is_chosen="true" type="permission" name="Super" cost="15"/>
     </meta_qualities>
     <meta_qualities type="archetype" name="Human+" source="WT2E">
-      <meta_quality chosen="false" type="source" name="Genetic" cost="5"/>
-      <meta_quality chosen="false" type="source" name="Psi" cost="5"/>
-      <meta_quality chosen="false" type="source" name="Technological" cost="5"/>
-      <meta_quality chosen="true" type="permission" name="Super" cost="15"/>
+      <meta_quality is_chosen="false" type="source" name="Genetic" cost="5"/>
+      <meta_quality is_chosen="false" type="source" name="Psi" cost="5"/>
+      <meta_quality is_chosen="false" type="source" name="Technological" cost="5"/>
+      <meta_quality is_chosen="true" type="permission" name="Super" cost="15"/>
     </meta_qualities>
     <meta_qualities type="archetype" name="Mutant" source="WT2E">
-      <meta_quality chosen="true" type="source" name="Genetic" cost="5"/>
-      <meta_quality chosen="true" type="permission" name="Power Theme" cost="5" special_required="true"/>
+      <meta_quality is_chosen="true" type="source" name="Genetic" cost="5"/>
+      <meta_quality is_chosen="true" type="permission" name="Power Theme" cost="5" is_note_required="true"/>
     </meta_qualities>
     <meta_qualities type="archetype" name="Mystic" source="WT2E">
-      <meta_quality chosen="true" type="source" name="Paranormal" cost="5"/>
-      <meta_quality chosen="true" type="permission" name="One Power" cost="1" special="Cosmic Power"/>
-      <meta_quality chosen="true" type="permission" name="Inventor" cost="5"/>
-      <meta_quality chosen="true" type="intrinsic" name="Mutable" cost="15"/>
+      <meta_quality is_chosen="true" type="source" name="Paranormal" cost="5"/>
+      <meta_quality is_chosen="true" type="permission" name="One Power" cost="1" note="Cosmic Power"/>
+      <meta_quality is_chosen="true" type="permission" name="Inventor" cost="5"/>
+      <meta_quality is_chosen="true" type="intrinsic" name="Mutable" cost="15"/>
     </meta_qualities>
     <meta_qualities type="archetype" name="Super_Normal" source="WT2E">
-      <meta_quality chosen="true" type="source" name="Driven" cost="5"/>
-      <meta_quality chosen="true" type="permission" name="Peak Performer" cost="5"/>
+      <meta_quality is_chosen="true" type="source" name="Driven" cost="5"/>
+      <meta_quality is_chosen="true" type="permission" name="Peak Performer" cost="5"/>
     </meta_qualities>
     <meta_qualities type="archetype" name="Faerie" source="KC">
-      <meta_quality chosen="true" type="source" name="Otherworldly" cost="5"/>
-      <meta_quality chosen="true" type="permission" name="Super" cost="15"/>
-      <meta_quality chosen="true" type="intrinsic" name="Curse of Conviction" cost="-5"/>
-      <meta_quality chosen="true" type="intrinsic" name="Matter Over Mind" cost="-15"/>
-      <meta_quality chosen="true" type="intrinsic" name="Oathbound" cost="-5"/>
-      <meta_quality chosen="true" type="intrinsic" name="Mandatory Power" cost="0" special="Faerie Glamor 4d"/>
-      <meta_quality chosen="true" type="intrinsic" name="Mutable" cost="15"/>
+      <meta_quality is_chosen="true" type="source" name="Otherworldly" cost="5"/>
+      <meta_quality is_chosen="true" type="permission" name="Super" cost="15"/>
+      <meta_quality is_chosen="true" type="intrinsic" name="Curse of Conviction" cost="-5"/>
+      <meta_quality is_chosen="true" type="intrinsic" name="Matter Over Mind" cost="-15"/>
+      <meta_quality is_chosen="true" type="intrinsic" name="Oathbound" cost="-5"/>
+      <meta_quality is_chosen="true" type="intrinsic" name="Mandatory Power" cost="0" note="Faerie Glamor 4d"/>
+      <meta_quality is_chosen="true" type="intrinsic" name="Mutable" cost="15"/>
     </meta_qualities>
     <meta_qualities type="archetype" name="Magus" source="KC">
-      <meta_quality chosen="true" type="source" name="Otherworldly" cost="5"/>
-      <meta_quality chosen="true" type="permission" name="One Power" cost="1" special="Sacred Magic or Profane Magic"/>
-      <meta_quality chosen="true" type="intrinsic" name="Obsessed" cost="8" special_required="true"/>
+      <meta_quality is_chosen="true" type="source" name="Otherworldly" cost="5"/>
+      <meta_quality is_chosen="true" type="permission" name="One Power" cost="1" note="Sacred Magic or Profane Magic"/>
+      <meta_quality is_chosen="true" type="intrinsic" name="Obsessed" cost="8" is_note_required="true"/>
     </meta_qualities>
   </archetypes>
   <modifiers>
@@ -838,13 +838,13 @@
     <modifier type="level" name="Defends" cost="1"/>
     <modifier type="level" name="Useful" cost="1"/>
     <!-- Capacity Modifiers -->
-    <modifier type="capacity" primary_capacity="false" name="Mass" cost="2" source="WT2E" has_ranks="false" special_required="false" link_required="false"/>
-    <modifier type="capacity" primary_capacity="false" name="Range" cost="2" source="WT2E" has_ranks="false" special_required="false" link_required="false"/>
-    <modifier type="capacity" primary_capacity="false" name="Speed" cost="2" source="WT2E" has_ranks="false" special_required="false" link_required="false"/>
-    <modifier type="capacity" primary_capacity="false" name="Touch" cost="1" source="WT2E" has_ranks="false" special_required="false" link_required="false"/>
-    <modifier type="capacity" primary_capacity="false" name="Self" cost="2" source="WT2E" has_ranks="false" special_required="false" link_required="false"/>
-    <modifier type="capacity_extra" name="Booster" cost="1" source="WT2E" link_required="true"/>
-    <modifier type="capacity_extra" name="High Capacity" cost="1" source="WT2E" link_required="true"/>
+    <modifier type="capacity" is_chosen="true" name="Mass" cost="2" source="WT2E" has_ranks="false" is_note_required="false" is_link_required="false"/>
+    <modifier type="capacity" is_chosen="true" name="Range" cost="2" source="WT2E" has_ranks="false" is_note_required="false" is_link_required="false"/>
+    <modifier type="capacity" is_chosen="true" name="Speed" cost="2" source="WT2E" has_ranks="false" is_note_required="false" is_link_required="false"/>
+    <modifier type="capacity" is_chosen="true" name="Touch" cost="1" source="WT2E" has_ranks="false" is_note_required="false" is_link_required="false"/>
+    <modifier type="capacity" is_chosen="true" name="Self" cost="2" source="WT2E" has_ranks="false" is_note_required="false" is_link_required="false"/>
+    <modifier type="capacity_extra" name="Booster" cost="1" source="WT2E" is_link_required="true"/>
+    <modifier type="capacity_extra" name="High Capacity" cost="1" source="WT2E" is_link_required="true"/>
     <modifier type="capacity_flaw" name="Reduced Capacities" cost="-1" source="WT2E"/>
     <!-- Extras -->
     <modifier type="extra" name="Area" cost="1" source="WT2E"/>
@@ -881,8 +881,8 @@
     <!-- Flaws -->
     <modifier type="flaw" name="Always On" cost="-1" has_ranks="false" source="WT2E"/>
     <modifier type="flaw" name="Armored Defense" cost="-2" has_ranks="false" source="WT2E"/>
-    <modifier type="flaw" name="Attached" cost="-2" has_ranks="false" link_required="true" source="WT2E"/>
-    <modifier type="flaw" name="Attached (Stat)" cost="-1" has_ranks="false" link_required="true" source="WT2E"/>
+    <modifier type="flaw" name="Attached" cost="-2" has_ranks="false" is_link_required="true" source="WT2E"/>
+    <modifier type="flaw" name="Attached (Stat)" cost="-1" has_ranks="false" is_link_required="true" source="WT2E"/>
     <modifier type="flaw" name="Automatic" cost="-1" has_ranks="false" source="WT2E"/>
     <modifier type="flaw" name="Backfires" cost="-2" has_ranks="false" source="WT2E"/>
     <modifier type="flaw" name="Base Will Cost" cost="-4" has_ranks="false" source="WT2E"/>
@@ -895,7 +895,7 @@
     <modifier type="flaw" name="Full Power Only" cost="-1" has_ranks="false" source="WT2E"/>
     <modifier type="flaw" name="Go Last" cost="-1" has_ranks="false" source="WT2E"/>
     <modifier type="flaw" name="Horrifying" cost="-1" has_ranks="false" source="WT2E"/>
-    <modifier type="flaw" name="If/Then" cost="-1" has_ranks="false" special_required="true" source="WT2E"/>
+    <modifier type="flaw" name="If/Then" cost="-1" has_ranks="false" is_note_required="true" source="WT2E"/>
     <modifier type="flaw" name="Limited Damage" cost="-1" has_ranks="false" source="WT2E"/>
     <modifier type="flaw" name="Limited Width" cost="-1" has_ranks="false" source="WT2E"/>
     <modifier type="flaw" name="Locational" cost="-1" has_ranks="false" source="WT2E"/>
@@ -914,7 +914,7 @@
     <modifier type="flaw" name="Willpower Cost (Powerful)" cost="0" has_ranks="false" source="WT2E"/>
     <modifier type="flaw" name="Willpower Investment" cost="-1" has_ranks="false" source="WT2E"/>
     <!-- Focus Extras/Flaws -->
-    <modifier type="focus" name="Booby_Trapped" cost="1" has_ranks="false" special_required="true" source="WT2E"/>
+    <modifier type="focus" name="Booby_Trapped" cost="1" has_ranks="false" is_note_required="true" source="WT2E"/>
     <modifier type="focus" name="Durable" cost="1" has_ranks="false" source="WT2E"/>
     <modifier type="focus" name="Friends Only" cost="2" has_ranks="false" source="WT2E"/>
     <modifier type="focus" name="Indestructible" cost="2" has_ranks="false" source="WT2E"/>
@@ -928,7 +928,7 @@
     <modifier type="focus" name="Immutable" cost="-1" has_ranks="false" source="WT2E"/>
     <modifier type="focus" name="Irreplaceable" cost="-2" has_ranks="false" source="WT2E"/>
     <modifier type="focus" name="Manufacturable" cost="2" has_ranks="false" source="WT2E"/>
-    <modifier type="focus" name="Operational Skill" cost="0" has_ranks="false" link_required="true" source="WT2E"/>
+    <modifier type="focus" name="Operational Skill" cost="0" has_ranks="false" is_link_required="true" source="WT2E"/>
     <modifier type="focus" name="Unwieldy (Initiative)" cost="-1" has_ranks="false" source="WT2E"/>
     <modifier type="focus" name="Unwieldy (All)" cost="-2" has_ranks="false" source="WT2E"/>
   </modifiers>
