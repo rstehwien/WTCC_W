@@ -166,7 +166,7 @@ def writeElement(name, data)
   
   cfg = $elements[name]
   data["id"] = UUIDTools::UUID.random_create.to_s
-  str = "{ #{jsonStr("element")}: #{jsonStr(name)}, #{jsonStr("id")}: #{jsonStr(data["id"])}"
+  str = "{ #{jsonStr("class")}: #{jsonStr(name)}, #{jsonStr("id")}: #{jsonStr(data["id"])}"
   
   cfg[:attributes].each {|cur|
     str += getAttr(cur, data)
