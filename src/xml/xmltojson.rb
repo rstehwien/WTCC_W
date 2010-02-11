@@ -17,35 +17,35 @@ $elements = {
   # manually merge to a single array
   #####
   # character.infos
-  "infos" => {
-    :attributes => [],
-    :children => [["info", "*"]]
-  },
+#  "infos" => {
+#    :attributes => [],
+#    :children => [["info", "*"]]
+#  },
   # character.custom_modifiers
-  "custom_modifiers" => {
-    :attributes => [],
-    :children => [["effect", "*"]]
-  },
+#  "custom_modifiers" => {
+#    :attributes => [],
+#    :children => [["effect", "*"]]
+#  },
   # data.modifiers
-  "modifiers" => {
-    :attributes => [],
-    :children => [["modifier", "*"]]
-  },
+#  "modifiers" => {
+#    :attributes => [],
+#    :children => [["modifier", "*"]]
+#  },
   # data.tables
-  "tables" => {
-    :attributes => [],
-    :children => [["table", "*"]]
-  },
+#  "tables" => {
+#    :attributes => [],
+#    :children => [["table", "*"]]
+#  },
   # character.measurements
-  "measurements" => {
-    :attributes => [],
-    :children => [["measurement", "*"]]
-  },
+#  "measurements" => {
+#    :attributes => [],
+#    :children => [["measurement", "*"]]
+#  },
   # data.archetypes
-  "archetypes" => {
-    :attributes => [],
-    :children => [["meta_qualities", "*"]]
-  },
+#  "archetypes" => {
+#    :attributes => [],
+#    :children => [["meta_qualities", "*"]]
+#  },
 
 
   #####
@@ -53,11 +53,11 @@ $elements = {
   #####
   "data" => {
     :attributes => [["version", 1], ["cost_willpower_base", 3], ["cost_willpower", 1]],
-    :children => [["pools", 1], ["meta_qualities", 1], ["archetypes", 1], ["modifiers", 1], ["character", 1], ["tables", 1]]
+    :children => [["pools", 1], ["meta_qualities", 1], ["archetypes", "meta_qualities"], ["modifiers", "modifier"], ["character", 1], ["tables", "table"]]
   },
   "character" => {
     :attributes => [["version", 1], ["name", " "], ["points", 0]],
-    :children => [["infos", "info"], ["willpower", 1], ["meta_qualities", 1], ["pools", 1], ["custom_modifiers", 1], ["measurements", 1]]
+    :children => [["infos", "info"], ["willpower", 1], ["meta_qualities", 1], ["pools", 1], ["custom_modifiers", "effect"], ["measurements", "measurement"]]
   },
   "info" => {
     :attributes => [["name", " "]],
