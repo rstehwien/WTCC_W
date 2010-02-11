@@ -1,14 +1,22 @@
 Ext.BLANK_IMAGE_URL = 'js/extjs/resources/images/default/s.gif';
+
 var wtcc = {
-  init: function() {
-    wtcc.character = wtcc.cloneJSON(wtcc.data.character);
-  },
-  
-  cloneJSON: function(json) {
-    return Ext.util.JSON.decode(Ext.util.JSON.encode(json));
-  },
+    model: {},
+    view: {},
+    
+    init: function() {
+        wtcc.model.character = wtcc.cloneJSON(wtcc.model.defaultConfig.character);
+        wtcc.view.init();
+        
+        if (typeof(Titanium) === 'undefined') window.onbeforeunload = function() { return 'About to loose any changes.'; };
+    },
+
+    cloneJSON: function(json) {
+        return Ext.util.JSON.decode(Ext.util.JSON.encode(json));
+    },
+
 };
-Ext.onReady(wtcc.init);  
+Ext.onReady(wtcc.init);
 
 /*
 include: function(filename) {
@@ -36,7 +44,7 @@ WTCC.include("js/wtcc_data.js")
             }
         });
     },
-    
+
     parseData: function(result) {
       try {
       WTCC.data = Ext.util.JSON.decode(result.responseText);

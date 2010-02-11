@@ -1,4 +1,4 @@
-wtcc.data = {
+wtcc.model.defaultConfig = {
     "class": "data",
     "id": "5ead0bd0-7075-4cdd-8b95-810214e42e00",
     "version": 1,
