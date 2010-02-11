@@ -52,7 +52,7 @@ $elements = {
   # 
   #####
   "data" => {
-    :attributes => [["version", 1], ["cost_willpower", 1], ["cost_willpower_base", 3], ],
+    :attributes => [["version", 1], ["cost_willpower_base", 3], ["cost_willpower", 1]],
     :children => [["pools", 1], ["meta_qualities", 1], ["archetypes", 1], ["modifiers", 1], ["character", 1], ["tables", 1]]
   },
   "character" => {
@@ -65,7 +65,7 @@ $elements = {
     :text => true
   },
   "willpower" => {
-    :attributes => [["base", 0], ["current", 0], ["points", 0], ["min_base", 0]],
+    :attributes => [["min_base", 0], ["base", 0], ["current", 0], ["points", 0]],
     :children => [["motivation", "*"]]
   },
   "motivation" => {
@@ -73,7 +73,7 @@ $elements = {
     :children => []
   },
   "effect" => {
-    :attributes => [["type", "SOMETYPE"], ["cost", 0], ["is_add_measurement", false], ["note", " "], ["is_note_required", false], ["link", " "], ["is_link_required", false], ["source", " "], ["name", "SOMENAME"], ["die_cost", 0]],
+    :attributes => [["type", "SOMETYPE"], ["name", "SOMENAME"], ["cost", 0], ["note", " "], ["is_note_required", false], ["link", " "], ["is_link_required", false], ["is_add_measurement", false], ["die_cost", 0], ["source", " "]],
     :children => [["modifier", "*"]]
   },
   "pools" => {
@@ -81,27 +81,27 @@ $elements = {
     :children => [["pool", "*"]]
   },
   "pool" => {
-    :attributes => [["type", "SOMETYPE"], ["source", " "], ["die_cost", 0], ["normal", 0], ["hard", 0], ["wiggle", 0], ["name", " "], ["points", 0]],
+    :attributes => [["type", "SOMETYPE"], ["name", " "], ["die_cost", 0], ["normal", 0], ["hard", 0], ["wiggle", 0], ["points", 0], ["source", " "]],
     :children => [["effect", "*"]]
   },
   "modifier" => {
-    :attributes => [["source", " "], ["cost", 0], ["note", " "], ["is_note_required", false], ["has_ranks", true], ["ranks", 1], ["type", "SOMETYPE"], ["link", " "], ["is_link_required", false], ["name", " "], ["mod", 0], ["is_chosen", true]],
+    :attributes => [["type", "SOMETYPE"], ["name", " "], ["cost", 0], ["note", " "], ["is_note_required", false], ["has_ranks", true], ["ranks", 1], ["link", " "], ["is_link_required", false], ["mod", 0], ["is_chosen", true], ["source", " "]],
     :children => []
   },
   "meta_qualities" => {
-    :attributes => [["points", 0], ["source", " "], ["name", " "], ["type", "SOMETYPE"]],
+    :attributes => [["type", "SOMETYPE"], ["name", " "], ["points", 0], ["source", " "]],
     :children => [["meta_quality", "*"]]
   },
   "meta_quality" => {
-    :attributes => [["source", " "], ["cost", 0], ["is_custom", false], ["note", " "], ["is_note_required", false], ["name", " "], ["type", "SOMETYPE"], ["is_chosen", true]],
+    :attributes => [["type", "SOMETYPE"], ["name", " "], ["cost", 0], ["is_custom", false], ["note", " "], ["is_note_required", false], ["is_chosen", true], ["source", " "]],
     :children => []
   },
   "table" => {
-    :attributes => [["beyond", 0], ["boost", 0], ["type", "SOMETYPE"], ["units", " "], ["name", " "], ["link", " "]],
+    :attributes => [["type", "SOMETYPE"], ["name", " "], ["units", " "], ["link", " "], ["boost", 0], ["beyond", 0]],
     :children => [["measurement", "*"]]
   },
   "measurement" => {
-    :attributes => [["type", "SOMETYPE"], ["pool", 0], ["text", " "], ["text_cols", " "], ["units", " "], ["value", 0]],
+    :attributes => [["type", "SOMETYPE"], ["pool", 0], ["text_cols", " "], ["text", " "], ["units", " "], ["value", 0]],
     :children => []
   },
 }
