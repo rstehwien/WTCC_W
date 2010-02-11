@@ -57,7 +57,7 @@ $elements = {
   },
   "character" => {
     :attributes => [["version", 1], ["name", " "], ["points", 0]],
-    :children => [["infos", 1], ["willpower", 1], ["meta_qualities", 1], ["pools", 1], ["custom_modifiers", 1], ["measurements", 1]]
+    :children => [["infos", "info"], ["willpower", 1], ["meta_qualities", 1], ["pools", 1], ["custom_modifiers", 1], ["measurements", 1]]
   },
   "info" => {
     :attributes => [["name", " "]],
@@ -153,9 +153,20 @@ def getChildren(cur, data)
   value = ""
   if length == 1
     value = writeElement(name, data[name][0])
-  else
+  elsif length == "*"
     value = getArray(name, data[name])
     name += "s"
+  else
+    tmp = data[name]
+    if tmp.kind_of? Array and tmp.length == 1
+      value = getArray(length, tmp[0][length])
+    else
+      puts "*****"
+      puts tmp.to_yaml
+      puts "*****"
+      puts data.to_yaml
+      puts "*****"
+    end
   end
 
   ", #{jsonStr(name)}: #{value}"
@@ -176,7 +187,7 @@ def writeElement(name, data)
     str += getChildren(cur, data)
   }
   
-  str += ", #{jsonStr("text")}: #{jsonStr("")}" if cfg[:text] == true
+  str += ", #{jsonStr("text")}: #{jsonStr(" ")}" if cfg[:text] == true
   
   str += " }"
   str
