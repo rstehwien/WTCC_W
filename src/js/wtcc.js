@@ -10,7 +10,7 @@ var wtcc = {
         wtcc.model.character = wtcc.cloneJSON(wtcc.model.defaultConfig.character);
         wtcc.view.init();
                 
-        if (typeof(Titanium) === 'undefined') window.onbeforeunload = function() { return 'About to loose any changes.'; };
+        //if (typeof(Titanium) === 'undefined') window.onbeforeunload = function() { return 'About to loose any changes.'; };
         
         wtcc.log('wtccDebug', 'wtcc.init complete')
     },
