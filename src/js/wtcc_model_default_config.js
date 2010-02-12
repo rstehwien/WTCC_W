@@ -21,7 +21,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -29,13 +29,13 @@ wtcc.model.defaultConfig = {
                         "type": "stat",
                         "name": "Body",
                         "cost": 4,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
-                        "link": " ",
+                        "link": "",
                         "is_link_required": false,
                         "is_add_measurement": false,
                         "die_cost": 0,
-                        "source": " ",
+                        "source": "",
                         "modifiers": [
                             
                         ] 
@@ -52,7 +52,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -60,13 +60,13 @@ wtcc.model.defaultConfig = {
                         "type": "stat",
                         "name": "Coordination",
                         "cost": 4,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
-                        "link": " ",
+                        "link": "",
                         "is_link_required": false,
                         "is_add_measurement": false,
                         "die_cost": 0,
-                        "source": " ",
+                        "source": "",
                         "modifiers": [
                             
                         ] 
@@ -83,7 +83,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -91,13 +91,13 @@ wtcc.model.defaultConfig = {
                         "type": "stat",
                         "name": "Sense",
                         "cost": 4,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
-                        "link": " ",
+                        "link": "",
                         "is_link_required": false,
                         "is_add_measurement": false,
                         "die_cost": 0,
-                        "source": " ",
+                        "source": "",
                         "modifiers": [
                             
                         ] 
@@ -114,7 +114,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -122,13 +122,13 @@ wtcc.model.defaultConfig = {
                         "type": "stat",
                         "name": "Mind",
                         "cost": 4,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
-                        "link": " ",
+                        "link": "",
                         "is_link_required": false,
                         "is_add_measurement": false,
                         "die_cost": 0,
-                        "source": " ",
+                        "source": "",
                         "modifiers": [
                             
                         ] 
@@ -145,7 +145,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -153,13 +153,13 @@ wtcc.model.defaultConfig = {
                         "type": "stat",
                         "name": "Charm",
                         "cost": 4,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
-                        "link": " ",
+                        "link": "",
                         "is_link_required": false,
                         "is_add_measurement": false,
                         "die_cost": 0,
-                        "source": " ",
+                        "source": "",
                         "modifiers": [
                             
                         ] 
@@ -176,7 +176,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -184,13 +184,13 @@ wtcc.model.defaultConfig = {
                         "type": "stat",
                         "name": "Command",
                         "cost": 4,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
-                        "link": " ",
+                        "link": "",
                         "is_link_required": false,
                         "is_add_measurement": false,
                         "die_cost": 0,
-                        "source": " ",
+                        "source": "",
                         "modifiers": [
                             
                         ] 
@@ -207,7 +207,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -215,9 +215,9 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Custom Standard Skill",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
-                        "link": " ",
+                        "link": "",
                         "is_link_required": false,
                         "is_add_measurement": false,
                         "die_cost": 0,
@@ -238,7 +238,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -246,9 +246,9 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Custom Build Skill",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
-                        "link": " ",
+                        "link": "",
                         "is_link_required": false,
                         "is_add_measurement": false,
                         "die_cost": 0,
@@ -269,7 +269,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -277,7 +277,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Athletics",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": true,
                         "link": "body",
                         "is_link_required": false,
@@ -300,7 +300,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -308,7 +308,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Block",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "body",
                         "is_link_required": false,
@@ -331,7 +331,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -339,7 +339,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Brawling",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "body",
                         "is_link_required": false,
@@ -362,7 +362,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -370,7 +370,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Endurance",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "body",
                         "is_link_required": false,
@@ -393,7 +393,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -401,7 +401,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Melee Weapon",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": true,
                         "link": "body",
                         "is_link_required": false,
@@ -424,7 +424,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -432,7 +432,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Dodge",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "coordination",
                         "is_link_required": false,
@@ -455,7 +455,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -463,7 +463,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Driving",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": true,
                         "link": "coordination",
                         "is_link_required": false,
@@ -486,7 +486,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -494,7 +494,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Ranged Weapon",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": true,
                         "link": "coordination",
                         "is_link_required": false,
@@ -517,7 +517,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -525,7 +525,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Stealth",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "coordination",
                         "is_link_required": false,
@@ -548,7 +548,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -556,7 +556,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Empathy",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "sense",
                         "is_link_required": false,
@@ -579,7 +579,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -587,7 +587,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Perception",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "sense",
                         "is_link_required": false,
@@ -610,7 +610,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -618,7 +618,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Scrutiny",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "sense",
                         "is_link_required": false,
@@ -641,7 +641,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -649,7 +649,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "First Aid",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "mind",
                         "is_link_required": false,
@@ -672,7 +672,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -680,7 +680,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Knowledge",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": true,
                         "link": "mind",
                         "is_link_required": false,
@@ -703,7 +703,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -711,7 +711,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Language",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": true,
                         "link": "mind",
                         "is_link_required": false,
@@ -734,7 +734,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -742,7 +742,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Medicine",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "mind",
                         "is_link_required": false,
@@ -765,7 +765,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -773,7 +773,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Navigation",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "mind",
                         "is_link_required": false,
@@ -796,7 +796,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -804,7 +804,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Research",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "mind",
                         "is_link_required": false,
@@ -827,7 +827,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -835,7 +835,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Security Systems",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "mind",
                         "is_link_required": false,
@@ -858,7 +858,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -866,7 +866,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Streetwise",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "mind",
                         "is_link_required": false,
@@ -889,7 +889,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -897,7 +897,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Survival",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "mind",
                         "is_link_required": false,
@@ -920,7 +920,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -928,7 +928,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Tatics",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "mind",
                         "is_link_required": false,
@@ -951,7 +951,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -959,7 +959,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Lie",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "charm",
                         "is_link_required": false,
@@ -982,7 +982,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -990,7 +990,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Performance",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": true,
                         "link": "charm",
                         "is_link_required": false,
@@ -1013,7 +1013,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -1021,7 +1021,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Persuasion",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "charm",
                         "is_link_required": false,
@@ -1044,7 +1044,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -1052,7 +1052,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Interrogation",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "command",
                         "is_link_required": false,
@@ -1075,7 +1075,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -1083,7 +1083,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Intimidation",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "command",
                         "is_link_required": false,
@@ -1106,7 +1106,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -1114,7 +1114,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Leadership",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "command",
                         "is_link_required": false,
@@ -1137,7 +1137,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -1145,7 +1145,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Stability",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "command",
                         "is_link_required": false,
@@ -1168,7 +1168,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -1176,7 +1176,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Boxing",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "body",
                         "is_link_required": false,
@@ -1199,7 +1199,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -1207,7 +1207,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Lifting",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "body",
                         "is_link_required": false,
@@ -1230,7 +1230,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -1238,7 +1238,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Running",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "body",
                         "is_link_required": false,
@@ -1261,7 +1261,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -1269,7 +1269,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Sports",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "body",
                         "is_link_required": false,
@@ -1292,7 +1292,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -1300,7 +1300,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Wrestling",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "body",
                         "is_link_required": false,
@@ -1323,7 +1323,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -1331,7 +1331,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Acrobatics",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "coordination",
                         "is_link_required": false,
@@ -1354,7 +1354,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -1362,7 +1362,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Archery",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "coordination",
                         "is_link_required": false,
@@ -1385,7 +1385,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -1393,7 +1393,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Climb",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "coordination",
                         "is_link_required": false,
@@ -1416,7 +1416,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -1424,7 +1424,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Dodge",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "coordination",
                         "is_link_required": false,
@@ -1447,7 +1447,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -1455,7 +1455,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Evasion",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "coordination",
                         "is_link_required": false,
@@ -1478,7 +1478,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -1486,7 +1486,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Horsemanship",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "coordination",
                         "is_link_required": false,
@@ -1509,7 +1509,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -1517,7 +1517,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Pistol",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "coordination",
                         "is_link_required": false,
@@ -1540,7 +1540,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -1548,7 +1548,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Rifle",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "coordination",
                         "is_link_required": false,
@@ -1571,7 +1571,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -1579,7 +1579,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Empathy",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "sense",
                         "is_link_required": false,
@@ -1602,7 +1602,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -1610,7 +1610,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Hear",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "sense",
                         "is_link_required": false,
@@ -1633,7 +1633,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -1641,7 +1641,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Notice",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "sense",
                         "is_link_required": false,
@@ -1664,7 +1664,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -1672,7 +1672,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Reflexes",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "sense",
                         "is_link_required": false,
@@ -1695,7 +1695,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -1703,7 +1703,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Search",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "sense",
                         "is_link_required": false,
@@ -1726,7 +1726,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -1734,7 +1734,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "See",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "sense",
                         "is_link_required": false,
@@ -1757,7 +1757,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -1765,7 +1765,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Smell",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "sense",
                         "is_link_required": false,
@@ -1788,7 +1788,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -1796,7 +1796,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Taste",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "sense",
                         "is_link_required": false,
@@ -1819,7 +1819,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -1827,7 +1827,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Touch",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "sense",
                         "is_link_required": false,
@@ -1850,7 +1850,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -1858,7 +1858,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Track",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "sense",
                         "is_link_required": false,
@@ -1881,7 +1881,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -1889,7 +1889,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "A Single Academic Field",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": true,
                         "link": "mind",
                         "is_link_required": false,
@@ -1912,7 +1912,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -1920,7 +1920,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "A Language",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": true,
                         "link": "mind",
                         "is_link_required": false,
@@ -1943,7 +1943,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -1951,7 +1951,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Act",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "command",
                         "is_link_required": false,
@@ -1974,7 +1974,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -1982,7 +1982,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Intimidate",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "command",
                         "is_link_required": false,
@@ -2005,7 +2005,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -2013,7 +2013,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Lie",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "command",
                         "is_link_required": false,
@@ -2036,7 +2036,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -2044,7 +2044,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Stability",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "command",
                         "is_link_required": false,
@@ -2067,7 +2067,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -2075,7 +2075,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Bluff",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "charm",
                         "is_link_required": false,
@@ -2098,7 +2098,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -2106,7 +2106,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Feign",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "charm",
                         "is_link_required": false,
@@ -2129,7 +2129,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -2137,7 +2137,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Innocence",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "charm",
                         "is_link_required": false,
@@ -2160,7 +2160,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -2168,7 +2168,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Lie",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "charm",
                         "is_link_required": false,
@@ -2191,7 +2191,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -2199,7 +2199,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Seduce",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "charm",
                         "is_link_required": false,
@@ -2222,7 +2222,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -2230,7 +2230,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Athletics",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "body",
                         "is_link_required": false,
@@ -2244,15 +2244,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -2268,7 +2268,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -2276,7 +2276,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Brawling",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "body",
                         "is_link_required": false,
@@ -2290,15 +2290,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -2314,7 +2314,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -2322,7 +2322,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Might",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "body",
                         "is_link_required": false,
@@ -2336,15 +2336,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -2360,7 +2360,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -2368,7 +2368,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Driving",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "coordination",
                         "is_link_required": false,
@@ -2382,15 +2382,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -2406,7 +2406,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -2414,7 +2414,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Shooting",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "coordination",
                         "is_link_required": false,
@@ -2428,15 +2428,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -2452,7 +2452,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -2460,7 +2460,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Sportsman",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "coordination",
                         "is_link_required": false,
@@ -2474,15 +2474,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -2498,7 +2498,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -2506,7 +2506,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Awareness",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "sense",
                         "is_link_required": false,
@@ -2520,15 +2520,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -2544,7 +2544,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -2552,7 +2552,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Investigate",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "sense",
                         "is_link_required": false,
@@ -2566,15 +2566,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -2590,7 +2590,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -2598,7 +2598,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Education",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "mind",
                         "is_link_required": false,
@@ -2612,15 +2612,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -2636,7 +2636,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -2644,7 +2644,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Finance",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "mind",
                         "is_link_required": false,
@@ -2658,15 +2658,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -2682,7 +2682,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -2690,7 +2690,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Linguistics",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "mind",
                         "is_link_required": false,
@@ -2704,15 +2704,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -2728,7 +2728,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -2736,7 +2736,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Discipline",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "command",
                         "is_link_required": false,
@@ -2750,15 +2750,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -2774,7 +2774,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -2782,7 +2782,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Inspire",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "command",
                         "is_link_required": false,
@@ -2796,15 +2796,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -2820,7 +2820,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -2828,7 +2828,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Iron Will",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "command",
                         "is_link_required": false,
@@ -2842,15 +2842,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -2866,7 +2866,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -2874,7 +2874,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Leadership",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "command",
                         "is_link_required": false,
@@ -2888,15 +2888,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -2912,7 +2912,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -2920,7 +2920,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Deceive",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "charm",
                         "is_link_required": false,
@@ -2934,15 +2934,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -2958,7 +2958,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -2966,7 +2966,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Influence",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "charm",
                         "is_link_required": false,
@@ -2980,15 +2980,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -3004,7 +3004,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -3012,7 +3012,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Black Sheep",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "Any",
                         "is_link_required": false,
@@ -3026,15 +3026,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -3042,15 +3042,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Flexible",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -3066,7 +3066,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -3074,7 +3074,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Brush With Occult Horrors",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "Any",
                         "is_link_required": false,
@@ -3088,15 +3088,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -3104,15 +3104,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Flexible",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -3128,7 +3128,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -3136,7 +3136,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Criminal History",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "Any",
                         "is_link_required": false,
@@ -3150,15 +3150,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -3166,15 +3166,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Flexible",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -3190,7 +3190,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -3198,7 +3198,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Educated Abroady",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "Any",
                         "is_link_required": false,
@@ -3212,15 +3212,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -3228,15 +3228,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Flexible",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -3252,7 +3252,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -3260,7 +3260,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Elite Boarding School",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "Any",
                         "is_link_required": false,
@@ -3274,15 +3274,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -3290,15 +3290,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Flexible",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -3314,7 +3314,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -3322,7 +3322,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Escaped Slave",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "Any",
                         "is_link_required": false,
@@ -3336,15 +3336,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -3352,15 +3352,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Flexible",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -3376,7 +3376,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -3384,7 +3384,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Evil Temper",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "Any",
                         "is_link_required": false,
@@ -3398,15 +3398,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -3414,15 +3414,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Flexible",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -3438,7 +3438,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -3446,7 +3446,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Military Brat",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "Any",
                         "is_link_required": false,
@@ -3460,15 +3460,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -3476,15 +3476,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Flexible",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -3500,7 +3500,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -3508,7 +3508,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Songs of War",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "Any",
                         "is_link_required": false,
@@ -3522,15 +3522,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -3538,15 +3538,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Flexible",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -3562,7 +3562,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -3570,7 +3570,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Street Urchin",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "Any",
                         "is_link_required": false,
@@ -3584,15 +3584,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -3600,15 +3600,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Flexible",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -3624,7 +3624,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -3632,7 +3632,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Country Vicar",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "command",
                         "is_link_required": false,
@@ -3646,15 +3646,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Influence",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -3670,7 +3670,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -3678,7 +3678,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Cultist",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "command",
                         "is_link_required": false,
@@ -3692,15 +3692,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Influence",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -3716,7 +3716,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -3724,7 +3724,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Faerie Fascination",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "command",
                         "is_link_required": false,
@@ -3738,15 +3738,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Influence",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -3762,7 +3762,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -3770,7 +3770,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Holder of Her Majesty’s Commission",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "command",
                         "is_link_required": false,
@@ -3784,15 +3784,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Influence",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -3808,7 +3808,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -3816,7 +3816,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Inherited Fortune",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "command",
                         "is_link_required": false,
@@ -3830,15 +3830,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Influence",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -3854,7 +3854,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -3862,7 +3862,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Kerberan",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "command",
                         "is_link_required": false,
@@ -3876,15 +3876,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Influence",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -3900,7 +3900,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -3908,7 +3908,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Member of Parliament",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "command",
                         "is_link_required": false,
@@ -3922,15 +3922,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Influence",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -3946,7 +3946,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -3954,7 +3954,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Noble Title",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "command",
                         "is_link_required": false,
@@ -3968,15 +3968,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Influence",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -3992,7 +3992,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -4000,7 +4000,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Underworld Influence",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "command",
                         "is_link_required": false,
@@ -4014,15 +4014,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Influence",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -4038,7 +4038,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -4046,7 +4046,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Actor",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "Any",
                         "is_link_required": false,
@@ -4060,15 +4060,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -4076,15 +4076,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Flexible",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -4092,15 +4092,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Influence",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -4116,7 +4116,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -4124,7 +4124,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Assassin",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "Any",
                         "is_link_required": false,
@@ -4138,15 +4138,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -4154,15 +4154,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Flexible",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -4170,15 +4170,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Influence",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -4194,7 +4194,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -4202,7 +4202,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Confidential Agent",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "Any",
                         "is_link_required": false,
@@ -4216,15 +4216,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -4232,15 +4232,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Flexible",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -4248,15 +4248,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Influence",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -4272,7 +4272,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -4280,7 +4280,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Crime Boss",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "Any",
                         "is_link_required": false,
@@ -4294,15 +4294,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -4310,15 +4310,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Flexible",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -4326,15 +4326,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Influence",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -4350,7 +4350,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -4358,7 +4358,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Detective",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "Any",
                         "is_link_required": false,
@@ -4372,15 +4372,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -4388,15 +4388,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Flexible",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -4404,15 +4404,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Influence",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -4428,7 +4428,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -4436,7 +4436,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Explorer",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "Any",
                         "is_link_required": false,
@@ -4450,15 +4450,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -4466,15 +4466,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Flexible",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -4482,15 +4482,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Influence",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -4506,7 +4506,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -4514,7 +4514,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Journalist",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "Any",
                         "is_link_required": false,
@@ -4528,15 +4528,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -4544,15 +4544,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Flexible",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -4560,15 +4560,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Influence",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -4584,7 +4584,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -4592,7 +4592,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Natural Scientist",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "Any",
                         "is_link_required": false,
@@ -4606,15 +4606,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -4622,15 +4622,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Flexible",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -4638,15 +4638,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Influence",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -4662,7 +4662,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -4670,7 +4670,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Occult Revolutionary",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "Any",
                         "is_link_required": false,
@@ -4684,15 +4684,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -4700,15 +4700,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Flexible",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -4716,15 +4716,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Influence",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -4740,7 +4740,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -4748,7 +4748,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Officer and Gentleman",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "Any",
                         "is_link_required": false,
@@ -4762,15 +4762,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -4778,15 +4778,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Flexible",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -4794,15 +4794,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Influence",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -4818,7 +4818,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -4826,7 +4826,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Politician",
                         "cost": 0,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "Any",
                         "is_link_required": false,
@@ -4840,15 +4840,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Broad",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -4856,15 +4856,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Flexible",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -4872,15 +4872,15 @@ wtcc.model.defaultConfig = {
                                 "type": "skill",
                                 "name": "Influence",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -4896,7 +4896,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -4904,7 +4904,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Block",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "body",
                         "is_link_required": false,
@@ -4927,7 +4927,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -4935,7 +4935,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Brawling",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "body",
                         "is_link_required": false,
@@ -4958,7 +4958,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -4966,7 +4966,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Endurance",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "body",
                         "is_link_required": false,
@@ -4989,7 +4989,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -4997,7 +4997,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Melee Weapon",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": true,
                         "link": "body",
                         "is_link_required": false,
@@ -5020,7 +5020,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -5028,7 +5028,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Sport",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "body",
                         "is_link_required": false,
@@ -5051,7 +5051,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -5059,7 +5059,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Dodge",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "coordination",
                         "is_link_required": false,
@@ -5082,7 +5082,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -5090,7 +5090,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Driving",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": true,
                         "link": "coordination",
                         "is_link_required": false,
@@ -5113,7 +5113,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -5121,7 +5121,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Ranged Weapon",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": true,
                         "link": "coordination",
                         "is_link_required": false,
@@ -5144,7 +5144,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -5152,7 +5152,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Riding",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "coordination",
                         "is_link_required": false,
@@ -5175,7 +5175,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -5183,7 +5183,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Stealth",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "coordination",
                         "is_link_required": false,
@@ -5206,7 +5206,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -5214,7 +5214,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Empathy",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "sense",
                         "is_link_required": false,
@@ -5237,7 +5237,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -5245,7 +5245,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Perception",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "sense",
                         "is_link_required": false,
@@ -5268,7 +5268,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -5276,7 +5276,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Scrutiny",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "sense",
                         "is_link_required": false,
@@ -5299,7 +5299,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -5307,7 +5307,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "First Aid",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "mind",
                         "is_link_required": false,
@@ -5330,7 +5330,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -5338,7 +5338,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Knowledge",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": true,
                         "link": "mind",
                         "is_link_required": false,
@@ -5361,7 +5361,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -5369,7 +5369,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Language",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": true,
                         "link": "mind",
                         "is_link_required": false,
@@ -5392,7 +5392,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -5400,7 +5400,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Medicine",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "mind",
                         "is_link_required": false,
@@ -5423,7 +5423,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -5431,7 +5431,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Navigation",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "mind",
                         "is_link_required": false,
@@ -5454,7 +5454,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -5462,7 +5462,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Research",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "mind",
                         "is_link_required": false,
@@ -5485,7 +5485,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -5493,7 +5493,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Streetwise",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "mind",
                         "is_link_required": false,
@@ -5516,7 +5516,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -5524,7 +5524,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Survival",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "mind",
                         "is_link_required": false,
@@ -5547,7 +5547,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -5555,7 +5555,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Tatics",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "mind",
                         "is_link_required": false,
@@ -5578,7 +5578,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -5586,7 +5586,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Lie",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "charm",
                         "is_link_required": false,
@@ -5609,7 +5609,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -5617,7 +5617,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Performance",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": true,
                         "link": "charm",
                         "is_link_required": false,
@@ -5640,7 +5640,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -5648,7 +5648,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Persuasion",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "charm",
                         "is_link_required": false,
@@ -5671,7 +5671,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -5679,7 +5679,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Interrogation",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "command",
                         "is_link_required": false,
@@ -5702,7 +5702,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -5710,7 +5710,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Intimidation",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "command",
                         "is_link_required": false,
@@ -5733,7 +5733,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -5741,7 +5741,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Leadership",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "command",
                         "is_link_required": false,
@@ -5764,7 +5764,7 @@ wtcc.model.defaultConfig = {
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -5772,7 +5772,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Stability",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "command",
                         "is_link_required": false,
@@ -5789,13 +5789,13 @@ wtcc.model.defaultConfig = {
                 "class": "pool",
                 "id": "2c550546-c612-41a6-8fa4-f917e3bf379f",
                 "type": "power",
-                "name": " ",
+                "name": "",
                 "die_cost": 0,
                 "normal": 0,
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -5803,13 +5803,13 @@ wtcc.model.defaultConfig = {
                         "type": "power",
                         "name": "Attacks",
                         "cost": 2,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
-                        "link": " ",
+                        "link": "",
                         "is_link_required": false,
                         "is_add_measurement": false,
                         "die_cost": 0,
-                        "source": " ",
+                        "source": "",
                         "modifiers": [
                             
                         ] 
@@ -5820,13 +5820,13 @@ wtcc.model.defaultConfig = {
                 "class": "pool",
                 "id": "8a7cc055-8a8c-410f-af76-883688373f9c",
                 "type": "power",
-                "name": " ",
+                "name": "",
                 "die_cost": 0,
                 "normal": 0,
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -5834,13 +5834,13 @@ wtcc.model.defaultConfig = {
                         "type": "power",
                         "name": "Defends",
                         "cost": 2,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
-                        "link": " ",
+                        "link": "",
                         "is_link_required": false,
                         "is_add_measurement": false,
                         "die_cost": 0,
-                        "source": " ",
+                        "source": "",
                         "modifiers": [
                             
                         ] 
@@ -5851,13 +5851,13 @@ wtcc.model.defaultConfig = {
                 "class": "pool",
                 "id": "2d84370f-cf7a-4ca0-aff0-338bbc3d01e8",
                 "type": "power",
-                "name": " ",
+                "name": "",
                 "die_cost": 0,
                 "normal": 0,
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -5865,13 +5865,13 @@ wtcc.model.defaultConfig = {
                         "type": "power",
                         "name": "Useful",
                         "cost": 2,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": true,
-                        "link": " ",
+                        "link": "",
                         "is_link_required": false,
                         "is_add_measurement": false,
                         "die_cost": 0,
-                        "source": " ",
+                        "source": "",
                         "modifiers": [
                             
                         ] 
@@ -5882,13 +5882,13 @@ wtcc.model.defaultConfig = {
                 "class": "pool",
                 "id": "e4ee1c7d-3919-4e18-8161-a7329888f4f1",
                 "type": "power",
-                "name": " ",
+                "name": "",
                 "die_cost": 0,
                 "normal": 0,
                 "hard": 0,
                 "wiggle": 0,
                 "points": 0,
-                "source": " ",
+                "source": "",
                 "effects": [
                     {
                         "class": "effect",
@@ -5896,13 +5896,13 @@ wtcc.model.defaultConfig = {
                         "type": "power",
                         "name": "Dud",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": true,
-                        "link": " ",
+                        "link": "",
                         "is_link_required": false,
                         "is_add_measurement": false,
                         "die_cost": 0,
-                        "source": " ",
+                        "source": "",
                         "modifiers": [
                             
                         ] 
@@ -5927,13 +5927,13 @@ wtcc.model.defaultConfig = {
                         "type": "power",
                         "name": "Defends",
                         "cost": 2,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
-                        "link": " ",
+                        "link": "",
                         "is_link_required": false,
                         "is_add_measurement": false,
                         "die_cost": 0,
-                        "source": " ",
+                        "source": "",
                         "modifiers": [
                             {
                                 "class": "modifier",
@@ -5941,15 +5941,15 @@ wtcc.model.defaultConfig = {
                                 "type": "capacity",
                                 "name": "Self",
                                 "cost": 0,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -5957,15 +5957,15 @@ wtcc.model.defaultConfig = {
                                 "type": "extra",
                                 "name": "Duration",
                                 "cost": 2,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -5991,11 +5991,11 @@ wtcc.model.defaultConfig = {
                         "cost": 1,
                         "note": "I’ll Never Grow Old",
                         "is_note_required": false,
-                        "link": " ",
+                        "link": "",
                         "is_link_required": false,
                         "is_add_measurement": false,
                         "die_cost": 0,
-                        "source": " ",
+                        "source": "",
                         "modifiers": [
                             {
                                 "class": "modifier",
@@ -6003,15 +6003,15 @@ wtcc.model.defaultConfig = {
                                 "type": "capacity",
                                 "name": "Self",
                                 "cost": 0,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -6035,7 +6035,7 @@ wtcc.model.defaultConfig = {
                         "type": "skill",
                         "name": "Brawling",
                         "cost": 1,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
                         "link": "body",
                         "is_link_required": false,
@@ -6049,15 +6049,15 @@ wtcc.model.defaultConfig = {
                                 "type": "level",
                                 "name": "Attacks",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 2,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -6065,11 +6065,11 @@ wtcc.model.defaultConfig = {
                                 "type": "extra",
                                 "name": "Deadly (Killing)",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": false,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
@@ -6081,11 +6081,11 @@ wtcc.model.defaultConfig = {
                                 "type": "extra",
                                 "name": "Penetration",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 4,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
@@ -6115,11 +6115,11 @@ wtcc.model.defaultConfig = {
                         "cost": 2,
                         "note": "Supress Nuclear Fusion",
                         "is_note_required": false,
-                        "link": " ",
+                        "link": "",
                         "is_link_required": false,
                         "is_add_measurement": false,
                         "die_cost": 0,
-                        "source": " ",
+                        "source": "",
                         "modifiers": [
                             {
                                 "class": "modifier",
@@ -6127,15 +6127,15 @@ wtcc.model.defaultConfig = {
                                 "type": "capacity",
                                 "name": "Mass",
                                 "cost": 0,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -6143,15 +6143,15 @@ wtcc.model.defaultConfig = {
                                 "type": "capacity",
                                 "name": "Range",
                                 "cost": 2,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": false,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -6159,15 +6159,15 @@ wtcc.model.defaultConfig = {
                                 "type": "extra",
                                 "name": "Duration",
                                 "cost": 2,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -6175,7 +6175,7 @@ wtcc.model.defaultConfig = {
                                 "type": "capacity_extra",
                                 "name": "Booster",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 26,
@@ -6183,7 +6183,7 @@ wtcc.model.defaultConfig = {
                                 "is_link_required": true,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -6191,7 +6191,7 @@ wtcc.model.defaultConfig = {
                                 "type": "capacity_extra",
                                 "name": "Booster",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 10,
@@ -6199,7 +6199,7 @@ wtcc.model.defaultConfig = {
                                 "is_link_required": true,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -6223,13 +6223,13 @@ wtcc.model.defaultConfig = {
                         "type": "power",
                         "name": "Attacks",
                         "cost": 2,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
-                        "link": " ",
+                        "link": "",
                         "is_link_required": false,
                         "is_add_measurement": false,
                         "die_cost": 0,
-                        "source": " ",
+                        "source": "",
                         "modifiers": [
                             {
                                 "class": "modifier",
@@ -6237,15 +6237,15 @@ wtcc.model.defaultConfig = {
                                 "type": "capacity",
                                 "name": "Range",
                                 "cost": 0,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -6253,15 +6253,15 @@ wtcc.model.defaultConfig = {
                                 "type": "level",
                                 "name": "Attacks",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 2,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -6269,15 +6269,15 @@ wtcc.model.defaultConfig = {
                                 "type": "flaw",
                                 "name": "Focus",
                                 "cost": -1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": false,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -6285,15 +6285,15 @@ wtcc.model.defaultConfig = {
                                 "type": "focus",
                                 "name": "Accessible",
                                 "cost": -1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": false,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -6301,15 +6301,15 @@ wtcc.model.defaultConfig = {
                                 "type": "focus",
                                 "name": "Adaptation",
                                 "cost": -2,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": false,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -6317,15 +6317,15 @@ wtcc.model.defaultConfig = {
                                 "type": "focus",
                                 "name": "Manufacturable",
                                 "cost": 2,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": false,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -6333,7 +6333,7 @@ wtcc.model.defaultConfig = {
                                 "type": "focus",
                                 "name": "Operational Skill",
                                 "cost": 0,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": false,
                                 "ranks": 1,
@@ -6341,7 +6341,7 @@ wtcc.model.defaultConfig = {
                                 "is_link_required": true,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -6349,15 +6349,15 @@ wtcc.model.defaultConfig = {
                                 "type": "flaw",
                                 "name": "Obvious",
                                 "cost": -1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": false,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -6383,11 +6383,11 @@ wtcc.model.defaultConfig = {
                         "cost": 2,
                         "note": "M_23 Attached Recoilless Autofire",
                         "is_note_required": false,
-                        "link": " ",
+                        "link": "",
                         "is_link_required": false,
                         "is_add_measurement": false,
                         "die_cost": 0,
-                        "source": " ",
+                        "source": "",
                         "modifiers": [
                             {
                                 "class": "modifier",
@@ -6395,15 +6395,15 @@ wtcc.model.defaultConfig = {
                                 "type": "capacity",
                                 "name": "Range",
                                 "cost": 0,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -6411,15 +6411,15 @@ wtcc.model.defaultConfig = {
                                 "type": "level",
                                 "name": "Attacks",
                                 "cost": 1,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 2,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -6427,7 +6427,7 @@ wtcc.model.defaultConfig = {
                                 "type": "flaw",
                                 "name": "Attached",
                                 "cost": -2,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": false,
                                 "ranks": 1,
@@ -6435,7 +6435,7 @@ wtcc.model.defaultConfig = {
                                 "is_link_required": true,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -6443,11 +6443,11 @@ wtcc.model.defaultConfig = {
                                 "type": "extra",
                                 "name": "Augment",
                                 "cost": 4,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": false,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
@@ -6463,7 +6463,7 @@ wtcc.model.defaultConfig = {
                                 "is_note_required": true,
                                 "has_ranks": false,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
@@ -6479,7 +6479,7 @@ wtcc.model.defaultConfig = {
                                 "is_note_required": true,
                                 "has_ranks": false,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
@@ -6507,13 +6507,13 @@ wtcc.model.defaultConfig = {
                         "type": "power",
                         "name": "Attacks",
                         "cost": 2,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
-                        "link": " ",
+                        "link": "",
                         "is_link_required": false,
                         "is_add_measurement": false,
                         "die_cost": 0,
-                        "source": " ",
+                        "source": "",
                         "modifiers": [
                             {
                                 "class": "modifier",
@@ -6521,15 +6521,15 @@ wtcc.model.defaultConfig = {
                                 "type": "capacity",
                                 "name": "Self",
                                 "cost": 0,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -6537,11 +6537,11 @@ wtcc.model.defaultConfig = {
                                 "type": "extra",
                                 "name": "Augment",
                                 "cost": 4,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": false,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
@@ -6553,11 +6553,11 @@ wtcc.model.defaultConfig = {
                                 "type": "flaw",
                                 "name": "Willpower Cost",
                                 "cost": -2,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": false,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
@@ -6571,13 +6571,13 @@ wtcc.model.defaultConfig = {
                         "type": "power",
                         "name": "Defends",
                         "cost": 2,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
-                        "link": " ",
+                        "link": "",
                         "is_link_required": false,
                         "is_add_measurement": false,
                         "die_cost": 0,
-                        "source": " ",
+                        "source": "",
                         "modifiers": [
                             {
                                 "class": "modifier",
@@ -6585,15 +6585,15 @@ wtcc.model.defaultConfig = {
                                 "type": "capacity",
                                 "name": "Self",
                                 "cost": 0,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -6601,11 +6601,11 @@ wtcc.model.defaultConfig = {
                                 "type": "extra",
                                 "name": "Augment",
                                 "cost": 4,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": false,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
@@ -6617,11 +6617,11 @@ wtcc.model.defaultConfig = {
                                 "type": "flaw",
                                 "name": "Willpower Cost",
                                 "cost": -2,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": false,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
@@ -6635,13 +6635,13 @@ wtcc.model.defaultConfig = {
                         "type": "power",
                         "name": "Useful",
                         "cost": 2,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
-                        "link": " ",
+                        "link": "",
                         "is_link_required": false,
                         "is_add_measurement": false,
                         "die_cost": 0,
-                        "source": " ",
+                        "source": "",
                         "modifiers": [
                             {
                                 "class": "modifier",
@@ -6649,15 +6649,15 @@ wtcc.model.defaultConfig = {
                                 "type": "capacity",
                                 "name": "Self",
                                 "cost": 0,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -6665,11 +6665,11 @@ wtcc.model.defaultConfig = {
                                 "type": "extra",
                                 "name": "Augment",
                                 "cost": 4,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": false,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
@@ -6681,11 +6681,11 @@ wtcc.model.defaultConfig = {
                                 "type": "flaw",
                                 "name": "Willpower Cost",
                                 "cost": -2,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": false,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
@@ -6713,13 +6713,13 @@ wtcc.model.defaultConfig = {
                         "type": "power",
                         "name": "Attacks",
                         "cost": 2,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
-                        "link": " ",
+                        "link": "",
                         "is_link_required": false,
                         "is_add_measurement": false,
                         "die_cost": 0,
-                        "source": " ",
+                        "source": "",
                         "modifiers": [
                             {
                                 "class": "modifier",
@@ -6727,15 +6727,15 @@ wtcc.model.defaultConfig = {
                                 "type": "capacity",
                                 "name": "Self",
                                 "cost": 0,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -6743,11 +6743,11 @@ wtcc.model.defaultConfig = {
                                 "type": "extra",
                                 "name": "Duration",
                                 "cost": 2,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": false,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
@@ -6763,7 +6763,7 @@ wtcc.model.defaultConfig = {
                                 "is_note_required": true,
                                 "has_ranks": false,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
@@ -6779,7 +6779,7 @@ wtcc.model.defaultConfig = {
                                 "is_note_required": true,
                                 "has_ranks": false,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
@@ -6791,11 +6791,11 @@ wtcc.model.defaultConfig = {
                                 "type": "extra",
                                 "name": "Variable Effect",
                                 "cost": 4,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": false,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
@@ -6809,13 +6809,13 @@ wtcc.model.defaultConfig = {
                         "type": "power",
                         "name": "Defends",
                         "cost": 2,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
-                        "link": " ",
+                        "link": "",
                         "is_link_required": false,
                         "is_add_measurement": false,
                         "die_cost": 0,
-                        "source": " ",
+                        "source": "",
                         "modifiers": [
                             {
                                 "class": "modifier",
@@ -6823,15 +6823,15 @@ wtcc.model.defaultConfig = {
                                 "type": "capacity",
                                 "name": "Self",
                                 "cost": 0,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -6839,11 +6839,11 @@ wtcc.model.defaultConfig = {
                                 "type": "extra",
                                 "name": "Duration",
                                 "cost": 2,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": false,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
@@ -6859,7 +6859,7 @@ wtcc.model.defaultConfig = {
                                 "is_note_required": true,
                                 "has_ranks": false,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
@@ -6875,7 +6875,7 @@ wtcc.model.defaultConfig = {
                                 "is_note_required": true,
                                 "has_ranks": false,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
@@ -6887,11 +6887,11 @@ wtcc.model.defaultConfig = {
                                 "type": "extra",
                                 "name": "Variable Effect",
                                 "cost": 4,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": false,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
@@ -6905,13 +6905,13 @@ wtcc.model.defaultConfig = {
                         "type": "power",
                         "name": "Useful",
                         "cost": 2,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
-                        "link": " ",
+                        "link": "",
                         "is_link_required": false,
                         "is_add_measurement": false,
                         "die_cost": 0,
-                        "source": " ",
+                        "source": "",
                         "modifiers": [
                             {
                                 "class": "modifier",
@@ -6919,15 +6919,15 @@ wtcc.model.defaultConfig = {
                                 "type": "capacity",
                                 "name": "Self",
                                 "cost": 0,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -6935,11 +6935,11 @@ wtcc.model.defaultConfig = {
                                 "type": "extra",
                                 "name": "Duration",
                                 "cost": 2,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": false,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
@@ -6955,7 +6955,7 @@ wtcc.model.defaultConfig = {
                                 "is_note_required": true,
                                 "has_ranks": false,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
@@ -6971,7 +6971,7 @@ wtcc.model.defaultConfig = {
                                 "is_note_required": true,
                                 "has_ranks": false,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
@@ -6983,11 +6983,11 @@ wtcc.model.defaultConfig = {
                                 "type": "extra",
                                 "name": "Variable Effect",
                                 "cost": 4,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": false,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
@@ -7015,13 +7015,13 @@ wtcc.model.defaultConfig = {
                         "type": "power",
                         "name": "Useful",
                         "cost": 2,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
-                        "link": " ",
+                        "link": "",
                         "is_link_required": false,
                         "is_add_measurement": false,
                         "die_cost": 0,
-                        "source": " ",
+                        "source": "",
                         "modifiers": [
                             {
                                 "class": "modifier",
@@ -7029,15 +7029,15 @@ wtcc.model.defaultConfig = {
                                 "type": "capacity",
                                 "name": "Range",
                                 "cost": 0,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             },
                             {
                                 "class": "modifier",
@@ -7045,15 +7045,15 @@ wtcc.model.defaultConfig = {
                                 "type": "capacity",
                                 "name": "Mass",
                                 "cost": 2,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": false,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -7077,13 +7077,13 @@ wtcc.model.defaultConfig = {
                         "type": "power",
                         "name": "Defends",
                         "cost": 2,
-                        "note": " ",
+                        "note": "",
                         "is_note_required": false,
-                        "link": " ",
+                        "link": "",
                         "is_link_required": false,
                         "is_add_measurement": false,
                         "die_cost": 0,
-                        "source": " ",
+                        "source": "",
                         "modifiers": [
                             {
                                 "class": "modifier",
@@ -7091,15 +7091,15 @@ wtcc.model.defaultConfig = {
                                 "type": "capacity",
                                 "name": "Self",
                                 "cost": 0,
-                                "note": " ",
+                                "note": "",
                                 "is_note_required": false,
                                 "has_ranks": true,
                                 "ranks": 1,
-                                "link": " ",
+                                "link": "",
                                 "is_link_required": false,
                                 "mod": 0,
                                 "is_chosen": true,
-                                "source": " " 
+                                "source": "" 
                             }
                         ] 
                     }
@@ -7111,9 +7111,9 @@ wtcc.model.defaultConfig = {
         "class": "meta_qualities",
         "id": "7b09dc1a-0088-4a04-b937-a220f7a6c061",
         "type": "data",
-        "name": " ",
+        "name": "",
         "points": 0,
-        "source": " ",
+        "source": "",
         "meta_qualitys": [
             {
                 "class": "meta_quality",
@@ -7122,7 +7122,7 @@ wtcc.model.defaultConfig = {
                 "name": "Conduit",
                 "cost": 5,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "WT2E" 
@@ -7134,7 +7134,7 @@ wtcc.model.defaultConfig = {
                 "name": "Construct",
                 "cost": 5,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "WT2E" 
@@ -7146,7 +7146,7 @@ wtcc.model.defaultConfig = {
                 "name": "Cyborg",
                 "cost": 5,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "WT2E" 
@@ -7158,7 +7158,7 @@ wtcc.model.defaultConfig = {
                 "name": "Divine",
                 "cost": 5,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "WT2E" 
@@ -7170,7 +7170,7 @@ wtcc.model.defaultConfig = {
                 "name": "Driven",
                 "cost": 5,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "WT2E" 
@@ -7182,7 +7182,7 @@ wtcc.model.defaultConfig = {
                 "name": "Extraterrestrial",
                 "cost": 5,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "WT2E" 
@@ -7194,7 +7194,7 @@ wtcc.model.defaultConfig = {
                 "name": "Extradimensional",
                 "cost": 5,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "WT2E" 
@@ -7206,7 +7206,7 @@ wtcc.model.defaultConfig = {
                 "name": "Genetic",
                 "cost": 5,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "WT2E" 
@@ -7218,7 +7218,7 @@ wtcc.model.defaultConfig = {
                 "name": "Life Force",
                 "cost": 5,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "WT2E" 
@@ -7230,7 +7230,7 @@ wtcc.model.defaultConfig = {
                 "name": "Paranormal",
                 "cost": 5,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "WT2E" 
@@ -7242,7 +7242,7 @@ wtcc.model.defaultConfig = {
                 "name": "Power Focus",
                 "cost": -8,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "WT2E" 
@@ -7254,7 +7254,7 @@ wtcc.model.defaultConfig = {
                 "name": "Psi",
                 "cost": 5,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "WT2E" 
@@ -7266,7 +7266,7 @@ wtcc.model.defaultConfig = {
                 "name": "Technological",
                 "cost": 5,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "WT2E" 
@@ -7278,7 +7278,7 @@ wtcc.model.defaultConfig = {
                 "name": "Unknown",
                 "cost": -5,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "WT2E" 
@@ -7290,7 +7290,7 @@ wtcc.model.defaultConfig = {
                 "name": "Otherworldly",
                 "cost": 5,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "KC" 
@@ -7302,7 +7302,7 @@ wtcc.model.defaultConfig = {
                 "name": "Hypertrained",
                 "cost": 5,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "WT2E" 
@@ -7314,7 +7314,7 @@ wtcc.model.defaultConfig = {
                 "name": "Inhuman Stats",
                 "cost": 0,
                 "is_custom": true,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "WT2E" 
@@ -7326,7 +7326,7 @@ wtcc.model.defaultConfig = {
                 "name": "Inventor",
                 "cost": 5,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "WT2E" 
@@ -7338,7 +7338,7 @@ wtcc.model.defaultConfig = {
                 "name": "One Power",
                 "cost": 1,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "WT2E" 
@@ -7350,7 +7350,7 @@ wtcc.model.defaultConfig = {
                 "name": "Peak Performer",
                 "cost": 5,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "WT2E" 
@@ -7362,7 +7362,7 @@ wtcc.model.defaultConfig = {
                 "name": "Power Theme",
                 "cost": 5,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": true,
                 "is_chosen": true,
                 "source": "WT2E" 
@@ -7374,7 +7374,7 @@ wtcc.model.defaultConfig = {
                 "name": "Prime Specimen",
                 "cost": 5,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "WT2E" 
@@ -7386,7 +7386,7 @@ wtcc.model.defaultConfig = {
                 "name": "Super",
                 "cost": 15,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "WT2E" 
@@ -7398,7 +7398,7 @@ wtcc.model.defaultConfig = {
                 "name": "Super_Equipment",
                 "cost": 2,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "WT2E" 
@@ -7410,7 +7410,7 @@ wtcc.model.defaultConfig = {
                 "name": "Allergy",
                 "cost": 0,
                 "is_custom": true,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "WT2E" 
@@ -7422,7 +7422,7 @@ wtcc.model.defaultConfig = {
                 "name": "Brute",
                 "cost": -8,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "WT2E" 
@@ -7434,7 +7434,7 @@ wtcc.model.defaultConfig = {
                 "name": "Frail",
                 "cost": -8,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "WT2E" 
@@ -7446,7 +7446,7 @@ wtcc.model.defaultConfig = {
                 "name": "Custom Stat",
                 "cost": 5,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": true,
                 "is_chosen": true,
                 "source": "WT2E" 
@@ -7458,7 +7458,7 @@ wtcc.model.defaultConfig = {
                 "name": "Globular",
                 "cost": 8,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "WT2E" 
@@ -7470,7 +7470,7 @@ wtcc.model.defaultConfig = {
                 "name": "Inhuman",
                 "cost": -8,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "WT2E" 
@@ -7482,7 +7482,7 @@ wtcc.model.defaultConfig = {
                 "name": "Mandatory Power",
                 "cost": 0,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": true,
                 "is_chosen": true,
                 "source": "WT2E" 
@@ -7494,7 +7494,7 @@ wtcc.model.defaultConfig = {
                 "name": "Mutable",
                 "cost": 15,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "WT2E" 
@@ -7506,7 +7506,7 @@ wtcc.model.defaultConfig = {
                 "name": "No Base Will",
                 "cost": -10,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "WT2E" 
@@ -7518,7 +7518,7 @@ wtcc.model.defaultConfig = {
                 "name": "No Willpower",
                 "cost": -5,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "WT2E" 
@@ -7530,7 +7530,7 @@ wtcc.model.defaultConfig = {
                 "name": "No Willpower No Way",
                 "cost": -5,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "WT2E" 
@@ -7542,7 +7542,7 @@ wtcc.model.defaultConfig = {
                 "name": "Unhealing",
                 "cost": -8,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "WT2E" 
@@ -7554,7 +7554,7 @@ wtcc.model.defaultConfig = {
                 "name": "Vulnerable",
                 "cost": -2,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "WT2E" 
@@ -7566,7 +7566,7 @@ wtcc.model.defaultConfig = {
                 "name": "Willpower Contest",
                 "cost": -10,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "WT2E" 
@@ -7578,7 +7578,7 @@ wtcc.model.defaultConfig = {
                 "name": "Curse of Conviction",
                 "cost": -5,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "KC" 
@@ -7590,7 +7590,7 @@ wtcc.model.defaultConfig = {
                 "name": "Matter Over Mind",
                 "cost": -15,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "KC" 
@@ -7602,7 +7602,7 @@ wtcc.model.defaultConfig = {
                 "name": "Oathbound",
                 "cost": -5,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": false,
                 "is_chosen": true,
                 "source": "KC" 
@@ -7614,7 +7614,7 @@ wtcc.model.defaultConfig = {
                 "name": "Obsessed",
                 "cost": 8,
                 "is_custom": false,
-                "note": " ",
+                "note": "",
                 "is_note_required": true,
                 "is_chosen": true,
                 "source": "KC" 
@@ -7637,10 +7637,10 @@ wtcc.model.defaultConfig = {
                     "name": "Life Force",
                     "cost": 5,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": true,
-                    "source": " " 
+                    "source": "" 
                 },
                 {
                     "class": "meta_quality",
@@ -7649,10 +7649,10 @@ wtcc.model.defaultConfig = {
                     "name": "Hypertrained",
                     "cost": 5,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": true,
-                    "source": " " 
+                    "source": "" 
                 }
             ] 
         },
@@ -7662,7 +7662,7 @@ wtcc.model.defaultConfig = {
             "type": "archetype",
             "name": "Alien",
             "points": 0,
-            "source": " ",
+            "source": "",
             "meta_qualitys": [
                 {
                     "class": "meta_quality",
@@ -7671,10 +7671,10 @@ wtcc.model.defaultConfig = {
                     "name": "Extraterrestrial",
                     "cost": 5,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": false,
-                    "source": " " 
+                    "source": "" 
                 },
                 {
                     "class": "meta_quality",
@@ -7683,10 +7683,10 @@ wtcc.model.defaultConfig = {
                     "name": "Extradimensional",
                     "cost": 5,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": false,
-                    "source": " " 
+                    "source": "" 
                 },
                 {
                     "class": "meta_quality",
@@ -7695,10 +7695,10 @@ wtcc.model.defaultConfig = {
                     "name": "Power Theme",
                     "cost": 5,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": true,
-                    "source": " " 
+                    "source": "" 
                 }
             ] 
         },
@@ -7717,10 +7717,10 @@ wtcc.model.defaultConfig = {
                     "name": "Genetic",
                     "cost": 5,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": false,
-                    "source": " " 
+                    "source": "" 
                 },
                 {
                     "class": "meta_quality",
@@ -7729,10 +7729,10 @@ wtcc.model.defaultConfig = {
                     "name": "Life Force",
                     "cost": 5,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": false,
-                    "source": " " 
+                    "source": "" 
                 },
                 {
                     "class": "meta_quality",
@@ -7741,10 +7741,10 @@ wtcc.model.defaultConfig = {
                     "name": "Paranormal",
                     "cost": 5,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": false,
-                    "source": " " 
+                    "source": "" 
                 },
                 {
                     "class": "meta_quality",
@@ -7753,10 +7753,10 @@ wtcc.model.defaultConfig = {
                     "name": "Technological",
                     "cost": 5,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": false,
-                    "source": " " 
+                    "source": "" 
                 },
                 {
                     "class": "meta_quality",
@@ -7765,10 +7765,10 @@ wtcc.model.defaultConfig = {
                     "name": "Extraterrestrial",
                     "cost": 5,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": false,
-                    "source": " " 
+                    "source": "" 
                 },
                 {
                     "class": "meta_quality",
@@ -7777,10 +7777,10 @@ wtcc.model.defaultConfig = {
                     "name": "Extradimensional",
                     "cost": 5,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": false,
-                    "source": " " 
+                    "source": "" 
                 },
                 {
                     "class": "meta_quality",
@@ -7789,10 +7789,10 @@ wtcc.model.defaultConfig = {
                     "name": "Inventor",
                     "cost": 5,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": true,
-                    "source": " " 
+                    "source": "" 
                 },
                 {
                     "class": "meta_quality",
@@ -7801,10 +7801,10 @@ wtcc.model.defaultConfig = {
                     "name": "Mutable",
                     "cost": 15,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": true,
-                    "source": " " 
+                    "source": "" 
                 }
             ] 
         },
@@ -7823,10 +7823,10 @@ wtcc.model.defaultConfig = {
                     "name": "Genetic",
                     "cost": 5,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": true,
-                    "source": " " 
+                    "source": "" 
                 },
                 {
                     "class": "meta_quality",
@@ -7835,10 +7835,10 @@ wtcc.model.defaultConfig = {
                     "name": "Super",
                     "cost": 15,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": true,
-                    "source": " " 
+                    "source": "" 
                 },
                 {
                     "class": "meta_quality",
@@ -7847,10 +7847,10 @@ wtcc.model.defaultConfig = {
                     "name": "Mutable",
                     "cost": 15,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": true,
-                    "source": " " 
+                    "source": "" 
                 },
                 {
                     "class": "meta_quality",
@@ -7859,10 +7859,10 @@ wtcc.model.defaultConfig = {
                     "name": "No Base Will",
                     "cost": -10,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": true,
-                    "source": " " 
+                    "source": "" 
                 },
                 {
                     "class": "meta_quality",
@@ -7871,10 +7871,10 @@ wtcc.model.defaultConfig = {
                     "name": "Unhealing",
                     "cost": -8,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": true,
-                    "source": " " 
+                    "source": "" 
                 }
             ] 
         },
@@ -7893,10 +7893,10 @@ wtcc.model.defaultConfig = {
                     "name": "Psi",
                     "cost": 5,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": true,
-                    "source": " " 
+                    "source": "" 
                 },
                 {
                     "class": "meta_quality",
@@ -7905,10 +7905,10 @@ wtcc.model.defaultConfig = {
                     "name": "Super",
                     "cost": 15,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": true,
-                    "source": " " 
+                    "source": "" 
                 },
                 {
                     "class": "meta_quality",
@@ -7920,7 +7920,7 @@ wtcc.model.defaultConfig = {
                     "note": "Perceive Godlike Talents 2hd",
                     "is_note_required": false,
                     "is_chosen": true,
-                    "source": " " 
+                    "source": "" 
                 },
                 {
                     "class": "meta_quality",
@@ -7929,7 +7929,7 @@ wtcc.model.defaultConfig = {
                     "name": "No Willpower No Way",
                     "cost": -5,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": true,
                     "source": "WT2E" 
@@ -7941,7 +7941,7 @@ wtcc.model.defaultConfig = {
                     "name": "Willpower Contest",
                     "cost": -10,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": true,
                     "source": "WT2E" 
@@ -7963,10 +7963,10 @@ wtcc.model.defaultConfig = {
                     "name": "Divine",
                     "cost": 5,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": true,
-                    "source": " " 
+                    "source": "" 
                 },
                 {
                     "class": "meta_quality",
@@ -7975,10 +7975,10 @@ wtcc.model.defaultConfig = {
                     "name": "Paranormal",
                     "cost": 5,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": true,
-                    "source": " " 
+                    "source": "" 
                 },
                 {
                     "class": "meta_quality",
@@ -7987,10 +7987,10 @@ wtcc.model.defaultConfig = {
                     "name": "Super",
                     "cost": 15,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": true,
-                    "source": " " 
+                    "source": "" 
                 }
             ] 
         },
@@ -8009,10 +8009,10 @@ wtcc.model.defaultConfig = {
                     "name": "Genetic",
                     "cost": 5,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": false,
-                    "source": " " 
+                    "source": "" 
                 },
                 {
                     "class": "meta_quality",
@@ -8021,10 +8021,10 @@ wtcc.model.defaultConfig = {
                     "name": "Psi",
                     "cost": 5,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": false,
-                    "source": " " 
+                    "source": "" 
                 },
                 {
                     "class": "meta_quality",
@@ -8033,10 +8033,10 @@ wtcc.model.defaultConfig = {
                     "name": "Technological",
                     "cost": 5,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": false,
-                    "source": " " 
+                    "source": "" 
                 },
                 {
                     "class": "meta_quality",
@@ -8045,10 +8045,10 @@ wtcc.model.defaultConfig = {
                     "name": "Super",
                     "cost": 15,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": true,
-                    "source": " " 
+                    "source": "" 
                 }
             ] 
         },
@@ -8067,10 +8067,10 @@ wtcc.model.defaultConfig = {
                     "name": "Genetic",
                     "cost": 5,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": true,
-                    "source": " " 
+                    "source": "" 
                 },
                 {
                     "class": "meta_quality",
@@ -8079,10 +8079,10 @@ wtcc.model.defaultConfig = {
                     "name": "Power Theme",
                     "cost": 5,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": true,
                     "is_chosen": true,
-                    "source": " " 
+                    "source": "" 
                 }
             ] 
         },
@@ -8101,10 +8101,10 @@ wtcc.model.defaultConfig = {
                     "name": "Paranormal",
                     "cost": 5,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": true,
-                    "source": " " 
+                    "source": "" 
                 },
                 {
                     "class": "meta_quality",
@@ -8116,7 +8116,7 @@ wtcc.model.defaultConfig = {
                     "note": "Cosmic Power",
                     "is_note_required": false,
                     "is_chosen": true,
-                    "source": " " 
+                    "source": "" 
                 },
                 {
                     "class": "meta_quality",
@@ -8125,10 +8125,10 @@ wtcc.model.defaultConfig = {
                     "name": "Inventor",
                     "cost": 5,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": true,
-                    "source": " " 
+                    "source": "" 
                 },
                 {
                     "class": "meta_quality",
@@ -8137,10 +8137,10 @@ wtcc.model.defaultConfig = {
                     "name": "Mutable",
                     "cost": 15,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": true,
-                    "source": " " 
+                    "source": "" 
                 }
             ] 
         },
@@ -8159,10 +8159,10 @@ wtcc.model.defaultConfig = {
                     "name": "Driven",
                     "cost": 5,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": true,
-                    "source": " " 
+                    "source": "" 
                 },
                 {
                     "class": "meta_quality",
@@ -8171,10 +8171,10 @@ wtcc.model.defaultConfig = {
                     "name": "Peak Performer",
                     "cost": 5,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": true,
-                    "source": " " 
+                    "source": "" 
                 }
             ] 
         },
@@ -8193,10 +8193,10 @@ wtcc.model.defaultConfig = {
                     "name": "Otherworldly",
                     "cost": 5,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": true,
-                    "source": " " 
+                    "source": "" 
                 },
                 {
                     "class": "meta_quality",
@@ -8205,10 +8205,10 @@ wtcc.model.defaultConfig = {
                     "name": "Super",
                     "cost": 15,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": true,
-                    "source": " " 
+                    "source": "" 
                 },
                 {
                     "class": "meta_quality",
@@ -8217,10 +8217,10 @@ wtcc.model.defaultConfig = {
                     "name": "Curse of Conviction",
                     "cost": -5,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": true,
-                    "source": " " 
+                    "source": "" 
                 },
                 {
                     "class": "meta_quality",
@@ -8229,10 +8229,10 @@ wtcc.model.defaultConfig = {
                     "name": "Matter Over Mind",
                     "cost": -15,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": true,
-                    "source": " " 
+                    "source": "" 
                 },
                 {
                     "class": "meta_quality",
@@ -8241,10 +8241,10 @@ wtcc.model.defaultConfig = {
                     "name": "Oathbound",
                     "cost": -5,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": true,
-                    "source": " " 
+                    "source": "" 
                 },
                 {
                     "class": "meta_quality",
@@ -8256,7 +8256,7 @@ wtcc.model.defaultConfig = {
                     "note": "Faerie Glamor 4d",
                     "is_note_required": false,
                     "is_chosen": true,
-                    "source": " " 
+                    "source": "" 
                 },
                 {
                     "class": "meta_quality",
@@ -8265,10 +8265,10 @@ wtcc.model.defaultConfig = {
                     "name": "Mutable",
                     "cost": 15,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": true,
-                    "source": " " 
+                    "source": "" 
                 }
             ] 
         },
@@ -8287,10 +8287,10 @@ wtcc.model.defaultConfig = {
                     "name": "Otherworldly",
                     "cost": 5,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": false,
                     "is_chosen": true,
-                    "source": " " 
+                    "source": "" 
                 },
                 {
                     "class": "meta_quality",
@@ -8302,7 +8302,7 @@ wtcc.model.defaultConfig = {
                     "note": "Sacred Magic or Profane Magic",
                     "is_note_required": false,
                     "is_chosen": true,
-                    "source": " " 
+                    "source": "" 
                 },
                 {
                     "class": "meta_quality",
@@ -8311,10 +8311,10 @@ wtcc.model.defaultConfig = {
                     "name": "Obsessed",
                     "cost": 8,
                     "is_custom": false,
-                    "note": " ",
+                    "note": "",
                     "is_note_required": true,
                     "is_chosen": true,
-                    "source": " " 
+                    "source": "" 
                 }
             ] 
         }
@@ -8326,11 +8326,11 @@ wtcc.model.defaultConfig = {
             "type": "skill",
             "name": "Broad",
             "cost": 1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": true,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -8342,11 +8342,11 @@ wtcc.model.defaultConfig = {
             "type": "skill",
             "name": "Flexible",
             "cost": 1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": true,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -8358,11 +8358,11 @@ wtcc.model.defaultConfig = {
             "type": "skill",
             "name": "Influence",
             "cost": 1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": true,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -8374,15 +8374,15 @@ wtcc.model.defaultConfig = {
             "type": "extra",
             "name": "Custom",
             "cost": 1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": true,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
-            "source": " " 
+            "source": "" 
         },
         {
             "class": "modifier",
@@ -8390,15 +8390,15 @@ wtcc.model.defaultConfig = {
             "type": "flaw",
             "name": "Custom",
             "cost": -1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": true,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
-            "source": " " 
+            "source": "" 
         },
         {
             "class": "modifier",
@@ -8406,15 +8406,15 @@ wtcc.model.defaultConfig = {
             "type": "focus",
             "name": "Custom",
             "cost": 0,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": true,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
-            "source": " " 
+            "source": "" 
         },
         {
             "class": "modifier",
@@ -8422,15 +8422,15 @@ wtcc.model.defaultConfig = {
             "type": "level",
             "name": "Attacks",
             "cost": 1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": true,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
-            "source": " " 
+            "source": "" 
         },
         {
             "class": "modifier",
@@ -8438,15 +8438,15 @@ wtcc.model.defaultConfig = {
             "type": "level",
             "name": "Defends",
             "cost": 1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": true,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
-            "source": " " 
+            "source": "" 
         },
         {
             "class": "modifier",
@@ -8454,15 +8454,15 @@ wtcc.model.defaultConfig = {
             "type": "level",
             "name": "Useful",
             "cost": 1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": true,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
-            "source": " " 
+            "source": "" 
         },
         {
             "class": "modifier",
@@ -8470,11 +8470,11 @@ wtcc.model.defaultConfig = {
             "type": "capacity",
             "name": "Mass",
             "cost": 2,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -8486,11 +8486,11 @@ wtcc.model.defaultConfig = {
             "type": "capacity",
             "name": "Range",
             "cost": 2,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -8502,11 +8502,11 @@ wtcc.model.defaultConfig = {
             "type": "capacity",
             "name": "Speed",
             "cost": 2,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -8518,11 +8518,11 @@ wtcc.model.defaultConfig = {
             "type": "capacity",
             "name": "Touch",
             "cost": 1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -8534,11 +8534,11 @@ wtcc.model.defaultConfig = {
             "type": "capacity",
             "name": "Self",
             "cost": 2,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -8550,11 +8550,11 @@ wtcc.model.defaultConfig = {
             "type": "capacity_extra",
             "name": "Booster",
             "cost": 1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": true,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": true,
             "mod": 0,
             "is_chosen": true,
@@ -8566,11 +8566,11 @@ wtcc.model.defaultConfig = {
             "type": "capacity_extra",
             "name": "High Capacity",
             "cost": 1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": true,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": true,
             "mod": 0,
             "is_chosen": true,
@@ -8582,11 +8582,11 @@ wtcc.model.defaultConfig = {
             "type": "capacity_flaw",
             "name": "Reduced Capacities",
             "cost": -1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": true,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -8598,11 +8598,11 @@ wtcc.model.defaultConfig = {
             "type": "extra",
             "name": "Area",
             "cost": 1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": true,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -8614,11 +8614,11 @@ wtcc.model.defaultConfig = {
             "type": "extra",
             "name": "Augment",
             "cost": 4,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -8630,11 +8630,11 @@ wtcc.model.defaultConfig = {
             "type": "extra",
             "name": "Burn",
             "cost": 2,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -8646,11 +8646,11 @@ wtcc.model.defaultConfig = {
             "type": "extra",
             "name": "Controlled Effect",
             "cost": 1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -8662,11 +8662,11 @@ wtcc.model.defaultConfig = {
             "type": "extra",
             "name": "Daze",
             "cost": 1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -8678,11 +8678,11 @@ wtcc.model.defaultConfig = {
             "type": "extra",
             "name": "Deadly (Killing)",
             "cost": 1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -8694,11 +8694,11 @@ wtcc.model.defaultConfig = {
             "type": "extra",
             "name": "Deadly (Shock and Killing)",
             "cost": 1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -8710,11 +8710,11 @@ wtcc.model.defaultConfig = {
             "type": "extra",
             "name": "Disintegrate",
             "cost": 2,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -8726,11 +8726,11 @@ wtcc.model.defaultConfig = {
             "type": "extra",
             "name": "Duration",
             "cost": 2,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -8742,11 +8742,11 @@ wtcc.model.defaultConfig = {
             "type": "extra",
             "name": "Electrocuting",
             "cost": 1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -8758,11 +8758,11 @@ wtcc.model.defaultConfig = {
             "type": "extra",
             "name": "Endless",
             "cost": 3,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -8774,11 +8774,11 @@ wtcc.model.defaultConfig = {
             "type": "extra",
             "name": "Engulf",
             "cost": 2,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -8790,11 +8790,11 @@ wtcc.model.defaultConfig = {
             "type": "extra",
             "name": "Go First",
             "cost": 1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": true,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -8806,11 +8806,11 @@ wtcc.model.defaultConfig = {
             "type": "extra",
             "name": "Hardened Defense",
             "cost": 2,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -8822,11 +8822,11 @@ wtcc.model.defaultConfig = {
             "type": "extra",
             "name": "Interference",
             "cost": 3,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -8838,11 +8838,11 @@ wtcc.model.defaultConfig = {
             "type": "extra",
             "name": "Native",
             "cost": 1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -8854,11 +8854,11 @@ wtcc.model.defaultConfig = {
             "type": "extra",
             "name": "No Physics",
             "cost": 1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -8870,11 +8870,11 @@ wtcc.model.defaultConfig = {
             "type": "extra",
             "name": "No Upward Limit",
             "cost": 2,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -8886,11 +8886,11 @@ wtcc.model.defaultConfig = {
             "type": "extra",
             "name": "Non_Physical",
             "cost": 2,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -8902,11 +8902,11 @@ wtcc.model.defaultConfig = {
             "type": "extra",
             "name": "On Sight",
             "cost": 1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -8918,11 +8918,11 @@ wtcc.model.defaultConfig = {
             "type": "extra",
             "name": "Penetration",
             "cost": 1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": true,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -8934,11 +8934,11 @@ wtcc.model.defaultConfig = {
             "type": "extra",
             "name": "Permanent",
             "cost": 4,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -8950,11 +8950,11 @@ wtcc.model.defaultConfig = {
             "type": "extra",
             "name": "Radius",
             "cost": 2,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": true,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -8966,11 +8966,11 @@ wtcc.model.defaultConfig = {
             "type": "extra",
             "name": "Speeding Bullet",
             "cost": 2,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -8982,11 +8982,11 @@ wtcc.model.defaultConfig = {
             "type": "extra",
             "name": "Spray (Normal)",
             "cost": 1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": true,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -8998,11 +8998,11 @@ wtcc.model.defaultConfig = {
             "type": "extra",
             "name": "Spray (Hard)",
             "cost": 2,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": true,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9014,11 +9014,11 @@ wtcc.model.defaultConfig = {
             "type": "extra",
             "name": "Spray (Wiggle)",
             "cost": 4,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": true,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9030,11 +9030,11 @@ wtcc.model.defaultConfig = {
             "type": "extra",
             "name": "Subtle",
             "cost": 1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9046,11 +9046,11 @@ wtcc.model.defaultConfig = {
             "type": "extra",
             "name": "Traumatic",
             "cost": 1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9062,11 +9062,11 @@ wtcc.model.defaultConfig = {
             "type": "extra",
             "name": "Useable By Others",
             "cost": 2,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9078,11 +9078,11 @@ wtcc.model.defaultConfig = {
             "type": "extra",
             "name": "Variable Effect",
             "cost": 4,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9094,11 +9094,11 @@ wtcc.model.defaultConfig = {
             "type": "flaw",
             "name": "Always On",
             "cost": -1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9110,11 +9110,11 @@ wtcc.model.defaultConfig = {
             "type": "flaw",
             "name": "Armored Defense",
             "cost": -2,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9126,11 +9126,11 @@ wtcc.model.defaultConfig = {
             "type": "flaw",
             "name": "Attached",
             "cost": -2,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": true,
             "mod": 0,
             "is_chosen": true,
@@ -9142,11 +9142,11 @@ wtcc.model.defaultConfig = {
             "type": "flaw",
             "name": "Attached (Stat)",
             "cost": -1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": true,
             "mod": 0,
             "is_chosen": true,
@@ -9158,11 +9158,11 @@ wtcc.model.defaultConfig = {
             "type": "flaw",
             "name": "Automatic",
             "cost": -1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9174,11 +9174,11 @@ wtcc.model.defaultConfig = {
             "type": "flaw",
             "name": "Backfires",
             "cost": -2,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9190,11 +9190,11 @@ wtcc.model.defaultConfig = {
             "type": "flaw",
             "name": "Base Will Cost",
             "cost": -4,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9206,11 +9206,11 @@ wtcc.model.defaultConfig = {
             "type": "flaw",
             "name": "Delayed Effect",
             "cost": -2,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9222,11 +9222,11 @@ wtcc.model.defaultConfig = {
             "type": "flaw",
             "name": "Depleted",
             "cost": -1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9238,11 +9238,11 @@ wtcc.model.defaultConfig = {
             "type": "flaw",
             "name": "Direct Feed",
             "cost": -2,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9254,11 +9254,11 @@ wtcc.model.defaultConfig = {
             "type": "flaw",
             "name": "Exhausted",
             "cost": -3,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9270,11 +9270,11 @@ wtcc.model.defaultConfig = {
             "type": "flaw",
             "name": "Focus",
             "cost": -1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9286,11 +9286,11 @@ wtcc.model.defaultConfig = {
             "type": "flaw",
             "name": "Fragile",
             "cost": -1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9302,11 +9302,11 @@ wtcc.model.defaultConfig = {
             "type": "flaw",
             "name": "Full Power Only",
             "cost": -1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9318,11 +9318,11 @@ wtcc.model.defaultConfig = {
             "type": "flaw",
             "name": "Go Last",
             "cost": -1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9334,11 +9334,11 @@ wtcc.model.defaultConfig = {
             "type": "flaw",
             "name": "Horrifying",
             "cost": -1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9350,11 +9350,11 @@ wtcc.model.defaultConfig = {
             "type": "flaw",
             "name": "If/Then",
             "cost": -1,
-            "note": " ",
+            "note": "",
             "is_note_required": true,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9366,11 +9366,11 @@ wtcc.model.defaultConfig = {
             "type": "flaw",
             "name": "Limited Damage",
             "cost": -1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9382,11 +9382,11 @@ wtcc.model.defaultConfig = {
             "type": "flaw",
             "name": "Limited Width",
             "cost": -1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9398,11 +9398,11 @@ wtcc.model.defaultConfig = {
             "type": "flaw",
             "name": "Locational",
             "cost": -1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9414,11 +9414,11 @@ wtcc.model.defaultConfig = {
             "type": "flaw",
             "name": "Loopy",
             "cost": -1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9430,11 +9430,11 @@ wtcc.model.defaultConfig = {
             "type": "flaw",
             "name": "Mental Strain",
             "cost": -2,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9446,11 +9446,11 @@ wtcc.model.defaultConfig = {
             "type": "flaw",
             "name": "Touch Only",
             "cost": -2,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9462,11 +9462,11 @@ wtcc.model.defaultConfig = {
             "type": "flaw",
             "name": "No Physical Change",
             "cost": -1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9478,11 +9478,11 @@ wtcc.model.defaultConfig = {
             "type": "flaw",
             "name": "Obvious",
             "cost": -1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9494,11 +9494,11 @@ wtcc.model.defaultConfig = {
             "type": "flaw",
             "name": "One Use",
             "cost": -4,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9510,11 +9510,11 @@ wtcc.model.defaultConfig = {
             "type": "flaw",
             "name": "Scattered Damage",
             "cost": -1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9526,11 +9526,11 @@ wtcc.model.defaultConfig = {
             "type": "flaw",
             "name": "Self Only",
             "cost": -3,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9542,11 +9542,11 @@ wtcc.model.defaultConfig = {
             "type": "flaw",
             "name": "Slow",
             "cost": -2,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9558,11 +9558,11 @@ wtcc.model.defaultConfig = {
             "type": "flaw",
             "name": "Uncontrollable",
             "cost": -2,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9574,11 +9574,11 @@ wtcc.model.defaultConfig = {
             "type": "flaw",
             "name": "Willpower Bid",
             "cost": -1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9590,11 +9590,11 @@ wtcc.model.defaultConfig = {
             "type": "flaw",
             "name": "Willpower Cost",
             "cost": -2,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9606,11 +9606,11 @@ wtcc.model.defaultConfig = {
             "type": "flaw",
             "name": "Willpower Cost (Powerful)",
             "cost": 0,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9622,11 +9622,11 @@ wtcc.model.defaultConfig = {
             "type": "flaw",
             "name": "Willpower Investment",
             "cost": -1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9638,11 +9638,11 @@ wtcc.model.defaultConfig = {
             "type": "focus",
             "name": "Booby_Trapped",
             "cost": 1,
-            "note": " ",
+            "note": "",
             "is_note_required": true,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9654,11 +9654,11 @@ wtcc.model.defaultConfig = {
             "type": "focus",
             "name": "Durable",
             "cost": 1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9670,11 +9670,11 @@ wtcc.model.defaultConfig = {
             "type": "focus",
             "name": "Friends Only",
             "cost": 2,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9686,11 +9686,11 @@ wtcc.model.defaultConfig = {
             "type": "focus",
             "name": "Indestructible",
             "cost": 2,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9702,11 +9702,11 @@ wtcc.model.defaultConfig = {
             "type": "focus",
             "name": "Secret",
             "cost": 1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9718,11 +9718,11 @@ wtcc.model.defaultConfig = {
             "type": "focus",
             "name": "Accessible",
             "cost": -1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9734,11 +9734,11 @@ wtcc.model.defaultConfig = {
             "type": "focus",
             "name": "Adaptation",
             "cost": -2,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9750,11 +9750,11 @@ wtcc.model.defaultConfig = {
             "type": "focus",
             "name": "Bulky",
             "cost": -1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9766,11 +9766,11 @@ wtcc.model.defaultConfig = {
             "type": "focus",
             "name": "Crew",
             "cost": -1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9782,11 +9782,11 @@ wtcc.model.defaultConfig = {
             "type": "focus",
             "name": "Delicate",
             "cost": -1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9798,11 +9798,11 @@ wtcc.model.defaultConfig = {
             "type": "focus",
             "name": "Environment_Bound",
             "cost": -1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9814,11 +9814,11 @@ wtcc.model.defaultConfig = {
             "type": "focus",
             "name": "Immutable",
             "cost": -1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9830,11 +9830,11 @@ wtcc.model.defaultConfig = {
             "type": "focus",
             "name": "Irreplaceable",
             "cost": -2,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9846,11 +9846,11 @@ wtcc.model.defaultConfig = {
             "type": "focus",
             "name": "Manufacturable",
             "cost": 2,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9862,11 +9862,11 @@ wtcc.model.defaultConfig = {
             "type": "focus",
             "name": "Operational Skill",
             "cost": 0,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": true,
             "mod": 0,
             "is_chosen": true,
@@ -9878,11 +9878,11 @@ wtcc.model.defaultConfig = {
             "type": "focus",
             "name": "Unwieldy (Initiative)",
             "cost": -1,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9894,11 +9894,11 @@ wtcc.model.defaultConfig = {
             "type": "focus",
             "name": "Unwieldy (All)",
             "cost": -2,
-            "note": " ",
+            "note": "",
             "is_note_required": false,
             "has_ranks": false,
             "ranks": 1,
-            "link": " ",
+            "link": "",
             "is_link_required": false,
             "mod": 0,
             "is_chosen": true,
@@ -9916,19 +9916,19 @@ wtcc.model.defaultConfig = {
                 "class": "info",
                 "id": "5034d30d-161c-4381-9e84-cd4dcc30ee4e",
                 "name": "Player",
-                "text": " " 
+                "text": "" 
             },
             {
                 "class": "info",
                 "id": "6e42eef6-bc04-42bd-9e3a-4b97de56ea1e",
                 "name": "Description",
-                "text": " " 
+                "text": "" 
             },
             {
                 "class": "info",
                 "id": "efcfd891-ecf5-42b8-856c-faf0f009f2bd",
                 "name": "Occupation",
-                "text": " " 
+                "text": "" 
             }
         ],
         "willpower": {
@@ -9946,9 +9946,9 @@ wtcc.model.defaultConfig = {
             "class": "meta_qualities",
             "id": "dec96528-f116-4a57-a151-6b678308ff01",
             "type": "archetype",
-            "name": " ",
+            "name": "",
             "points": 0,
-            "source": " ",
+            "source": "",
             "meta_qualitys": [
                 
             ] 
@@ -9970,7 +9970,7 @@ wtcc.model.defaultConfig = {
                     "hard": 0,
                     "wiggle": 0,
                     "points": 5,
-                    "source": " ",
+                    "source": "",
                     "effects": [
                         {
                             "class": "effect",
@@ -9978,13 +9978,13 @@ wtcc.model.defaultConfig = {
                             "type": "stat",
                             "name": "Body",
                             "cost": 4,
-                            "note": " ",
+                            "note": "",
                             "is_note_required": false,
-                            "link": " ",
+                            "link": "",
                             "is_link_required": false,
                             "is_add_measurement": false,
                             "die_cost": 0,
-                            "source": " ",
+                            "source": "",
                             "modifiers": [
                                 {
                                     "class": "modifier",
@@ -9992,11 +9992,11 @@ wtcc.model.defaultConfig = {
                                     "type": "extra",
                                     "name": "Native",
                                     "cost": 1,
-                                    "note": " ",
+                                    "note": "",
                                     "is_note_required": false,
                                     "has_ranks": false,
                                     "ranks": 1,
-                                    "link": " ",
+                                    "link": "",
                                     "is_link_required": false,
                                     "mod": 0,
                                     "is_chosen": true,
@@ -10016,7 +10016,7 @@ wtcc.model.defaultConfig = {
                     "hard": 0,
                     "wiggle": 0,
                     "points": 5,
-                    "source": " ",
+                    "source": "",
                     "effects": [
                         {
                             "class": "effect",
@@ -10024,13 +10024,13 @@ wtcc.model.defaultConfig = {
                             "type": "stat",
                             "name": "Coordination",
                             "cost": 4,
-                            "note": " ",
+                            "note": "",
                             "is_note_required": false,
-                            "link": " ",
+                            "link": "",
                             "is_link_required": false,
                             "is_add_measurement": false,
                             "die_cost": 0,
-                            "source": " ",
+                            "source": "",
                             "modifiers": [
                                 {
                                     "class": "modifier",
@@ -10038,11 +10038,11 @@ wtcc.model.defaultConfig = {
                                     "type": "extra",
                                     "name": "Native",
                                     "cost": 1,
-                                    "note": " ",
+                                    "note": "",
                                     "is_note_required": false,
                                     "has_ranks": false,
                                     "ranks": 1,
-                                    "link": " ",
+                                    "link": "",
                                     "is_link_required": false,
                                     "mod": 0,
                                     "is_chosen": true,
@@ -10062,7 +10062,7 @@ wtcc.model.defaultConfig = {
                     "hard": 0,
                     "wiggle": 0,
                     "points": 5,
-                    "source": " ",
+                    "source": "",
                     "effects": [
                         {
                             "class": "effect",
@@ -10070,13 +10070,13 @@ wtcc.model.defaultConfig = {
                             "type": "stat",
                             "name": "Sense",
                             "cost": 4,
-                            "note": " ",
+                            "note": "",
                             "is_note_required": false,
-                            "link": " ",
+                            "link": "",
                             "is_link_required": false,
                             "is_add_measurement": false,
                             "die_cost": 0,
-                            "source": " ",
+                            "source": "",
                             "modifiers": [
                                 {
                                     "class": "modifier",
@@ -10084,11 +10084,11 @@ wtcc.model.defaultConfig = {
                                     "type": "extra",
                                     "name": "Native",
                                     "cost": 1,
-                                    "note": " ",
+                                    "note": "",
                                     "is_note_required": false,
                                     "has_ranks": false,
                                     "ranks": 1,
-                                    "link": " ",
+                                    "link": "",
                                     "is_link_required": false,
                                     "mod": 0,
                                     "is_chosen": true,
@@ -10108,7 +10108,7 @@ wtcc.model.defaultConfig = {
                     "hard": 0,
                     "wiggle": 0,
                     "points": 5,
-                    "source": " ",
+                    "source": "",
                     "effects": [
                         {
                             "class": "effect",
@@ -10116,13 +10116,13 @@ wtcc.model.defaultConfig = {
                             "type": "stat",
                             "name": "Mind",
                             "cost": 4,
-                            "note": " ",
+                            "note": "",
                             "is_note_required": false,
-                            "link": " ",
+                            "link": "",
                             "is_link_required": false,
                             "is_add_measurement": false,
                             "die_cost": 0,
-                            "source": " ",
+                            "source": "",
                             "modifiers": [
                                 {
                                     "class": "modifier",
@@ -10130,11 +10130,11 @@ wtcc.model.defaultConfig = {
                                     "type": "extra",
                                     "name": "Native",
                                     "cost": 1,
-                                    "note": " ",
+                                    "note": "",
                                     "is_note_required": false,
                                     "has_ranks": false,
                                     "ranks": 1,
-                                    "link": " ",
+                                    "link": "",
                                     "is_link_required": false,
                                     "mod": 0,
                                     "is_chosen": true,
@@ -10154,7 +10154,7 @@ wtcc.model.defaultConfig = {
                     "hard": 0,
                     "wiggle": 0,
                     "points": 5,
-                    "source": " ",
+                    "source": "",
                     "effects": [
                         {
                             "class": "effect",
@@ -10162,13 +10162,13 @@ wtcc.model.defaultConfig = {
                             "type": "stat",
                             "name": "Charm",
                             "cost": 4,
-                            "note": " ",
+                            "note": "",
                             "is_note_required": false,
-                            "link": " ",
+                            "link": "",
                             "is_link_required": false,
                             "is_add_measurement": false,
                             "die_cost": 0,
-                            "source": " ",
+                            "source": "",
                             "modifiers": [
                                 {
                                     "class": "modifier",
@@ -10176,11 +10176,11 @@ wtcc.model.defaultConfig = {
                                     "type": "extra",
                                     "name": "Native",
                                     "cost": 1,
-                                    "note": " ",
+                                    "note": "",
                                     "is_note_required": false,
                                     "has_ranks": false,
                                     "ranks": 1,
-                                    "link": " ",
+                                    "link": "",
                                     "is_link_required": false,
                                     "mod": 0,
                                     "is_chosen": true,
@@ -10200,7 +10200,7 @@ wtcc.model.defaultConfig = {
                     "hard": 0,
                     "wiggle": 0,
                     "points": 5,
-                    "source": " ",
+                    "source": "",
                     "effects": [
                         {
                             "class": "effect",
@@ -10208,13 +10208,13 @@ wtcc.model.defaultConfig = {
                             "type": "stat",
                             "name": "Command",
                             "cost": 4,
-                            "note": " ",
+                            "note": "",
                             "is_note_required": false,
-                            "link": " ",
+                            "link": "",
                             "is_link_required": false,
                             "is_add_measurement": false,
                             "die_cost": 0,
-                            "source": " ",
+                            "source": "",
                             "modifiers": [
                                 {
                                     "class": "modifier",
@@ -10222,11 +10222,11 @@ wtcc.model.defaultConfig = {
                                     "type": "extra",
                                     "name": "Native",
                                     "cost": 1,
-                                    "note": " ",
+                                    "note": "",
                                     "is_note_required": false,
                                     "has_ranks": false,
                                     "ranks": 1,
-                                    "link": " ",
+                                    "link": "",
                                     "is_link_required": false,
                                     "mod": 0,
                                     "is_chosen": true,
@@ -10259,11 +10259,11 @@ wtcc.model.defaultConfig = {
                 {
                     "class": "measurement",
                     "id": "61291d6c-cbd6-4513-acc4-7949061dfed2",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 1,
-                    "text_cols": " ",
-                    "text": " ",
-                    "units": " ",
+                    "text_cols": "",
+                    "text": "",
+                    "units": "",
                     "value": 50 
                 }
             ] 
@@ -10281,11 +10281,11 @@ wtcc.model.defaultConfig = {
                 {
                     "class": "measurement",
                     "id": "e6d91837-2ae9-46d9-bb81-ee6707b6c347",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 1,
-                    "text_cols": " ",
-                    "text": " ",
-                    "units": " ",
+                    "text_cols": "",
+                    "text": "",
+                    "units": "",
                     "value": 6.25 
                 }
             ] 
@@ -10295,7 +10295,7 @@ wtcc.model.defaultConfig = {
             "id": "5242f12e-8a81-4ea3-ad18-05f5e0e1cc15",
             "type": "stat",
             "name": "Damage",
-            "units": " ",
+            "units": "",
             "link": "body",
             "boost": 0,
             "beyond": 0,
@@ -10303,101 +10303,101 @@ wtcc.model.defaultConfig = {
                 {
                     "class": "measurement",
                     "id": "32c17b16-d83b-4d74-b4a5-fe3436e68690",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 1,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "Shock",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "36e90373-6a6f-403e-84c5-75e03e0bb350",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 2,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "Shock",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "83f33012-cfe2-4af0-9143-1eedb9f7d9fd",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 3,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "Shock",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "d6af370d-d50b-4eec-ae77-879192ccc955",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 4,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "Shock",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "30a893d5-b4d6-43a0-a110-2dd6f9ae1d8e",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 5,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "Shock",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "f8ea4eae-acc5-427d-bac9-edabbf6b2afb",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 6,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "Killing",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "bf1cd246-12e8-411d-ada0-bf40b8f3106b",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 7,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "Killing",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "193982f2-8a3f-4c3e-97d6-638f42cc57ed",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 8,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "Shock and Killing",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "a3c45589-447e-40b8-880b-e9024a8a9f49",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 9,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "Shock and Killing",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "c2547ed1-6005-4329-a90c-1504dec2eca3",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 10,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "Shock and Killing",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 }
             ] 
@@ -10415,101 +10415,101 @@ wtcc.model.defaultConfig = {
                 {
                     "class": "measurement",
                     "id": "2c72816a-9986-4266-b64e-c1454094161f",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 1,
-                    "text_cols": " ",
-                    "text": " ",
-                    "units": " ",
+                    "text_cols": "",
+                    "text": "",
+                    "units": "",
                     "value": 8 
                 },
                 {
                     "class": "measurement",
                     "id": "d1847505-d928-4127-b02a-5bb9063c684b",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 2,
-                    "text_cols": " ",
-                    "text": " ",
-                    "units": " ",
+                    "text_cols": "",
+                    "text": "",
+                    "units": "",
                     "value": 10 
                 },
                 {
                     "class": "measurement",
                     "id": "b427f893-7948-4d4e-abdc-704577201b8c",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 3,
-                    "text_cols": " ",
-                    "text": " ",
-                    "units": " ",
+                    "text_cols": "",
+                    "text": "",
+                    "units": "",
                     "value": 12 
                 },
                 {
                     "class": "measurement",
                     "id": "01056edb-380d-481f-9288-b844c155fffb",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 4,
-                    "text_cols": " ",
-                    "text": " ",
-                    "units": " ",
+                    "text_cols": "",
+                    "text": "",
+                    "units": "",
                     "value": 15 
                 },
                 {
                     "class": "measurement",
                     "id": "6e11029c-8c4f-42d0-a255-a6c438512823",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 5,
-                    "text_cols": " ",
-                    "text": " ",
-                    "units": " ",
+                    "text_cols": "",
+                    "text": "",
+                    "units": "",
                     "value": 20 
                 },
                 {
                     "class": "measurement",
                     "id": "9bdc1ef5-8148-4689-bd5d-d87e4ea463d5",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 6,
-                    "text_cols": " ",
-                    "text": " ",
-                    "units": " ",
+                    "text_cols": "",
+                    "text": "",
+                    "units": "",
                     "value": 25 
                 },
                 {
                     "class": "measurement",
                     "id": "d6b56b57-f7f6-412e-822d-95387056740a",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 7,
-                    "text_cols": " ",
-                    "text": " ",
-                    "units": " ",
+                    "text_cols": "",
+                    "text": "",
+                    "units": "",
                     "value": 30 
                 },
                 {
                     "class": "measurement",
                     "id": "8ab9dbfb-085f-425a-8ff3-8492b84dfdc5",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 8,
-                    "text_cols": " ",
-                    "text": " ",
-                    "units": " ",
+                    "text_cols": "",
+                    "text": "",
+                    "units": "",
                     "value": 40 
                 },
                 {
                     "class": "measurement",
                     "id": "8a31b3a1-fcac-406f-8bbe-3feb9f1dc123",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 9,
-                    "text_cols": " ",
-                    "text": " ",
-                    "units": " ",
+                    "text_cols": "",
+                    "text": "",
+                    "units": "",
                     "value": 50 
                 },
                 {
                     "class": "measurement",
                     "id": "9a7489a4-8ba3-45ec-b116-9576fd2cfabf",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 10,
-                    "text_cols": " ",
-                    "text": " ",
-                    "units": " ",
+                    "text_cols": "",
+                    "text": "",
+                    "units": "",
                     "value": 60 
                 }
             ] 
@@ -10527,101 +10527,101 @@ wtcc.model.defaultConfig = {
                 {
                     "class": "measurement",
                     "id": "0c6dc8d9-fadb-4ef4-9b24-670fb470a7d8",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 1,
-                    "text_cols": " ",
-                    "text": " ",
-                    "units": " ",
+                    "text_cols": "",
+                    "text": "",
+                    "units": "",
                     "value": 2 
                 },
                 {
                     "class": "measurement",
                     "id": "5609ddda-06c8-40ce-9394-b6f92b82dbb2",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 2,
-                    "text_cols": " ",
-                    "text": " ",
-                    "units": " ",
+                    "text_cols": "",
+                    "text": "",
+                    "units": "",
                     "value": 3 
                 },
                 {
                     "class": "measurement",
                     "id": "d508038e-c9f7-40a0-abcb-c832c1893973",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 3,
-                    "text_cols": " ",
-                    "text": " ",
-                    "units": " ",
+                    "text_cols": "",
+                    "text": "",
+                    "units": "",
                     "value": 4 
                 },
                 {
                     "class": "measurement",
                     "id": "c6120450-17ff-4d84-ae04-3523e102dd46",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 4,
-                    "text_cols": " ",
-                    "text": " ",
-                    "units": " ",
+                    "text_cols": "",
+                    "text": "",
+                    "units": "",
                     "value": 5 
                 },
                 {
                     "class": "measurement",
                     "id": "863b8a8f-3be5-448a-8875-7879a2e3624e",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 5,
-                    "text_cols": " ",
-                    "text": " ",
-                    "units": " ",
+                    "text_cols": "",
+                    "text": "",
+                    "units": "",
                     "value": 6 
                 },
                 {
                     "class": "measurement",
                     "id": "4c02f42c-befd-406e-ab0a-5aad212a1fb3",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 6,
-                    "text_cols": " ",
-                    "text": " ",
-                    "units": " ",
+                    "text_cols": "",
+                    "text": "",
+                    "units": "",
                     "value": 8 
                 },
                 {
                     "class": "measurement",
                     "id": "573706aa-8983-49dd-a736-acc0504424ae",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 7,
-                    "text_cols": " ",
-                    "text": " ",
-                    "units": " ",
+                    "text_cols": "",
+                    "text": "",
+                    "units": "",
                     "value": 10 
                 },
                 {
                     "class": "measurement",
                     "id": "50154d85-5461-4da4-8d1b-6bde797ca77a",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 8,
-                    "text_cols": " ",
-                    "text": " ",
-                    "units": " ",
+                    "text_cols": "",
+                    "text": "",
+                    "units": "",
                     "value": 40 
                 },
                 {
                     "class": "measurement",
                     "id": "675ad6f9-ef91-4478-8cd9-f1b4cdc9b4bd",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 9,
-                    "text_cols": " ",
-                    "text": " ",
-                    "units": " ",
+                    "text_cols": "",
+                    "text": "",
+                    "units": "",
                     "value": 50 
                 },
                 {
                     "class": "measurement",
                     "id": "82423964-341f-43a5-bb5f-a6e6bbdf9bbf",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 10,
-                    "text_cols": " ",
-                    "text": " ",
-                    "units": " ",
+                    "text_cols": "",
+                    "text": "",
+                    "units": "",
                     "value": 20 
                 }
             ] 
@@ -10639,101 +10639,101 @@ wtcc.model.defaultConfig = {
                 {
                     "class": "measurement",
                     "id": "0999d22c-744a-4629-8f88-ebabffe69c0e",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 1,
-                    "text_cols": " ",
-                    "text": " ",
-                    "units": " ",
+                    "text_cols": "",
+                    "text": "",
+                    "units": "",
                     "value": 0.5 
                 },
                 {
                     "class": "measurement",
                     "id": "786026cd-23fc-45aa-9988-2e9b102622e3",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 2,
-                    "text_cols": " ",
-                    "text": " ",
-                    "units": " ",
+                    "text_cols": "",
+                    "text": "",
+                    "units": "",
                     "value": 1 
                 },
                 {
                     "class": "measurement",
                     "id": "04c9cc28-62e7-4340-8383-f2bc79f51b0b",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 3,
-                    "text_cols": " ",
-                    "text": " ",
-                    "units": " ",
+                    "text_cols": "",
+                    "text": "",
+                    "units": "",
                     "value": 1 
                 },
                 {
                     "class": "measurement",
                     "id": "93d0f316-4a69-4ae6-81a1-132c572dc761",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 4,
-                    "text_cols": " ",
-                    "text": " ",
-                    "units": " ",
+                    "text_cols": "",
+                    "text": "",
+                    "units": "",
                     "value": 1 
                 },
                 {
                     "class": "measurement",
                     "id": "15ca5e59-3fd9-4ab2-af40-55a01531bd39",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 5,
-                    "text_cols": " ",
-                    "text": " ",
-                    "units": " ",
+                    "text_cols": "",
+                    "text": "",
+                    "units": "",
                     "value": 1.5 
                 },
                 {
                     "class": "measurement",
                     "id": "7115d022-1ec3-4c9e-a241-5e72de4ee108",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 6,
-                    "text_cols": " ",
-                    "text": " ",
-                    "units": " ",
+                    "text_cols": "",
+                    "text": "",
+                    "units": "",
                     "value": 2 
                 },
                 {
                     "class": "measurement",
                     "id": "af632f58-5c8b-4bcd-a7dd-d5296994151f",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 7,
-                    "text_cols": " ",
-                    "text": " ",
-                    "units": " ",
+                    "text_cols": "",
+                    "text": "",
+                    "units": "",
                     "value": 2.5 
                 },
                 {
                     "class": "measurement",
                     "id": "a30bb319-f303-4f62-8ba2-53ed180370a4",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 8,
-                    "text_cols": " ",
-                    "text": " ",
-                    "units": " ",
+                    "text_cols": "",
+                    "text": "",
+                    "units": "",
                     "value": 3 
                 },
                 {
                     "class": "measurement",
                     "id": "eb3e7bce-f7ab-482b-ba55-fc3e13f06144",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 9,
-                    "text_cols": " ",
-                    "text": " ",
-                    "units": " ",
+                    "text_cols": "",
+                    "text": "",
+                    "units": "",
                     "value": 4 
                 },
                 {
                     "class": "measurement",
                     "id": "6c0910c8-1364-4c4b-b43a-2583728e654b",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 10,
-                    "text_cols": " ",
-                    "text": " ",
-                    "units": " ",
+                    "text_cols": "",
+                    "text": "",
+                    "units": "",
                     "value": 5 
                 }
             ] 
@@ -10751,11 +10751,11 @@ wtcc.model.defaultConfig = {
                 {
                     "class": "measurement",
                     "id": "479ec22d-c48c-4eb3-ba70-4d3559036a38",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 1,
-                    "text_cols": " ",
-                    "text": " ",
-                    "units": " ",
+                    "text_cols": "",
+                    "text": "",
+                    "units": "",
                     "value": 50 
                 }
             ] 
@@ -10773,11 +10773,11 @@ wtcc.model.defaultConfig = {
                 {
                     "class": "measurement",
                     "id": "1ae55279-c0f3-43f1-8878-794ed380d707",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 1,
-                    "text_cols": " ",
-                    "text": " ",
-                    "units": " ",
+                    "text_cols": "",
+                    "text": "",
+                    "units": "",
                     "value": 10 
                 }
             ] 
@@ -10795,11 +10795,11 @@ wtcc.model.defaultConfig = {
                 {
                     "class": "measurement",
                     "id": "0b5e32a6-c84a-424d-b0dd-f0575898b557",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 1,
-                    "text_cols": " ",
-                    "text": " ",
-                    "units": " ",
+                    "text_cols": "",
+                    "text": "",
+                    "units": "",
                     "value": 2.5 
                 }
             ] 
@@ -10808,8 +10808,8 @@ wtcc.model.defaultConfig = {
             "class": "table",
             "id": "b77db6e1-0ec2-4728-a81e-687cf9149089",
             "type": "stat",
-            "name": " ",
-            "units": " ",
+            "name": "",
+            "units": "",
             "link": "coordination",
             "boost": 0,
             "beyond": 0,
@@ -10817,101 +10817,101 @@ wtcc.model.defaultConfig = {
                 {
                     "class": "measurement",
                     "id": "08c807f7-1241-4376-b4e6-8b3b2c0400b5",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 1,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "You can cross a room safely if there’s nothing in the way.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "0dfbafd9-a418-4807-af6c-7e7a0742175a",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 2,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "You play a decent game of darts.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "8476e5ae-cbf8-40f3-a330-592a923fa596",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 3,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "You’re a great juggler.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "b5997fdb-0685-4385-9061-00320951e36a",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 4,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "You’re nimble as an aikido master.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "5b23365e-9e57-4cb2-a2a7-df239bed355d",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 5,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "You’re agile as an Olympic gymnast.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "e5c92361-b238-44bc-a9d2-489c18fb0ee9",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 6,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "You can attempt to dodge or block any attack, even gunshots.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "0ab7a488-5481-4cf7-a703-a514a00e5386",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 7,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "You can move so fast, you’re a blur.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "34880111-4143-4751-ae37-e2a33ee40434",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 8,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "You can catch fast objects such as arrows in flight without rolling—if they’re not aimed at you.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "26038b0f-b8f4-4115-879e-74ceb674a0ef",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 9,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "You can literally move faster than people can see.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "b4fd9234-1736-4d3b-bd41-4d244d885b13",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 10,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "Every external muscle in your body is under your conscious control.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 }
             ] 
@@ -10920,8 +10920,8 @@ wtcc.model.defaultConfig = {
             "class": "table",
             "id": "a6507811-e9a0-4678-8188-b5b3c66b798d",
             "type": "stat",
-            "name": " ",
-            "units": " ",
+            "name": "",
+            "units": "",
             "link": "sense",
             "boost": 0,
             "beyond": 0,
@@ -10929,101 +10929,101 @@ wtcc.model.defaultConfig = {
                 {
                     "class": "measurement",
                     "id": "fd1d064f-8333-44c5-adb5-ecc7b0845cdf",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 1,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "You notice when someone’s talking to you—sometimes.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "2fdde5e1-7d28-4a58-8841-dbad293e1903",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 2,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "Loud noises wake you up.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "bad27cd8-2077-4c4e-a305-d4573bc38cfe",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 3,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "You’re unusually sharp_eyed.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "184cd2d1-d680-4803-a6d6-047d227a1c6d",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 4,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "You’re an uncanny tracker.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "687d8767-3d2b-4804-adb3-72ef7c3158c1",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 5,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "You are one with your environment.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "63a15a9b-4906-4ec7-a6c7-92f8077d1263",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 6,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "You can use your senses to compensate for each other; you can use minute sounds, the touch of air pressure, smells and taste to search a pitch_black room.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "c8e57fc8-0641-4a20-bd4c-8717a77b988f",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 7,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "With a successful roll, you can sense movement up to a quarter mile away.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "4fbc3b30-8189-4493-a66c-ff2d847bcd58",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 8,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "You can differentiate between dozens of sounds amidst a cacophony.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "b67c4c2e-abde-4cea-80eb-bb2a1c9321a8",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 9,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "You can see in the dark, read by touch, and identify targets by smell.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "beece141-688e-4ac8-9e78-8a4a5fb3bbd2",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 10,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "It takes a Miracle (literally) to sneak up on you.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 }
             ] 
@@ -11032,8 +11032,8 @@ wtcc.model.defaultConfig = {
             "class": "table",
             "id": "fa4918bf-b2c2-4f72-b9e6-e8ea0d98dd9e",
             "type": "stat",
-            "name": " ",
-            "units": " ",
+            "name": "",
+            "units": "",
             "link": "mind",
             "boost": 0,
             "beyond": 0,
@@ -11041,101 +11041,101 @@ wtcc.model.defaultConfig = {
                 {
                     "class": "measurement",
                     "id": "2a07667f-7b5f-4e69-a47c-39547ad6195a",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 1,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "When people call you an intellectual, you can’t always tell they’re joking.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "9d96dfbe-9879-42a2-b669-7d6bba396ed2",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 2,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "You can get high grades with a lot of work.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "da95546f-b635-439c-a689-60bf815b1ffd",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 3,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "You’re notably bright and learning comes easily.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "99587e64-8f1c-4466-ab42-d9b0037be607",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 4,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "You can have your pick of Ivy_league scholarships.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "eea2ffcb-736d-4829-a4f0-c39798c50378",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 5,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "You have a photographic memory (sight only) with a successful roll.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "1bc548fd-ea3d-4111-aadc-4c7d8b6e302d",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 6,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "You have a photographic memory (all senses) with a successful roll. If you need a clue based on something you experienced at any time in the past, it’s yours.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "7d6f26c5-c0ba-40ce-8a99-c3f34a743b6d",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 7,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "Einstein and Hawking seem somewhat childish to you.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "32398722-bcf9-4ea7-b86e-92d1615aabf1",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 8,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "All modern theory is the equivalent of a monkey banging two stones together.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "db3d81b3-a210-42a3-8973-a973da7c8652",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 9,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "You can recall with perfect clarity anything you previously sensed without rolling.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "07e6c552-7020-442b-9e13-17b81b27b270",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 10,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "You can consider intellectual problems even while asleep.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 }
             ] 
@@ -11144,8 +11144,8 @@ wtcc.model.defaultConfig = {
             "class": "table",
             "id": "f95e934b-c382-46e8-bb3f-9d7e8261c354",
             "type": "stat",
-            "name": " ",
-            "units": " ",
+            "name": "",
+            "units": "",
             "link": "charm",
             "boost": 0,
             "beyond": 0,
@@ -11153,101 +11153,101 @@ wtcc.model.defaultConfig = {
                 {
                     "class": "measurement",
                     "id": "5c936893-c4c8-4ddd-a551-31d4ff790720",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 1,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "You’re a wallflower.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "1a8f6a94-fdbf-4d53-90ae-55bbe60f8952",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 2,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "You get along with most people.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "0e959aff-6929-40e5-b54a-d368a4f8652e",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 3,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "You often defuse tense situations.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "d76c31cf-6a07-4125-aac6-265fa65feea7",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 4,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "Any time there’s a social function, you’re invited.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "2e381a5a-99c3-4cde-b020-8e6ee626328d",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 5,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "Your élan is legendary, and others struggle to win your favor.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "2ab7b249-a945-4c84-acc3-f2c02888b454",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 6,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "With a successful roll you can make someone want to do something otherwise completely unpalatable.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "155b2a20-e392-4b22-8394-9ec0f2f29530",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 7,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "You can convince anyone of anything after 5–width days of persuasion.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "de1b4c83-dd68-497e-916a-606407f88206",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 8,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "You can convince anyone of anything in 5–width hours of persuasion.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "50a0f10c-b309-4e83-82dd-8e65de5822a4",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 9,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "You can convince anyone of anything in 5–width minutes of persuasion.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "55878f66-98b0-474f-9eb3-c09d631fd56d",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 10,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "You can convince anyone of anything in 5–width rounds of persuasion.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 }
             ] 
@@ -11256,8 +11256,8 @@ wtcc.model.defaultConfig = {
             "class": "table",
             "id": "841ad310-bc28-425c-a969-5016851064b2",
             "type": "stat",
-            "name": " ",
-            "units": " ",
+            "name": "",
+            "units": "",
             "link": "command",
             "boost": 0,
             "beyond": 0,
@@ -11265,101 +11265,101 @@ wtcc.model.defaultConfig = {
                 {
                     "class": "measurement",
                     "id": "e29b4dc3-fe05-4ad9-ac8a-5b979498672a",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 1,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "You are easily startled.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "f5705d60-fd55-4b36-9b70-9820a230d22e",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 2,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "You’re a regular Joe or Jane.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "f6fea197-709a-422c-b5a3-e0a71ab27b78",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 3,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "You’re charismatic and graceful under pressure.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "d1b811f7-befb-425d-8803-1d04ebfc3ca9",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 4,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "You’re a born leader and seemingly immune to stress.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "3a7c335f-22e2-44b0-a7ba-765b4725ab09",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 5,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "Your presence commands attention and respect.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "477957a5-be5a-411a-851b-be363e28f569",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 6,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "You don’t suffer the usual penalty die from injury or distraction.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "7c744805-ef5a-4373-8857-d21a156127b4",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 7,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "You can use the Command Stat instead of Body with the Endurance Skill.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "cbadf140-dfff-41f3-93d3-a437d93f5bd3",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 8,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "You are completely immune to pain and discomfort.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "97b4aa09-296e-443a-a80c-60ec18f4bddc",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 9,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "All your feelings and autonomic physical responses (breathing, heartbeat) are under your conscious control without a roll. You never need to make Trauma Checks.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "b9774ef7-64b4-418e-b256-dfbe262d1943",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 10,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "On a successful roll, you can bark an order in a voice that causes a person to obey before considering the consequences, as long as it takes no more than a single round.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 }
             ] 
@@ -11368,110 +11368,110 @@ wtcc.model.defaultConfig = {
             "class": "table",
             "id": "b4e3126c-9561-4796-9000-5f5f6df55803",
             "type": "skill",
-            "name": " ",
-            "units": " ",
-            "link": " ",
+            "name": "",
+            "units": "",
+            "link": "",
             "boost": 0,
             "beyond": 0,
             "measurements": [
                 {
                     "class": "measurement",
                     "id": "b3e9da01-796d-4f69-80d7-091225bf1ee3",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 1,
                     "text_cols": "Training:Example",
                     "text": "Basic training: (Athletics) Can barely dog paddle.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "47ce0a18-0e72-424f-9e85-8ec73d585158",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 2,
                     "text_cols": "Training,Example",
                     "text": "Moderate training and some experience: (Athletics) Can throw a football 20 yards accurately.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "cfa829ec-c2e1-49fe-ba3f-71b609d3076d",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 3,
                     "text_cols": "Training,Example",
                     "text": "Extensive training and experience: (Perception) Can detect a tap on the phone line.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "f916d6f4-40ec-4127-a575-be545cacb928",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 4,
                     "text_cols": "Training,Example",
                     "text": "Expert training: (Knowledge (Chess)) Nationally_ranked chess champion.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "a3136e6a-4415-41f6-aeca-26d9ca25a12a",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 5,
                     "text_cols": "Training,Example",
                     "text": "Master (human perfection): (Lie) Can talk your way into a military facility.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "1abd4798-0bf6-4bd4-a8ec-40b7ec5d1fb0",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 6,
                     "text_cols": "Training,Example",
                     "text": "Superhuman: (Intimidate) Can bully the heavyweight boxing champion.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "228e4233-ccc6-4f3d-9958-bbf4778fe9ea",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 7,
                     "text_cols": "Training,Example",
                     "text": "Extraordinary: (Athletics) Can leap from limb to limb 40 feet up in a tree.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "202bed0d-d4e6-41df-9d68-f44d885e51c1",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 8,
                     "text_cols": "Training,Example",
                     "text": "Astonishing: (Dodge) Can catch arrows in mid_air.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "0d2a7987-b7fb-4193-9f07-c52b96c2f755",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 9,
                     "text_cols": "Training,Example",
                     "text": "Unparalleled: (Perception) Can see in near_complete darkness.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "6815b288-fd52-44bf-92fc-49d4587e5085",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 10,
                     "text_cols": "Training,Example",
                     "text": "Supreme: (Knowledge (Education)) Can teach any subject from memory.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 }
             ] 
@@ -11480,8 +11480,8 @@ wtcc.model.defaultConfig = {
             "class": "table",
             "id": "8722d8a0-81dd-457e-8023-8f144cfeee42",
             "type": "booster",
-            "name": " ",
-            "units": " ",
+            "name": "",
+            "units": "",
             "link": "range",
             "boost": 0,
             "beyond": 0,
@@ -11489,71 +11489,71 @@ wtcc.model.defaultConfig = {
                 {
                     "class": "measurement",
                     "id": "04fa3b19-8819-47f5-aabf-c8698530f1f9",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 5,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "Distance across the U.S.",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "6d37e9ed-cde8-46b0-b78a-e31b5589e903",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 7,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "Distance to the Moon",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "6f491273-df84-4f63-8d16-05e7a4414ff3",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 9,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "Distance to Mars",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "4e5cc0f6-fa66-4117-b7ca-9b4e480557b4",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 10,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "Distance to the Sun",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "5d23845a-c4c2-4780-ad3c-8911463891dc",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 15,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "Range of one light year",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "2f8363a5-0f0a-4ae8-a719-e15cba450932",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 16,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "Distance to the Fish homeworld (42 light years)",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "55af8eb0-8269-4bb9-bc1d-4855e0bc5daa",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 24,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "Range to the farthest part of the visible universe",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 }
             ] 
@@ -11562,8 +11562,8 @@ wtcc.model.defaultConfig = {
             "class": "table",
             "id": "bda13c03-dc92-4fb9-b6da-6002e0b4e0e4",
             "type": "booster",
-            "name": " ",
-            "units": " ",
+            "name": "",
+            "units": "",
             "link": "mass",
             "boost": 0,
             "beyond": 0,
@@ -11571,61 +11571,61 @@ wtcc.model.defaultConfig = {
                 {
                     "class": "measurement",
                     "id": "d7982264-9fe4-4b5e-b24c-ce8bd2f70c6a",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 6,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "Mass of an aircraft carrier",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "4d7f47d6-e663-4e4e-a4b3-e97a41050d4c",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 7,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "Mass of a skyscraper",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "868d182f-cba8-49df-a266-cc9af0d4f999",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 10,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "Mass of the Great Pyramid of Cheops",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "546b52a6-7999-4ae4-98f3-ba8293e2bfaa",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 20,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "Mass of the Moon",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "db185885-e250-41c6-8517-16b2d88716ec",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 22,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "Mass of the Earth",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 },
                 {
                     "class": "measurement",
                     "id": "f114c872-d763-473f-9b34-b95e7bb43c0f",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 26,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "Mass of the Sun",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 }
             ] 
@@ -11634,8 +11634,8 @@ wtcc.model.defaultConfig = {
             "class": "table",
             "id": "fe54f5d5-e9e0-4d0a-a290-3cf13f4571a4",
             "type": "booster",
-            "name": " ",
-            "units": " ",
+            "name": "",
+            "units": "",
             "link": "speed",
             "boost": 0,
             "beyond": 0,
@@ -11643,11 +11643,11 @@ wtcc.model.defaultConfig = {
                 {
                     "class": "measurement",
                     "id": "44b7e77a-6a7c-447b-98d8-86b19df8adb9",
-                    "type": "SOMETYPE",
+                    "type": "",
                     "pool": 13,
-                    "text_cols": " ",
+                    "text_cols": "",
                     "text": "Speed of light",
-                    "units": " ",
+                    "units": "",
                     "value": 0 
                 }
             ] 
