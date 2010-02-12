@@ -69,11 +69,11 @@ $elements = {
     :children => [["motivation", "*"]]
   },
   "motivation" => {
-    :attributes => [["type", "SOMETYPE"], ["value", 0], ["name", " "]],
+    :attributes => [["type", " "], ["value", 0], ["name", " "]],
     :children => []
   },
   "effect" => {
-    :attributes => [["type", "SOMETYPE"], ["name", "SOMENAME"], ["cost", 0], ["note", " "], ["is_note_required", false], ["link", " "], ["is_link_required", false], ["is_add_measurement", false], ["die_cost", 0], ["source", " "]],
+    :attributes => [["type", " "], ["name", "SOMENAME"], ["cost", 0], ["note", " "], ["is_note_required", false], ["link", " "], ["is_link_required", false], ["is_add_measurement", false], ["die_cost", 0], ["source", " "]],
     :children => [["modifier", "*"]]
   },
   "pools" => {
@@ -81,27 +81,27 @@ $elements = {
     :children => [["pool", "*"]]
   },
   "pool" => {
-    :attributes => [["type", "SOMETYPE"], ["name", " "], ["die_cost", 0], ["normal", 0], ["hard", 0], ["wiggle", 0], ["points", 0], ["source", " "]],
+    :attributes => [["type", " "], ["name", " "], ["die_cost", 0], ["normal", 0], ["hard", 0], ["wiggle", 0], ["points", 0], ["source", " "]],
     :children => [["effect", "*"]]
   },
   "modifier" => {
-    :attributes => [["type", "SOMETYPE"], ["name", " "], ["cost", 0], ["note", " "], ["is_note_required", false], ["has_ranks", true], ["ranks", 1], ["link", " "], ["is_link_required", false], ["mod", 0], ["is_chosen", true], ["source", " "]],
+    :attributes => [["type", " "], ["name", " "], ["cost", 0], ["note", " "], ["is_note_required", false], ["has_ranks", true], ["ranks", 1], ["link", " "], ["is_link_required", false], ["mod", 0], ["is_chosen", true], ["source", " "]],
     :children => []
   },
   "meta_qualities" => {
-    :attributes => [["type", "SOMETYPE"], ["name", " "], ["points", 0], ["source", " "]],
+    :attributes => [["type", " "], ["name", " "], ["points", 0], ["source", " "]],
     :children => [["meta_quality", "*"]]
   },
   "meta_quality" => {
-    :attributes => [["type", "SOMETYPE"], ["name", " "], ["cost", 0], ["is_custom", false], ["note", " "], ["is_note_required", false], ["is_chosen", true], ["source", " "]],
+    :attributes => [["type", " "], ["name", " "], ["cost", 0], ["is_custom", false], ["note", " "], ["is_note_required", false], ["is_chosen", true], ["source", " "]],
     :children => []
   },
   "table" => {
-    :attributes => [["type", "SOMETYPE"], ["name", " "], ["units", " "], ["link", " "], ["boost", 0], ["beyond", 0]],
+    :attributes => [["type", " "], ["name", " "], ["units", " "], ["link", " "], ["boost", 0], ["beyond", 0]],
     :children => [["measurement", "*"]]
   },
   "measurement" => {
-    :attributes => [["type", "SOMETYPE"], ["pool", 0], ["text_cols", " "], ["text", " "], ["units", " "], ["value", 0]],
+    :attributes => [["type", " "], ["pool", 0], ["text_cols", " "], ["text", " "], ["units", " "], ["value", 0]],
     :children => []
   },
 }
@@ -121,6 +121,7 @@ def jsonStr(value)
     return "false" if value == "false"
     return value.to_i if integer?(value)
     return value.to_f if float?(value)
+    return "\"\"" if value =~ /^\s*$/
     return "\"#{value}\""
   end
   return value
