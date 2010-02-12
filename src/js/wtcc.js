@@ -5,16 +5,24 @@ var wtcc = {
     view: {},
     
     init: function() {
+        wtcc.log('wtccDebug', 'wtcc.init begin')
+        
         wtcc.model.character = wtcc.cloneJSON(wtcc.model.defaultConfig.character);
         wtcc.view.init();
-        
+                
         if (typeof(Titanium) === 'undefined') window.onbeforeunload = function() { return 'About to loose any changes.'; };
+        
+        wtcc.log('wtccDebug', 'wtcc.init complete')
     },
 
     cloneJSON: function(json) {
         return Ext.util.JSON.decode(Ext.util.JSON.encode(json));
     },
-
+    
+    log: function(level, msg) {
+      console.log(e + ': ' + msg);
+    },
+    
 };
 Ext.onReady(wtcc.init);
 
