@@ -9,10 +9,44 @@ wtcc.view = {
             layout: 'border',
             items: [
             {
-                region: 'north',
-                id: 'wtcc_ui_top',
-                height: 40,
-                xtype: 'toolbar',
+              region: 'north',
+              id: 'wtcc_ui_top',
+              height: 30,
+              xtype: 'toolbar',
+              items: [
+              {
+                  xtype: 'tbspacer'
+              },
+              {
+                  xtype: 'tbbutton',
+                  text: 'Menu',
+                  menu: [
+                  {
+                    text: 'Load'
+                  },
+                  {
+                    text: 'Save'
+                  },
+                  {
+                    text: 'Export'
+                  },
+                  '-',
+                  {
+                    text: 'Config'
+                  },
+                  '-',
+                  {
+                    text: 'About'
+                  },
+                  {
+                    text: 'Help'
+                  },
+                  ],
+              },
+              {
+                  xtype: 'tbfill'
+              },
+            ],
             },
             {
                 region: 'center',
@@ -20,45 +54,45 @@ wtcc.view = {
                 layout: 'card',
                 activeItem: 'wtcc_ui_main',
                 items: [
-                  {
+                {
                     id: 'wtcc_ui_main',
                     xtype: 'panel',
                     autoScroll: true,
                     items: [
-                      {
+                    {
                         xtype: 'panel',
                         title: 'Character',
                         html: '<h1>Character goes here</h1>' + wtcc.view.longText,
-                        collapsible:true,
-                      },
-                      {
+                        collapsible: true,
+                    },
+                    {
                         xtype: 'panel',
                         title: 'Archetype',
                         html: '<h1>Archetype goes here</h1>' + wtcc.view.longText,
-                        collapsible:true,
-                      },
-                      {
+                        collapsible: true,
+                    },
+                    {
                         xtype: 'panel',
                         title: 'Pools',
                         html: '<h1>Pools go here</h1>' + wtcc.view.longText,
-                        collapsible:true,
-                      },
-                      {
+                        collapsible: true,
+                    },
+                    {
                         xtype: 'panel',
                         title: 'Willpower',
                         html: '<h1>Willpower goes here</h1>' + wtcc.view.longText,
-                        collapsible:true,
-                      },
+                        collapsible: true,
+                    },
                     ]
-                  },
-                  {
+                },
+                {
                     id: 'wtcc_ui_edit_pool',
                     html: '<h1>Pool editor</h1>'
-                  },
-                  {
+                },
+                {
                     id: 'wtcc_ui_edit_effect',
                     html: '<h1>Effect editor</h1>'
-                  },
+                },
                 ]
             },
             {
@@ -70,7 +104,7 @@ wtcc.view = {
             ]
         });
     },
-    
+
     longText: "Lorem ipsum dolor sit amet, nec fermentum pharetra donec massa, nulla velit at, nisl consequat vestibulum vestibulum auctor, euismod integer placerat sed. Porta pede enim sodales laudantium vulputate integer, sed vitae vitae quis nostrud tortor hymenaeos. Sed et nam nullam magna nunc lectus, metus in leo elit justo in, vitae nunc, accumsan turpis porttitor velit vestibulum aliquet. Lacinia condimentum sed consectetuer, libero ac sem sollicitudin eleifend et, tortor nec risus a dolor nulla accumsan, egestas vel vel gravida nulla elit mi. In pellentesque venenatis mattis risus interdum nunc, at et sollicitudin sapien nec duis litora, conubia diam eu, in libero praesent. Vel sapiente sit nibh sodales, sed morbi. Elit imperdiet, amet vivamus sodales vestibulum praesent, libero arcu consectetuer ligula, rutrum adipisci magnis. In praesent ipsum, mauris enim non arcu mattis wisi libero.\
     Morbi vitae aliquam viverra nunc, dolore porttitor viverra. Ac fringilla varius lacus sed quam, pellentesque quis, vitae libero, rhoncus dolor eum amet. Pellentesque metus aut magnis adipiscing, bibendum ducimus nulla orci ac, nostra in nunc vivamus amet integer. Commodo ipsum velit, erat hac tellus ac venenatis magna velit, arcu eu fuga platea ac luctus duis, urna primis. Integer cum, tincidunt dui elit, fringilla sem sit eu, sit conubia urna feugiat tristique dapibus amet, mauris torquent. Leo ante, tincidunt dictum magna esse consectetuer lectus. Sapien nibh minima urna pharetra et ante. Wisi curabitur sollicitudin est mattis ac ultricies, nunc vestibulum quam. Gravida vitae diam dolor pede donec, urna vestibulum quis elit, quam neque lacus, amet ut, dolor tempus quam nonummy. Gravida velit dictum commodo, accumsan nulla integer arcu. Pede fames, suscipit eu lorem sed ut non, tempor egestas. Mi ante vehicula torquent, duis dui vel lobortis massa incididunt, mattis dignissim pulvinar, dolor pharetra dolor sodales mus.\
     Eget dolor, fringilla massa massa morbi ultrices non, risus metus blandit mauris rhoncus rutrum faucibus, aliquam vestibulum proin, varius ut erat vitae eu. Duis placerat etiam wisi suspendisse, odio est et, nonummy nulla lorem. Ab vel lectus litora suscipit congue, vivamus integer vel lobortis ut sed tellus, suspendisse veniam turpis massa wisi euismod, orci tellus, orci vivamus tortor sapien nulla condimentum. Amet pharetra orci porta velit, nullam sed vitae in, vel elit auctor facilisis interdum volutpat turpis, lacus libero, et nulla nec dui metus. Nec laoreet quae viverra temporibus vel, vulputate erat tellus, exercitation sollicitudin odio donec consectetuer etiam, consequat et molestie suspendisse libero. Est suscipit consectetuer morbi, tempor sit, id sed cursus rutrum nonummy donec quam, cras imperdiet phasellus donec in, nulla orci mattis quis elementum. Eget ante egestas in sapien, elit elit, tellus dui ante phasellus parturient, aliquam sapien quis nulla, pulvinar nec. Donec non.\
