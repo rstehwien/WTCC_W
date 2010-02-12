@@ -20,7 +20,7 @@ var wtcc = {
     },
     
     log: function(level, msg) {
-      console.log(e + ': ' + msg);
+      console.log(level + ': ' + msg);
     },
     
 };
