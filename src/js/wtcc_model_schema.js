@@ -15,7 +15,7 @@
 
 wtcc.model.schema.elements = {
   "data": {
-    "version": 1
+    "version": 1,
     "cost_willpower_base": 3,
     "cost_willpower": 1,
     "effects": {"class": "effect"},              // stats, skills, base powers
@@ -24,7 +24,7 @@ wtcc.model.schema.elements = {
     "archetypes": [{"class": "archetype"}],      // built archetypes
     "powers": {"class": "pools"},                // built powers
     "tables": [{"class": "table"}],
-    "character", {"class": "character"},
+    "character": {"class": "character"},
   },
   
   "character": {
@@ -54,7 +54,7 @@ wtcc.model.schema.elements = {
   
   "motivation": {
     "type": "",
-    "value": 0
+    "value": 0,
     "name": "",
   },
 
