@@ -19,13 +19,12 @@ wtcc.model.schema.elements = {
     "version": 1,
     "cost_willpower_base": 3,
     "cost_willpower": 1,
-    "effects": {"element": "effect"},              // stats, skills, base powers
+    "effects": [{"element": "effect"}],              // stats, skills, base powers
     "modifiers": [{"element": "modifier"}],
-    "meta_qualities": {"element": "meta_quality"}, // base meta qualities (sources, permissions, intrinsics)
-    "archetypes": [{"element": "archetype"}],      // built archetypes
-    "powers": {"element": "pools"},                // built powers
+    "meta_qualities": [{"element": "meta_quality"}], // base meta qualities (sources, permissions, intrinsics)
+    "archetypes": [{"element": "archetype"}],        // built archetypes
+    "powers": [{"element": "pools"}],                // built powers
     "tables": [{"element": "table"}],
-    "character": {"element": "character"}
   },
   
   "character": {
@@ -149,7 +148,7 @@ wtcc.model.schema.elements = {
 
 wtcc.model.schema.create = function(element){
 	var scheme = wtcc.model.schema.elements[element];
-	if (scheme === 'undefined') throw 'Unknown element "' + element + '"';
+	if (scheme === null || scheme === undefined) throw new wtcc.Exception('Unknown element "' + element + '"');
 	
 	var obj = {"element": element, "id": Math.uuid()};
 	for (property in scheme){
@@ -174,6 +173,33 @@ wtcc.model.schema.create = function(element){
 	}
 	return obj;
 };
+
+wtcc.model.schema.findBy = function(obj, property, match, first) {
+  var ret = [];
+  
+  var prop = obj[property];
+
+  if (typeof(match) === 'string' && prop === match) ret.push(obj);
+  else if (typeof(match.test) === 'function' && match.test(prop)) ret.push(obj);
+  
+  if (first === true && ret.length > 0) return ret;
+  
+  var match;
+  for (cur in obj) {
+		if (obj[cur].length >= 0){
+			for (i = 0; i < obj[cur].length; i = i + 1) {
+			  match = wtcc.model.schema.findBy(obj[cur][i], property, match, first);
+			}
+		}
+		else if(typeof(obj[cur]) === 'object') {
+		  match = wtcc.model.schema.findBy(obj[cur], property, match, first);
+		}
+		ret = ret.concat(match);
+		if (first === true && ret.length > 0) return ret;
+  }
+  
+  return ret;
+}
 
 wtcc.model.schema.copy = function(orig){
   var obj = wtcc.util.cloneJSON(orig);
