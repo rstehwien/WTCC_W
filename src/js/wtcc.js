@@ -12,7 +12,7 @@ wtcc.app.init = function() {
   
   Ext.QuickTips.init();
 
-  wtcc.model.character = wtcc.util.cloneJSON(wtcc.model.defaultConfig.character);
+  wtcc.model.init();
   wtcc.view.init();
 
   // TODO uncomment for production
