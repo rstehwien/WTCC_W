@@ -206,35 +206,43 @@ wtcc.model.schema.create = function(element) {
 wtcc.model.schema.findBy = function(obj, property, match, first) {
     var ret = [];
 
-    var prop = obj[property];
-
-    if (wtcc.util.myTypeOf(match) === 'string' && prop === match) {
-        ret.push(obj);
-    }
-    else if (wtcc.util.myTypeOf(match.test) === 'function' && match.test(prop)) {
-        ret.push(obj);
-    }
-
-    if (first === true && ret.length > 0) {
-        return ret;
-    }
-
-    var cur;
     var item;
-    for (cur in obj) {
-        item = obj[cur];
-        if (wtcc.util.myTypeOf(item) === 'array') {
-            for (i = 0; i < item.length; i = i + 1) {
-                ret = ret.concat(wtcc.model.schema.findBy(item[i], property, match, first));
-                if (first === true && ret.length > 0) {
-                    return ret;
-                }
+    if (wtcc.util.myTypeOf(obj) === 'array') {
+        for each (item in obj) {
+            if (wtcc.util.myTypeOf(item) !== 'object') {
+                continue;
             }
-        }
-        else if (wtcc.util.myTypeOf(item) === 'object') {
             ret = ret.concat(wtcc.model.schema.findBy(item, property, match, first));
             if (first === true && ret.length > 0) {
                 return ret;
+            }
+        }
+        return ret;
+    }
+    else if (wtcc.util.myTypeOf(obj) === 'object') {
+        var prop = obj[property];
+
+        if (wtcc.util.myTypeOf(match) === 'string' && prop === match) {
+            ret.push(obj);
+        }
+        else if (wtcc.util.myTypeOf(match.test) === 'function' && match.test(prop)) {
+            ret.push(obj);
+        }
+
+        if (first === true && ret.length > 0) {
+            return ret;
+        }
+
+        var cur;
+        var itemtype;
+        for (cur in obj) {
+            item = obj[cur];
+            itemtype = wtcc.util.myTypeOf(item);
+            if (itemtype === 'object' || itemtype === 'array') {
+                ret = ret.concat(wtcc.model.schema.findBy(item, property, match, first));
+                if (first === true && ret.length > 0) {
+                    return ret;
+                }
             }
         }
     }
@@ -247,11 +255,15 @@ wtcc.model.schema.copy = function(orig) {
     var reg = /[\w-]*/i;
 
     var ids = wtcc.model.schema.findBy(obj, 'id', reg);
-    for (i = 0; i < ids.length; i = i+1) {
-        if (ids[i].id_org === undefined || !reg.match(ids[i].id_org)) {
-            ids[i].id_org = ids[i].id;
+    var item;
+    for each (item in ids) {
+        if (wtcc.util.myTypeOf(item) !== 'object') {
+            continue;
         }
-        ids[i].id = Math.uuid();
+        if (item.id_org === undefined || !reg.match(item.id_org)) {
+            item.id_org = item.id;
+        }
+        item.id = Math.uuid();
     }
 
     return obj;
