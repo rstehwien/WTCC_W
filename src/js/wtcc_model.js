@@ -6,7 +6,7 @@ wtcc.model.init = function() {
 wtcc.model.createCharacter = function() {
 	var char = wtcc.model.schema.create("character");
     var stats = wtcc.model.schema.findBy(wtcc.model.config.effects, 'type', 'stat');
-    var native = wtcc.model.schema.findBy(wtcc.model.config.modifiers, 'name', 'Native');
+    var native = wtcc.model.schema.findBy(wtcc.model.config.modifiers, 'id', '63337583-a1ce-4085-a83e-28243e11bf8c')[0];
     var pool;
     var stat;
     var cur;
@@ -15,7 +15,9 @@ wtcc.model.createCharacter = function() {
             continue;
         }
         stat = wtcc.model.schema.copy(cur);
-        stat.modifiers.push(wtcc.model.schema.copy(native))
+        if (native !== undefined) {
+            stat.modifiers.push(wtcc.model.schema.copy(native));
+        }
 
         pool = wtcc.model.schema.create("pool");
         pool.name = stat.name;
