@@ -6964,7 +6964,6 @@ wtcc.model.defaultConfig = {
             }]
         }]
     }],
-    
     "tables": [{
         "element": "table",
         "id": "5991ecb7-d570-4bad-adc4-69f0372f612e",
@@ -8218,4 +8217,3 @@ wtcc.model.defaultConfig = {
         }]
     }]
 };
-

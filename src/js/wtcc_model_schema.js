@@ -4,207 +4,255 @@
 // Might add "description" for full text from book
 
 /*
-{
-  "<classname>": {                                  // define class
-    "<property_name1>": <default>,                  // property with simple value
-    "<property_name2>": {"element": "<classname"},    // property that is another class
-    "<property_name2>": [<example>],                // property that is an array of simple values
-    "<property_name2>": [{"element": "<classname"}],  // property that is an array of other classes
-  } 
-}
-*/
+ {
+ "<classname>": {                                  // define class
+ "<property_name1>": <default>,                  // property with simple value
+ "<property_name2>": {"element": "<classname"},    // property that is another class
+ "<property_name2>": [<example>],                // property that is an array of simple values
+ "<property_name2>": [{"element": "<classname"}],  // property that is an array of other classes
+ }
+ }
+ */
 
 wtcc.model.schema.elements = {
-  "data": {
-    "version": 1,
-    "cost_willpower_base": 3,
-    "cost_willpower": 1,
-    "effects": [{"element": "effect"}],              // stats, skills, base powers
-    "modifiers": [{"element": "modifier"}],
-    "meta_qualities": [{"element": "meta_quality"}], // base meta qualities (sources, permissions, intrinsics)
-    "archetypes": [{"element": "archetype"}],        // built archetypes
-    "powers": [{"element": "pools"}],                // built powers
-    "tables": [{"element": "table"}],
-  },
-  
-  "character": {
-    "version": 1, 
-    "name": "",
-    "points": 0,
-    "infos": [{"element": "info"}],
-    "willpower": {"element": "willpower"},
-    "archetype": {"element": "archetype"}, 
-    "pools": {"element": "pools"},
-    "custom_modifiers": [{"element": "effect"}],
-    "measurements": [{"element": "measurement"}]
-  },
-  
-  "info": {
-    "name": "",
-    "text": ""
-  },
+    "data": {
+        "version": 1,
+        "cost_willpower_base": 3,
+        "cost_willpower": 1,
+        "effects": [
+            {"element": "effect"}
+        ],              // stats, skills, base powers
+        "modifiers": [
+            {"element": "modifier"}
+        ],
+        "meta_qualities": [
+            {"element": "meta_quality"}
+        ], // base meta qualities (sources, permissions, intrinsics)
+        "archetypes": [
+            {"element": "archetype"}
+        ],        // built archetypes
+        "powers": [
+            {"element": "pools"}
+        ],                // built powers
+        "tables": [
+            {"element": "table"}
+        ],
+    },
 
-  "willpower": {
-    "min_base": 0,
-    "base": 0,
-    "current": 0,
-    "points": 0,
-    "motivation": [{"element": "motivation"}]
-  },
-  
-  "motivation": {
-    "type": "",
-    "value": 0,
-    "name": ""
-  },
+    "character": {
+        "version": 1,
+        "name": "",
+        "points": 0,
+        "infos": [
+            {"element": "info"}
+        ],
+        "willpower": {"element": "willpower"},
+        "archetype": {"element": "archetype"},
+        "pools": {"element": "pools"},
+        "custom_modifiers": [
+            {"element": "effect"}
+        ],
+        "measurements": [
+            {"element": "measurement"}
+        ]
+    },
 
-  "effect": {
-    "type": "",
-    "name": "", 
-    "cost": 0,
-    "note": "",
-    "is_note_required": false,
-    "link": "",
-    "is_link_required": false,
-    "is_add_measurement": false,
-    "die_cost": 0,
-    "source": "",
-    "code": "", // effect code A/U/D with levels
-    "modifiers": [{"element": "modifier"}]
-  },
+    "info": {
+        "name": "",
+        "text": ""
+    },
 
-  "pools": {
-    "points_stats": 0,
-    "points_skills": 0,
-    "points_powers": 0,
-    "pools": [{"element": "pool"}]
-  },
+    "willpower": {
+        "min_base": 0,
+        "base": 0,
+        "current": 0,
+        "points": 0,
+        "motivation": [
+            {"element": "motivation"}
+        ]
+    },
 
-  "pool": {
-    "type": "",
-    "name": "",
-    "die_cost": 0,
-    "normal": 0, 
-    "hard": 0,
-    "wiggle": 0,
-    "points": 0,
-    "source": "",
-    "effects": [{"element": "effect"}]
-  },
+    "motivation": {
+        "type": "",
+        "value": 0,
+        "name": ""
+    },
 
-  "modifier": {
-    "type": "",
-    "name": "",
-    "cost": 0,
-    "note": "",
-    "is_note_required": false,
-    "has_ranks": true,
-    "ranks": 1,
-    "link": "",
-    "is_link_required": false,
-    "mod": 0,
-    "is_chosen": true,
-    "source": ""
-  },
+    "effect": {
+        "type": "",
+        "name": "",
+        "cost": 0,
+        "note": "",
+        "is_note_required": false,
+        "link": "",
+        "is_link_required": false,
+        "is_add_measurement": false,
+        "die_cost": 0,
+        "source": "",
+        "code": "", // effect code A/U/D with levels
+        "modifiers": [
+            {"element": "modifier"}
+        ]
+    },
 
-  "archetype": {
-    "type": "",
-    "name": "",
-    "points": 0,
-    "source": "",
-    "meta_qualities": [{"element": "meta_quality"}]
-  },
+    "pools": {
+        "points_stats": 0,
+        "points_skills": 0,
+        "points_powers": 0,
+        "pools": [
+            {"element": "pool"}
+        ]
+    },
 
-  "meta_quality": {
-    "type": "",
-    "name": "",
-    "cost": 0,
-    "is_custom": false,
-    "note": "",
-    "is_note_required": false,
-    "is_chosen": true,
-    "source": ""
-  },
+    "pool": {
+        "type": "",
+        "name": "",
+        "die_cost": 0,
+        "normal": 0,
+        "hard": 0,
+        "wiggle": 0,
+        "points": 0,
+        "source": "",
+        "effects": [
+            {"element": "effect"}
+        ]
+    },
 
-  "table": {
-    "type": "",
-    "name": "",
-    "units": "",
-    "link": "",
-    "boost": 0,
-    "beyond": 0,
-    "measurements": [{"element": "measurement"}]
-  },
+    "modifier": {
+        "type": "",
+        "name": "",
+        "cost": 0,
+        "note": "",
+        "is_note_required": false,
+        "has_ranks": true,
+        "ranks": 1,
+        "link": "",
+        "is_link_required": false,
+        "mod": 0,
+        "is_chosen": true,
+        "source": ""
+    },
 
-  "measurement": {
-    "type": "",
-    "pool": 0,
-    "text_cols": "",
-    "text": "",
-    "units": "",
-    "value": 0
-  }
+    "archetype": {
+        "type": "",
+        "name": "",
+        "points": 0,
+        "source": "",
+        "meta_qualities": [
+            {"element": "meta_quality"}
+        ]
+    },
+
+    "meta_quality": {
+        "type": "",
+        "name": "",
+        "cost": 0,
+        "is_custom": false,
+        "note": "",
+        "is_note_required": false,
+        "is_chosen": true,
+        "source": ""
+    },
+
+    "table": {
+        "type": "",
+        "name": "",
+        "units": "",
+        "link": "",
+        "boost": 0,
+        "beyond": 0,
+        "measurements": [
+            {"element": "measurement"}
+        ]
+    },
+
+    "measurement": {
+        "type": "",
+        "pool": 0,
+        "text_cols": "",
+        "text": "",
+        "units": "",
+        "value": 0
+    }
 };
 
-wtcc.model.schema.create = function(element){
-	var scheme = wtcc.model.schema.elements[element];
-	if (scheme === null || scheme === undefined) throw new wtcc.Exception('Unknown element "' + element + '"');
-	
-	var obj = {"element": element, "id": Math.uuid()};
-	for (property in scheme){
-		if (scheme[property].length >= 0){
-			obj[property] = [];
-			continue;
-		}
-		switch (typeof(scheme[property])) {
-			case 'function': continue;
-			case 'string':
-			case 'number':
-			case 'boolean':
-				obj[property] = scheme[property];
-				continue;
-		}
-		if (typeof(scheme[property].element) !== 'undefined') {
-			obj[property] = wtcc.model.schema.create(scheme[property].element);
-		}
-		else {
-			obj[property] = wtcc.util.cloneJSON(scheme[property]);
-		}
-	}
-	return obj;
+wtcc.model.schema.create = function(element) {
+    var scheme = wtcc.model.schema.elements[element];
+    if (scheme === null || scheme === undefined) throw new wtcc.Exception('Unknown element "' + element + '"');
+
+    var obj = {"element": element, "id": Math.uuid()};
+    for (property in scheme) {
+        switch (wtcc.util.myTypeOf(scheme[property])) {
+            case 'function': continue;
+            case 'string':
+            case 'number':
+            case 'boolean':
+                obj[property] = scheme[property];
+                continue;
+            case 'array':
+                obj[property] = [];
+                continue;
+        }
+        if (typeof(scheme[property].element) !== 'undefined') {
+            obj[property] = wtcc.model.schema.create(scheme[property].element);
+        }
+        else {
+            obj[property] = wtcc.util.cloneJSON(scheme[property]);
+        }
+    }
+    return obj;
 };
 
 wtcc.model.schema.findBy = function(obj, property, match, first) {
-  var ret = [];
-  
-  var prop = obj[property];
+    var ret = [];
 
-  if (typeof(match) === 'string' && prop === match) ret.push(obj);
-  else if (typeof(match.test) === 'function' && match.test(prop)) ret.push(obj);
-  
-  if (first === true && ret.length > 0) return ret;
-  
-  var match;
-  for (cur in obj) {
-		if (obj[cur].length >= 0){
-			for (i = 0; i < obj[cur].length; i = i + 1) {
-			  match = wtcc.model.schema.findBy(obj[cur][i], property, match, first);
-			}
-		}
-		else if(typeof(obj[cur]) === 'object') {
-		  match = wtcc.model.schema.findBy(obj[cur], property, match, first);
-		}
-		ret = ret.concat(match);
-		if (first === true && ret.length > 0) return ret;
-  }
-  
-  return ret;
+    var prop = obj[property];
+
+    if (wtcc.util.myTypeOf(match) === 'string' && prop === match) {
+        ret.push(obj);
+    }
+    else if (wtcc.util.myTypeOf(match.test) === 'function' && match.test(prop)) {
+        ret.push(obj);
+    }
+
+    if (first === true && ret.length > 0) {
+        return ret;
+    }
+
+    var cur;
+    var item;
+    for (cur in obj) {
+        item = obj[cur];
+        if (wtcc.util.myTypeOf(item) === 'array') {
+            for (i = 0; i < item.length; i = i + 1) {
+                ret = ret.concat(wtcc.model.schema.findBy(item[i], property, match, first));
+                if (first === true && ret.length > 0) {
+                    return ret;
+                }
+            }
+        }
+        else if (typeof(item) === 'object') {
+            ret = ret.concat(wtcc.model.schema.findBy(item, property, match, first));
+            if (first === true && ret.length > 0) {
+                return ret;
+            }
+        }
+    }
+
+    return ret;
 }
 
-wtcc.model.schema.copy = function(orig){
-  var obj = wtcc.util.cloneJSON(orig);
-  
-  // TODO fix ids and id_org
-  
-  return obj;
+wtcc.model.schema.copy = function(orig) {
+    var obj = wtcc.util.cloneJSON(orig);
+    var reg = /[\w-]*/i;
+
+    var ids = wtcc.model.schema.findBy(obj, 'id', reg);
+    for (i = 0; i < ids.length; i = i+1) {
+        if (ids[i].id_org === undefined || !reg.match(ids[i].id_org)) {
+            ids[i].id_org = ids[i].id;
+        }
+        ids[i].id = Math.uuid();
+    }
+
+    return obj;
 };
