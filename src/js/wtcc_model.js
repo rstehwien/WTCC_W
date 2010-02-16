@@ -1,11 +1,12 @@
 wtcc.model.init = function() {
+  wtcc.model.config = wtcc.model.defaultConfig;
   wtcc.model.character = wtcc.model.createCharacter();
 };
 
 wtcc.model.createCharacter = function() {
-	var char = wtcc.model.schema.create("character"); //wtcc.util.cloneJSON(wtcc.model.defaultConfig.character);
-    var stats = wtcc.model.schema.findBy(wtcc.model.defaultConfig.effects, 'type', 'stat');
-    var native = wtcc.model.schema.findBy(wtcc.model.defaultConfig.modifiers, 'name', 'Native');
+	var char = wtcc.model.schema.create("character");
+    var stats = wtcc.model.schema.findBy(wtcc.model.config.effects, 'type', 'stat');
+    var native = wtcc.model.schema.findBy(wtcc.model.config.modifiers, 'name', 'Native');
     var pool;
     var stat;
     var cur;

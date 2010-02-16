@@ -1,5 +1,5 @@
 wtcc.app.init = function() {
-    wtcc.app.log('wtccDebug', 'wtcc.init begin')
+    wtcc.log('wtccDebug', 'wtcc.init begin')
 
     Ext.QuickTips.init();
 
@@ -9,11 +9,7 @@ wtcc.app.init = function() {
     // TODO uncomment for production
     //if (typeof(Titanium) === 'undefined') window.onbeforeunload = function() { return 'About to loose any changes.'; };
 
-    wtcc.app.log('wtccDebug', 'wtcc.init complete')
-};
-
-wtcc.app.log = function(level, msg) {
-    if (wtcc.util.myTypeOf(console) !== 'undefined') console.log(level + ': ' + msg);
+    wtcc.log('wtccDebug', 'wtcc.init complete')
 };
 
 Ext.onReady(wtcc.app.init);

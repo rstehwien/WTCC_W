@@ -11,3 +11,7 @@ wtcc.Exception = function(message) {
   this.message = message;
   return this;
 }
+
+wtcc.log = function(level, msg) {
+    if (wtcc.util.myTypeOf(console) !== 'undefined') console.log(level + ': ' + msg);
+};
