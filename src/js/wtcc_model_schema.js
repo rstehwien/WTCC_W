@@ -67,7 +67,7 @@ wtcc.model.schema.elements = {
         "base": 0,
         "current": 0,
         "points": 0,
-        "motivation": [
+        "motivations": [
             {"element": "motivation"}
         ]
     },
@@ -76,23 +76,6 @@ wtcc.model.schema.elements = {
         "type": "",
         "value": 0,
         "name": ""
-    },
-
-    "effect": {
-        "type": "",
-        "name": "",
-        "cost": 0,
-        "note": "",
-        "is_note_required": false,
-        "link": "",
-        "is_link_required": false,
-        "is_add_measurement": false,
-        "die_cost": 0,
-        "source": "",
-        "code": "", // effect code A/U/D with levels
-        "modifiers": [
-            {"element": "modifier"}
-        ]
     },
 
     "pools": {
@@ -115,6 +98,23 @@ wtcc.model.schema.elements = {
         "source": "",
         "effects": [
             {"element": "effect"}
+        ]
+    },
+
+    "effect": {
+        "type": "",
+        "name": "",
+        "cost": 0,
+        "note": "",
+        "is_note_required": false,
+        "link": "",
+        "is_link_required": false,
+        "is_add_measurement": false,
+        "die_cost": 0,
+        "source": "",
+        "code": "", // effect code A/U/D with levels
+        "modifiers": [
+            {"element": "modifier"}
         ]
     },
 
@@ -193,7 +193,7 @@ wtcc.model.schema.create = function(element) {
                 obj[property] = [];
                 continue;
         }
-        if (typeof(scheme[property].element) !== 'undefined') {
+        if (wtcc.util.myTypeOf(scheme[property].element) !== 'undefined') {
             obj[property] = wtcc.model.schema.create(scheme[property].element);
         }
         else {
@@ -231,7 +231,7 @@ wtcc.model.schema.findBy = function(obj, property, match, first) {
                 }
             }
         }
-        else if (typeof(item) === 'object') {
+        else if (wtcc.util.myTypeOf(item) === 'object') {
             ret = ret.concat(wtcc.model.schema.findBy(item, property, match, first));
             if (first === true && ret.length > 0) {
                 return ret;
