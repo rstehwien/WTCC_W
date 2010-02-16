@@ -67,11 +67,10 @@ var SchemaTestCase = JSTest.TestCase({
     },
 
     testFindByMultCall: function () {
-        //var result = wtcc.model.schema.findBy(wtcc.model.defaultConfig, 'element', 'modifier');
-        //this.assertGreatherThan(result.length, 1);
-        //var result2 = wtcc.model.schema.findBy(wtcc.model.defaultConfig.modifiers, 'name', 'Native');
-        //this.assertEqual(result2.length, 1);
-        this.todo('Write more tests');
+        var result = wtcc.model.schema.findBy(wtcc.model.defaultConfig, 'element', 'modifier');
+        this.assertGreaterThan(result.length, 1);
+        var result2 = wtcc.model.schema.findBy(result, 'id', '63337583-a1ce-4085-a83e-28243e11bf8c'); // Native
+        this.assertEqual(result2.length, 1);
     },
 
     testCopy: function () {
