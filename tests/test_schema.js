@@ -18,7 +18,7 @@ var SchemaTestCase = JSTest.TestCase({
     },
 
     testCreateData: function () {
-        var item = wtcc.model.schema.create("data");
+        var item = wtcc.schema.create("data");
         this.assertType(item, 'object');
         this.assertHasProperty(item, 'id');
         this.assertHasProperty(item, 'modifiers');
@@ -27,7 +27,7 @@ var SchemaTestCase = JSTest.TestCase({
     },
 
     testCreateCharacter: function () {
-        var item = wtcc.model.schema.create("character");
+        var item = wtcc.schema.create("character");
         this.assertType(item, 'object');
         this.assertHasProperty(item, 'id');
         this.assertType(item.willpower, 'object');
@@ -35,47 +35,47 @@ var SchemaTestCase = JSTest.TestCase({
     },
 
     testCreateInvalid: function () {
-        this.assertRaises(wtcc.Exception, wtcc.model.schema.create, null, "invalid");
+        this.assertRaises(wtcc.Exception, wtcc.schema.create, null, "invalid");
     },
 
     testFindByStrExists: function () {
-        var item = wtcc.model.schema.create("character");
+        var item = wtcc.schema.create("character");
         item.name = "Foo";
-        var result = wtcc.model.schema.findBy(item, 'name', 'Foo');
+        var result = wtcc.schema.findBy(item, 'name', 'Foo');
         this.assertEqual(result.length, 1);
     },
 
     testFindByRegExExists: function () {
-        var item = wtcc.model.schema.create("character");
+        var item = wtcc.schema.create("character");
         item.name = "Foo";
-        var result = wtcc.model.schema.findBy(item, 'name', /oo/);
+        var result = wtcc.schema.findBy(item, 'name', /oo/);
         this.assertEqual(result.length, 1);
     },
 
     testFindByStrNotExists: function () {
-        var item = wtcc.model.schema.create("character");
+        var item = wtcc.schema.create("character");
         item.name = "Foo";
-        var result = wtcc.model.schema.findBy(item, 'name', 'BAr');
+        var result = wtcc.schema.findBy(item, 'name', 'BAr');
         this.assertEqual(result.length, 0);
     },
 
     testFindByRegExNotExists: function () {
-        var item = wtcc.model.schema.create("character");
+        var item = wtcc.schema.create("character");
         item.name = "Foo";
-        var result = wtcc.model.schema.findBy(item, 'name', /z/);
+        var result = wtcc.schema.findBy(item, 'name', /z/);
         this.assertEqual(result.length, 0);
     },
 
     testFindByMultCall: function () {
-        var result = wtcc.model.schema.findBy(wtcc.model.defaultConfig, 'element', 'modifier');
+        var result = wtcc.schema.findBy(wtcc.model.defaultConfig, 'element', 'modifier');
         this.assertGreaterThan(result.length, 1);
-        var result2 = wtcc.model.schema.findBy(result, 'id', '63337583-a1ce-4085-a83e-28243e11bf8c'); // Native
+        var result2 = wtcc.schema.findBy(result, 'id', '63337583-a1ce-4085-a83e-28243e11bf8c'); // Native
         this.assertEqual(result2.length, 1);
     },
 
     testCopy: function () {
-        var item1 = wtcc.model.schema.create("character");
-        var item2 = wtcc.model.schema.copy(item1);
+        var item1 = wtcc.schema.create("character");
+        var item2 = wtcc.schema.copy(item1);
         this.assertNotEqual(item1.id, item2.id);
         this.assertEqual(item1.id, item2.id_org);
         this.assertNotEqual(item1.willpower.id, item2.willpower.id);

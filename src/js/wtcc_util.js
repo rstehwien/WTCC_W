@@ -7,13 +7,13 @@ wtcc.util.myTypeOf = function(obj) {
     if (type == 'object') {
         if (obj == null) {
             return 'null';
-        } else if (obj.constructor.toString().match(/regexp/i) != null) {
+        } else if (obj.constructor.toString().match(/regexp/i) !== null) {
             return 'regexp';
-        } else if (obj.constructor.toString().match(/date/i) != null) {
+        } else if (obj.constructor.toString().match(/date/i) !== null) {
             return 'date';
-        } else if (obj.constructor.toString().match(/html/i) != null) {
+        } else if (obj.constructor.toString().match(/html/i) !== null) {
             return 'html';
-        } else if (obj.constructor.toString().match(/array/i) != null && typeof(obj.length) != 'undefined') {
+        } else if (obj.constructor.toString().match(/array/i) !== null && typeof(obj.length) !== 'undefined') {
             return 'array';
         } else {
             return 'object';

@@ -14,7 +14,7 @@
  }
  */
 
-wtcc.model.schema.elements = {
+wtcc.schema.elements = {
     "data": {
         "version": 1,
         "cost_willpower_base": 3,
@@ -82,7 +82,7 @@ wtcc.model.schema.elements = {
         "points_stats": 0,
         "points_skills": 0,
         "points_powers": 0,
-        "pools": [
+        "list": [
             {"element": "pool"}
         ]
     },
@@ -176,8 +176,8 @@ wtcc.model.schema.elements = {
     }
 };
 
-wtcc.model.schema.create = function(element) {
-    var scheme = wtcc.model.schema.elements[element];
+wtcc.schema.create = function(element) {
+    var scheme = wtcc.schema.elements[element];
     if (scheme === null || scheme === undefined) throw new wtcc.Exception('Unknown element "' + element + '"');
 
     var obj = {"element": element, "id": Math.uuid()};
@@ -194,7 +194,7 @@ wtcc.model.schema.create = function(element) {
                 continue;
         }
         if (wtcc.util.myTypeOf(scheme[property].element) !== 'undefined') {
-            obj[property] = wtcc.model.schema.create(scheme[property].element);
+            obj[property] = wtcc.schema.create(scheme[property].element);
         }
         else {
             obj[property] = wtcc.util.cloneJSON(scheme[property]);
@@ -203,7 +203,7 @@ wtcc.model.schema.create = function(element) {
     return obj;
 };
 
-wtcc.model.schema.findBy = function(obj, property, match, first) {
+wtcc.schema.findBy = function(obj, property, match, first) {
     var ret = [];
 
     var item;
@@ -212,7 +212,7 @@ wtcc.model.schema.findBy = function(obj, property, match, first) {
             if (wtcc.util.myTypeOf(item) !== 'object') {
                 continue;
             }
-            ret = ret.concat(wtcc.model.schema.findBy(item, property, match, first));
+            ret = ret.concat(wtcc.schema.findBy(item, property, match, first));
             if (first === true && ret.length > 0) {
                 return ret;
             }
@@ -239,7 +239,7 @@ wtcc.model.schema.findBy = function(obj, property, match, first) {
             item = obj[cur];
             itemtype = wtcc.util.myTypeOf(item);
             if (itemtype === 'object' || itemtype === 'array') {
-                ret = ret.concat(wtcc.model.schema.findBy(item, property, match, first));
+                ret = ret.concat(wtcc.schema.findBy(item, property, match, first));
                 if (first === true && ret.length > 0) {
                     return ret;
                 }
@@ -250,11 +250,11 @@ wtcc.model.schema.findBy = function(obj, property, match, first) {
     return ret;
 }
 
-wtcc.model.schema.copy = function(orig) {
+wtcc.schema.copy = function(orig) {
     var obj = wtcc.util.cloneJSON(orig);
     var reg = /[\w-]*/i;
 
-    var ids = wtcc.model.schema.findBy(obj, 'id', reg);
+    var ids = wtcc.schema.findBy(obj, 'id', reg);
     var item;
     for each (item in ids) {
         if (wtcc.util.myTypeOf(item) !== 'object') {

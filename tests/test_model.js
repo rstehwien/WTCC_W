@@ -19,8 +19,13 @@ var ModelTestCase = JSTest.TestCase({
 
     testCreateCharacter: function () {
         var char = wtcc.model.createCharacter();
-        this.assertGreaterThan(char.pools.pools.length, 1);
-        this.assertEqual(char.pools.pools[0].effects[0].modifiers.length, 1);
+        this.assertGreaterThan(char.pools.list.length, 1);
+        this.assertEqual(char.pools.list[0].effects[0].modifiers.length, 1);
         //wtcc.log(Ext.util.JSON.encode(char));
+    },
+
+    testUpdate: function () {
+        this.todo('Write and test udpate functions');
     }
+
 });

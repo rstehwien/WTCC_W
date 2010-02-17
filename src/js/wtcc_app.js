@@ -7,7 +7,7 @@ wtcc.app.init = function() {
     wtcc.view.init();
 
     // TODO uncomment for production
-    //if (typeof(Titanium) === 'undefined') window.onbeforeunload = function() { return 'About to loose any changes.'; };
+    //if (wtcc.util.myTypeOf(Titanium) === 'undefined') window.onbeforeunload = function() { return 'About to loose any changes.'; };
 
     wtcc.log('wtccDebug', 'wtcc.init complete')
 };
