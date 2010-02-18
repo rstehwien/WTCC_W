@@ -1,3 +1,5 @@
+Ext.namespace('wtcc.model');
+
 wtcc.model.init = function() {
   wtcc.model.config = wtcc.model.defaultConfig;
   wtcc.model.updateConfig(wtcc.model.config);

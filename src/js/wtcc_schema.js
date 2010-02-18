@@ -1,3 +1,5 @@
+Ext.namespace('wtcc.schema');
+
 // All elements have a "element" property
 // All elements have an "id" (UUID)
 // All elements can have "id_org" (copy of original)

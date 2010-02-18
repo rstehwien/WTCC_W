@@ -1,10 +1,12 @@
+Ext.namespace('wtcc.app');
+
 wtcc.app.init = function() {
     wtcc.log('wtccDebug', 'wtcc.init begin')
 
     Ext.QuickTips.init();
 
     wtcc.model.init();
-    wtcc.view.init();
+    wtcc.ui.init();
 
     // TODO uncomment for production
     //if (wtcc.util.myTypeOf(Titanium) === 'undefined') window.onbeforeunload = function() { return 'About to loose any changes.'; };
