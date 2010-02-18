@@ -178,14 +178,27 @@ wtcc.schema.elements = {
     }
 };
 
-wtcc.schema.create = function(element) {
-    var scheme = wtcc.schema.elements[element];
-    if (scheme === null || scheme === undefined) throw new wtcc.Exception('Unknown element "' + element + '"');
+wtcc.schema.create = function(name) {
+    var scheme = wtcc.schema.elements[name];
+    if (scheme === null || scheme === undefined) throw new wtcc.Exception('Unknown element name "' + name + '"');
 
-    var obj = {"element": element, "id": Math.uuid()};
+    var obj = {"element": name};
+    wtcc.schema.verify(obj);
+    return obj;
+};
+
+wtcc.schema.verify = function(obj) {
+    var name = obj.element;
+    var scheme = wtcc.schema.elements[name];
+    if (scheme === null || scheme === undefined) throw new wtcc.Exception('Unknown element name "' + name + '"');
+
+    if (obj["id"] === undefined) obj["id"] = Math.uuid();
+
     for (property in scheme) {
+        if (obj[property] !== undefined) continue;
         switch (wtcc.util.myTypeOf(scheme[property])) {
-            case 'function': continue;
+            case 'function':
+                continue;
             case 'string':
             case 'number':
             case 'boolean':
@@ -199,10 +212,9 @@ wtcc.schema.create = function(element) {
             obj[property] = wtcc.schema.create(scheme[property].element);
         }
         else {
-            obj[property] = wtcc.util.cloneJSON(scheme[property]);
+            throw new wtcc.Exception('Unknown property name "' + property + '"');
         }
     }
-    return obj;
 };
 
 wtcc.schema.findBy = function(obj, property, match, first) {
@@ -250,7 +262,7 @@ wtcc.schema.findBy = function(obj, property, match, first) {
     }
 
     return ret;
-}
+};
 
 wtcc.schema.copy = function(orig) {
     var obj = wtcc.util.cloneJSON(orig);
@@ -269,4 +281,39 @@ wtcc.schema.copy = function(orig) {
     }
 
     return obj;
+};
+
+wtcc.schema.metadata = function(name) {
+    var scheme = wtcc.schema.elements[name];
+    if (scheme === null || scheme === undefined) throw new wtcc.Exception('Unknown element name "' + name + '"');
+
+    var fields = [];
+    for (property in scheme) {
+        switch (wtcc.util.myTypeOf(scheme[property])) {
+            case 'string':
+            case 'number':
+            case 'boolean':
+                fields.push({"name": property});
+                continue;
+        }
+    }
+
+    var metadata = {
+        "idProperty": "id",
+        "root": "rows",
+        "totalProperty": "results",
+        "successProperty": "success",
+        "fields": fields,
+        // used by store to set its sortInfo
+        "sortInfo":{
+           "field": "name",
+           "direction": "ASC"
+        },
+    };
+
+    return metadata;
+};
+
+wtcc.schema.trim = function(obj) {
+  // TODO implment trim defaults
 };

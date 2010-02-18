@@ -80,7 +80,15 @@ var SchemaTestCase = JSTest.TestCase({
         this.assertEqual(item1.id, item2.id_org);
         this.assertNotEqual(item1.willpower.id, item2.willpower.id);
         this.assertEqual(item1.willpower.id, item2.willpower.id_org);
-    }
+    },
+
+    testVerify: function() {
+        var item = {"element": "effect"};
+        wtcc.schema.verify(item);
+        this.assertHasProperty(item, 'id');
+        this.assertHasProperty(item, 'modifiers');
+        this.assertEqual(item.modifiers.length, 0);
+    },
 
     // this.todo('Write more tests');
 });

@@ -34,9 +34,10 @@ wtcc.model.createCharacter = function() {
 
 wtcc.model.updateCharacter = function(char) {
     if (char.element !== 'character') throw new wtcc.Exception('updateCharacter cannot update: ' + char.element);
+    // TODO implement
 };
 
 wtcc.model.updateConfig = function(config) {
     if (config.element !== 'data') throw new wtcc.Exception('updateConfig cannot update: ' + config.element);
-
+    // TODO implement
 };
