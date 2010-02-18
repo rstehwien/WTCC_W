@@ -1,4 +1,4 @@
-Ext.BLANK_IMAGE_URL = 'js/extjs/resources/images/default/s.gif';
+Ext.BLANK_IMAGE_URL = 'lib/extjs/resources/images/default/s.gif';
 
 Ext.namespace('wtcc');
 
