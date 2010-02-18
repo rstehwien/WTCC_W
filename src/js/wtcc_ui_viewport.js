@@ -6,6 +6,7 @@ wtcc.ui.viewport.init = function() {
 };
 
 wtcc.ui.viewport.createMainWindow = function() {
+
     var toolbar = new Ext.Toolbar({
         id: 'wtcc_ui_toolbar',
         region: 'north',
@@ -49,25 +50,25 @@ wtcc.ui.viewport.createMainWindow = function() {
 
     var infoPanel = new Ext.Panel({
         title: 'Character',
-        html: '<h1>Character goes here</h1>' + wtcc.ui.longText,
+        html: '<h1>Character goes here</h1>',
         collapsible: true,
     });
 
     var archetypePanel = new Ext.Panel({
         title: 'Archetype',
-        html: '<h1>Archetype goes here</h1>' + wtcc.ui.longText,
+        html: '<h1>Archetype goes here</h1>',
         collapsible: true,
     });
 
     var poolsPanel = new Ext.Panel({
         title: 'Pools',
-        html: '<h1>Pools go here</h1>' + wtcc.ui.longText,
+        html: '<h1>Pools go here</h1>',
         collapsible: true,
     });
 
     var willpowerPanel = new Ext.Panel({
         title: 'Willpower',
-        html: '<h1>Willpower goes here</h1>' + wtcc.ui.longText,
+        html: '<h1>Willpower goes here</h1>',
         collapsible: true,
     });
 
