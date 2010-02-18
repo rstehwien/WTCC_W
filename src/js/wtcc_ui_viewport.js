@@ -6,15 +6,11 @@ wtcc.ui.viewport.init = function() {
 };
 
 wtcc.ui.viewport.createMainWindow = function() {
-    wtcc.ui.viewport.viewport = new Ext.Viewport({
-        layout: 'border',
+    var toolbar = new Ext.Toolbar({
+        id: 'wtcc_ui_toolbar',
+        region: 'north',
+        height: 30,
         items: [
-        {
-            region: 'north',
-            id: 'wtcc_ui_top',
-            height: 30,
-            xtype: 'toolbar',
-            items: [
             {
                 xtype: 'tbspacer'
             },
@@ -22,87 +18,84 @@ wtcc.ui.viewport.createMainWindow = function() {
                 xtype: 'tbbutton',
                 text: 'Menu',
                 menu: [
-                {
-                    text: 'Load'
-                },
-                {
-                    text: 'Save'
-                },
-                {
-                    text: 'Export'
-                },
-                '-',
-                {
-                    text: 'Config'
-                },
-                '-',
-                {
-                    text: 'About'
-                },
-                {
-                    text: 'Help'
-                },
+                    {
+                        text: 'Load',
+                    },
+                    {
+                        text: 'Save'
+                    },
+                    {
+                        text: 'Export'
+                    },
+                    '-',
+                    {
+                        text: 'Config'
+                    },
+                    '-',
+                    {
+                        text: 'About'
+                    },
+                    {
+                        text: 'Help'
+                    },
                 ],
             },
             {
                 xtype: 'tbfill'
             },
-            ],
-        },
-        {
-            region: 'center',
-            id: 'wtcc_ui_center',
-            layout: 'card',
-            activeItem: 'wtcc_ui_main',
-            items: [
-            {
-                id: 'wtcc_ui_main',
-                xtype: 'panel',
-                autoScroll: true,
-                items: [
-                {
-                    xtype: 'panel',
-                    title: 'Character',
-                    html: '<h1>Character goes here</h1>' + wtcc.ui.longText,
-                    collapsible: true,
-                },
-                {
-                    xtype: 'panel',
-                    title: 'Archetype',
-                    html: '<h1>Archetype goes here</h1>' + wtcc.ui.longText,
-                    collapsible: true,
-                },
-                {
-                    xtype: 'panel',
-                    title: 'Pools',
-                    html: '<h1>Pools go here</h1>' + wtcc.ui.longText,
-                    collapsible: true,
-                },
-                {
-                    xtype: 'panel',
-                    title: 'Willpower',
-                    html: '<h1>Willpower goes here</h1>' + wtcc.ui.longText,
-                    collapsible: true,
-                },
-                ]
-            },
-            {
-                id: 'wtcc_ui_edit_pool',
-                html: '<h1>Pool editor</h1>'
-            },
-            {
-                id: 'wtcc_ui_edit_effect',
-                html: '<h1>Effect editor</h1>'
-            },
-            ]
-        },
-        {
-            region: 'south',
-            id: 'wtcc_ui_bottom',
-            height: 40,
-            xtype: 'toolbar'
-        }
-        ]
+        ],
+
     });
+
+    var infoPanel = new Ext.Panel({
+        title: 'Character',
+        html: '<h1>Character goes here</h1>' + wtcc.ui.longText,
+        collapsible: true,
+    });
+
+    var archetypePanel = new Ext.Panel({
+        title: 'Archetype',
+        html: '<h1>Archetype goes here</h1>' + wtcc.ui.longText,
+        collapsible: true,
+    });
+
+    var poolsPanel = new Ext.Panel({
+        title: 'Pools',
+        html: '<h1>Pools go here</h1>' + wtcc.ui.longText,
+        collapsible: true,
+    });
+
+    var willpowerPanel = new Ext.Panel({
+        title: 'Willpower',
+        html: '<h1>Willpower goes here</h1>' + wtcc.ui.longText,
+        collapsible: true,
+    });
+
+    var characterEditor = new Ext.Panel({
+        id: 'wtcc_ui_character_editor',
+        xtype: 'panel',
+        autoScroll: true,
+        items: [infoPanel, archetypePanel, poolsPanel, willpowerPanel]
+    });
+
+    var centerCards = new Ext.Container({
+        region: 'center',
+        id: 'wtcc_ui_center',
+        layout: 'card',
+        activeItem: 'wtcc_ui_character_editor',
+        items: [characterEditor],
+    });
+
+    var statusBar = new Ext.Toolbar({
+        region: 'south',
+        id: 'wtcc_ui_bottom',
+        height: 40,
+    });
+
+    var viewport = new Ext.Viewport({
+        layout: 'border',
+        items: [toolbar, centerCards, statusBar]
+    });
+    return viewport;
 };
 
