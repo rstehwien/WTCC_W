@@ -195,7 +195,14 @@ wtcc.schema.verify = function(obj) {
     if (obj["id"] === undefined) obj["id"] = Math.uuid();
 
     for (property in scheme) {
-        if (obj[property] !== undefined) continue;
+        if (obj[property] !== undefined) {
+            if (wtcc.util.myTypeOf(obj[property].element) !== 'undefined') {
+                // TODO make sure that element is of right kind
+                wtcc.schema.verify(obj[property]);
+            }
+            // TODO check that arrays have right kind
+            continue;
+        }
         switch (wtcc.util.myTypeOf(scheme[property])) {
             case 'function':
                 continue;
@@ -315,5 +322,26 @@ wtcc.schema.metadata = function(name) {
 };
 
 wtcc.schema.trim = function(obj) {
-  // TODO implment trim defaults
+    var name = obj.element;
+    var scheme = wtcc.schema.elements[name];
+    if (scheme === null || scheme === undefined) {return;}
+
+    for (property in scheme) {
+        if (obj[property] === undefined) continue;
+        switch (wtcc.util.myTypeOf(scheme[property])) {
+            case 'function':
+            case 'array':
+                continue;
+            case 'string':
+            case 'number':
+            case 'boolean':
+                if (obj[property] === scheme[property]) {
+                    delete obj[property];
+                }
+                continue;
+        }
+        if (wtcc.util.myTypeOf(scheme[property].element) !== 'undefined') {
+            obj[property] = wtcc.schema.trim(obj[property]);
+        }
+    }
 };

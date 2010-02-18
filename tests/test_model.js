@@ -24,8 +24,6 @@ var ModelTestCase = JSTest.TestCase({
         //wtcc.log(Ext.util.JSON.encode(char));
     },
 
-    testUpdate: function () {
-        this.todo('Write and test udpate functions');
-    }
+    // TODO test update functions
 
 });

@@ -90,6 +90,20 @@ var SchemaTestCase = JSTest.TestCase({
         this.assertEqual(item.modifiers.length, 0);
     },
 
+    testDeepVerify: function() {
+        var item = {"element": "character", "willpower": {"element": "willpower"}};
+        wtcc.schema.verify(item);
+        this.assertHasProperty(item.willpower, 'id');
+    },
+
+    testTrim: function() {
+        var item = wtcc.schema.create("modifier");
+        this.assertHasProperty(item, 'cost');
+        wtcc.schema.trim(item);
+        this.assertNotHasProperty(item, 'cost');
+        //wtcc.log(Ext.util.JSON.encode(item));
+    }
+
     // this.todo('Write more tests');
 });
 
