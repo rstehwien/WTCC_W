@@ -224,7 +224,9 @@ wtcc.schema.verify = function(obj) {
     }
 };
 
-wtcc.schema.findBy = function(obj, property, match, first) {
+wtcc.schema.findBy = function(obj, property, match, first, notchildren) {
+    // TODO need better search like jsonquery
+
     var ret = [];
 
     var item;
@@ -233,7 +235,7 @@ wtcc.schema.findBy = function(obj, property, match, first) {
             if (wtcc.util.myTypeOf(item) !== 'object') {
                 continue;
             }
-            ret = ret.concat(wtcc.schema.findBy(item, property, match, first));
+            ret = ret.concat(wtcc.schema.findBy(item, property, match, first, notchildren));
             if (first === true && ret.length > 0) {
                 return ret;
             }
@@ -260,7 +262,8 @@ wtcc.schema.findBy = function(obj, property, match, first) {
             item = obj[cur];
             itemtype = wtcc.util.myTypeOf(item);
             if (itemtype === 'object' || itemtype === 'array') {
-                ret = ret.concat(wtcc.schema.findBy(item, property, match, first));
+                if (notchildren === true) continue;
+                ret = ret.concat(wtcc.schema.findBy(item, property, match, first, notchildren));
                 if (first === true && ret.length > 0) {
                     return ret;
                 }
@@ -311,11 +314,6 @@ wtcc.schema.metadata = function(name) {
         "totalProperty": "results",
         "successProperty": "success",
         "fields": fields,
-        // used by store to set its sortInfo
-        "sortInfo":{
-           "field": "name",
-           "direction": "ASC"
-        },
     };
 
     return metadata;

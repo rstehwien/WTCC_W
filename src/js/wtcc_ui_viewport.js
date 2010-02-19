@@ -60,11 +60,9 @@ wtcc.ui.viewport.createMainWindow = function() {
         collapsible: true,
     });
 
-    var poolsPanel = new Ext.Panel({
-        title: 'Pools',
-        html: '<h1>Pools go here</h1>',
-        collapsible: true,
-    });
+    var poolsStats = wtcc.ui.pools.create('Stats', wtcc.schema.findBy(wtcc.model.character.pools.list, 'type', 'stat', false, true));
+    var poolsSkills = wtcc.ui.pools.create('Skills', wtcc.schema.findBy(wtcc.model.character.pools.list, 'type', 'skill', false, true));
+    var poolsPowers = wtcc.ui.pools.create('Powers', wtcc.schema.findBy(wtcc.model.character.pools.list, 'type', 'power', false, true));
 
     var willpowerPanel = new Ext.Panel({
         title: 'Willpower',
@@ -76,7 +74,7 @@ wtcc.ui.viewport.createMainWindow = function() {
         id: 'wtcc_ui_character_editor',
         xtype: 'panel',
         autoScroll: true,
-        items: [infoPanel, archetypePanel, poolsPanel, willpowerPanel]
+        items: [infoPanel, poolsStats, poolsSkills, archetypePanel, poolsPowers, willpowerPanel]
     });
 
     var centerCards = new Ext.Container({

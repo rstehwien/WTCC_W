@@ -24,6 +24,8 @@ wtcc.model.createCharacter = function() {
 
         pool = wtcc.schema.create("pool");
         pool.name = stat.name;
+        pool.normal = 1;
+        pool.type = 'stat';
         pool.effects.push(stat);
 
         char.pools.list.push(pool);
