@@ -1,7 +1,7 @@
 Ext.namespace('wtcc.app');
 
-wtcc.app.init = function() {
-    wtcc.log('wtccDebug', 'wtcc.init begin')
+wtcc.app.init = function () {
+    wtcc.log('wtccDebug', 'wtcc.init begin');
 
     Ext.QuickTips.init();
 
@@ -9,15 +9,15 @@ wtcc.app.init = function() {
     wtcc.ui.init();
 
     // TODO uncomment for production
-    //if (wtcc.util.myTypeOf(Titanium) === 'undefined') window.onbeforeunload = function() { return 'About to loose any changes.'; };
+    //if (wtcc.util.myTypeOf(Titanium) === 'undefined') window.onbeforeunload = function () { return 'About to loose any changes.'; };
 
-    wtcc.log('wtccDebug', 'wtcc.init complete')
+    wtcc.log('wtccDebug', 'wtcc.init complete');
 };
 
 Ext.onReady(wtcc.app.init);
 
 /*
- include: function(filename) {
+ include: function (filename) {
  var head = document.getElementsByTagName('head')[0];
 
  script = document.createElement('script');
@@ -30,20 +30,20 @@ Ext.onReady(wtcc.app.init);
 
  <script type="text/javascript" src="js/ext-basex.js"></script>
 
- loadData: function() {
+ loadData: function () {
  Ext.Ajax.request(
  {
  loadMask: true,
  url: 'data/WTCC_data.json',
  success: WTCC.parseData,
- failure: function() {
+ failure: function () {
  debugger;
  Ext.Msg.alert('Error', 'Unable to load data.');
  }
  });
  },
 
- parseData: function(result) {
+ parseData: function (result) {
  try {
  WTCC.data = Ext.util.JSON.decode(result.responseText);
  }

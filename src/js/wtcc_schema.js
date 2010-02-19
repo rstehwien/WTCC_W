@@ -38,7 +38,7 @@ wtcc.schema.elements = {
         ],                // built powers
         "tables": [
             {"element": "table"}
-        ],
+        ]
     },
 
     "character": {
@@ -180,59 +180,71 @@ wtcc.schema.elements = {
     }
 };
 
-wtcc.schema.create = function(name) {
-    var scheme = wtcc.schema.elements[name];
-    if (scheme === null || scheme === undefined) throw new wtcc.Exception('Unknown element name "' + name + '"');
+wtcc.schema.create = function (name) {
+    var scheme, obj;
 
-    var obj = {"element": name};
+    scheme = wtcc.schema.elements[name];
+    if (scheme === null || scheme === undefined) {
+        throw new wtcc.Exception('Unknown element name "' + name + '"');
+    }
+
+    obj = {"element": name};
     wtcc.schema.verify(obj);
     return obj;
 };
 
-wtcc.schema.verify = function(obj) {
-    var name = obj.element;
-    var scheme = wtcc.schema.elements[name];
-    if (scheme === null || scheme === undefined) throw new wtcc.Exception('Unknown element name "' + name + '"');
+wtcc.schema.verify = function (obj) {
+    var name, scheme, property;
 
-    if (obj["id"] === undefined) obj["id"] = Math.uuid();
+    name = obj.element;
+    scheme = wtcc.schema.elements[name];
+    if (scheme === null || scheme === undefined) {
+        throw new wtcc.Exception('Unknown element name "' + name + '"');
+    }
+
+    if (obj.id === undefined) {
+        obj.id = Math.uuid();
+    }
 
     for (property in scheme) {
-        if (obj[property] !== undefined) {
-            if (wtcc.util.myTypeOf(obj[property].element) !== 'undefined') {
-                // TODO make sure that element is of right kind
-                wtcc.schema.verify(obj[property]);
+        if (scheme.hasOwnProperty(property)) {
+            if (obj[property] !== undefined) {
+                if (wtcc.util.myTypeOf(obj[property].element) !== 'undefined') {
+                    // TODO make sure that element is of right kind
+                    wtcc.schema.verify(obj[property]);
+                }
+                // TODO check that arrays have right kind
+                continue;
             }
-            // TODO check that arrays have right kind
-            continue;
-        }
-        switch (wtcc.util.myTypeOf(scheme[property])) {
-            case 'function':
-                continue;
-            case 'string':
-            case 'number':
-            case 'boolean':
-                obj[property] = scheme[property];
-                continue;
-            case 'array':
-                obj[property] = [];
-                continue;
-        }
-        if (wtcc.util.myTypeOf(scheme[property].element) !== 'undefined') {
-            obj[property] = wtcc.schema.create(scheme[property].element);
-        }
-        else {
-            throw new wtcc.Exception('Unknown property name "' + property + '"');
+            switch (wtcc.util.myTypeOf(scheme[property])) {
+                case 'function':
+                    continue;
+                case 'string':
+                case 'number':
+                case 'boolean':
+                    obj[property] = scheme[property];
+                    continue;
+                case 'array':
+                    obj[property] = [];
+                    continue;
+            }
+            if (wtcc.util.myTypeOf(scheme[property].element) !== 'undefined') {
+                obj[property] = wtcc.schema.create(scheme[property].element);
+            }
+            else {
+                throw new wtcc.Exception('Unknown property name "' + property + '"');
+            }
         }
     }
 };
 
-wtcc.schema.copy = function(orig) {
-    var obj = wtcc.util.cloneJSON(orig);
-    var reg = /[\w-]*/i;
+wtcc.schema.copy = function (orig) {
+    var obj, reg, ids, item, i;
+    obj = wtcc.util.cloneJSON(orig);
+    reg = /[\w\-]*/i;
 
-    var ids = JSONQuery("..[?id]", obj);
-    var item;
-    var i;
+    ids = JSONQuery("..[?id]", obj);
+
     for (i = 0; i < ids.length; i = i + 1) {
         item = ids[i];
         if (wtcc.util.myTypeOf(item) !== 'object') {
@@ -247,55 +259,65 @@ wtcc.schema.copy = function(orig) {
     return obj;
 };
 
-wtcc.schema.metadata = function(name) {
-    var scheme = wtcc.schema.elements[name];
-    if (scheme === null || scheme === undefined) throw new wtcc.Exception('Unknown element name "' + name + '"');
+wtcc.schema.metadata = function (name) {
+    var scheme, fields, property, metadata;
 
-    var fields = [];
+    scheme = wtcc.schema.elements[name];
+    if (scheme === null || scheme === undefined) {
+        throw new wtcc.Exception('Unknown element name "' + name + '"');
+    }
+
+    fields = [];
     for (property in scheme) {
-        switch (wtcc.util.myTypeOf(scheme[property])) {
-            case 'string':
-            case 'number':
-            case 'boolean':
-                fields.push({"name": property});
-                continue;
+        if (scheme.hasOwnProperty(property)) {
+            switch (wtcc.util.myTypeOf(scheme[property])) {
+                case 'string':
+                case 'number':
+                case 'boolean':
+                    fields.push({"name": property});
+            }
         }
     }
 
-    var metadata = {
+    metadata = {
         "idProperty": "id",
         "root": "rows",
         "totalProperty": "results",
         "successProperty": "success",
-        "fields": fields,
+        "fields": fields
     };
 
     return metadata;
 };
 
-wtcc.schema.trim = function(obj) {
-    var name = obj.element;
-    var scheme = wtcc.schema.elements[name];
+wtcc.schema.trim = function (obj) {
+    var name, scheme, property;
+    name = obj.element;
+    scheme = wtcc.schema.elements[name];
     if (scheme === null || scheme === undefined) {
         return;
     }
 
     for (property in scheme) {
-        if (obj[property] === undefined) continue;
-        switch (wtcc.util.myTypeOf(scheme[property])) {
-            case 'function':
-            case 'array':
+        if (scheme.hasOwnProperty(property)) {
+            if (obj[property] === undefined) {
                 continue;
-            case 'string':
-            case 'number':
-            case 'boolean':
-                if (obj[property] === scheme[property]) {
-                    delete obj[property];
-                }
-                continue;
-        }
-        if (wtcc.util.myTypeOf(scheme[property].element) !== 'undefined') {
-            obj[property] = wtcc.schema.trim(obj[property]);
+            }
+            switch (wtcc.util.myTypeOf(scheme[property])) {
+                case 'function':
+                case 'array':
+                    continue;
+                case 'string':
+                case 'number':
+                case 'boolean':
+                    if (obj[property] === scheme[property]) {
+                        delete obj[property];
+                    }
+                    continue;
+            }
+            if (wtcc.util.myTypeOf(scheme[property].element) !== 'undefined') {
+                obj[property] = wtcc.schema.trim(obj[property]);
+            }
         }
     }
 };

@@ -1,27 +1,26 @@
 Ext.namespace('wtcc.model');
 
-wtcc.model.init = function() {
+wtcc.model.init = function () {
     wtcc.model.config = wtcc.model.defaultConfig;
     wtcc.model.updateConfig(wtcc.model.config);
     wtcc.model.character = wtcc.model.createCharacter();
 };
 
-wtcc.model.createCharacter = function() {
-    var char = wtcc.schema.create("character");
-    var stats = JSONQuery("[?type='stat']", wtcc.model.config.effects);
-    var native = JSONQuery("[?id='63337583-a1ce-4085-a83e-28243e11bf8c']", wtcc.model.config.modifiers)[0];
-    var pool;
-    var stat;
-    var cur;
-    var i;
+wtcc.model.createCharacter = function () {
+    var character, stats, native_modifier, pool, stat, cur, i;
+
+    character = wtcc.schema.create("character");
+    stats = JSONQuery("[?type='stat']", wtcc.model.config.effects);
+    native_modifier = JSONQuery("[?id='63337583-a1ce-4085-a83e-28243e11bf8c']", wtcc.model.config.modifiers)[0];
+
     for (i = 0; i < stats.length; i = i + 1) {
         cur = stats[i];
         if (wtcc.util.myTypeOf(cur) !== 'object') {
             continue;
         }
         stat = wtcc.schema.copy(cur);
-        if (native !== undefined) {
-            stat.modifiers.push(wtcc.schema.copy(native));
+        if (native_modifier !== undefined) {
+            stat.modifiers.push(wtcc.schema.copy(native_modifier));
         }
 
         pool = wtcc.schema.create("pool");
@@ -30,34 +29,37 @@ wtcc.model.createCharacter = function() {
         pool.type = 'stat';
         pool.effects.push(stat);
 
-        char.stats.push(pool);
+        character.stats.push(pool);
     }
-    wtcc.model.updateCharacter(char);
-    return char;
+    wtcc.model.updateCharacter(character);
+    return character;
 };
 
-wtcc.model.updateCharacter = function(char) {
-    if (char.element !== 'character') throw new wtcc.Exception('updateCharacter cannot update: ' + char.element);
+wtcc.model.updateCharacter = function (character) {
+    if (character.element !== 'character') {
+        throw new wtcc.Exception('updateCharacter cannot update: ' + character.element);
+    }
 
-    wtcc.schema.verify(char);
+    wtcc.schema.verify(character);
 
-    char.points_stats = wtcc.model.updatePools(char.stats);
-    char.points_skills = wtcc.model.updatePools(char.skills);
-    char.points_powers = wtcc.model.updatePools(char.powers);
-    wtcc.model.updateArchetype(char.archetype);
-    wtcc.model.updateWillpower(char);
-    char.points_total = char.points_stats + char.points_skills + char.points_powers + char.archetype.points + char.willpower.points;
+    character.points_stats = wtcc.model.updatePools(character.stats);
+    character.points_skills = wtcc.model.updatePools(character.skills);
+    character.points_powers = wtcc.model.updatePools(character.powers);
+    wtcc.model.updateArchetype(character.archetype);
+    wtcc.model.updateWillpower(character);
+    character.points_total = character.points_stats + character.points_skills + character.points_powers + character.archetype.points + character.willpower.points;
 };
 
-wtcc.model.updateWillpower = function(char) {
+wtcc.model.updateWillpower = function (character) {
     // TODO update willpower, base minimum depends on stats
+    character.willpower.min_base = 0;
 };
 
-wtcc.model.updatePools = function(pools) {
-    var total_points = 0;
+wtcc.model.updatePools = function (pools) {
+    var total_points, i, pool;
 
-    var i;
-    var pool;
+    total_points = 0;
+
     for (i = 0; i < pools.length; i = i + 1) {
         pool = pools[i];
         if (wtcc.util.myTypeOf(pool) !== 'object') {
@@ -70,18 +72,17 @@ wtcc.model.updatePools = function(pools) {
     return total_points;
 };
 
-wtcc.model.updatePool = function(pool) {
+wtcc.model.updatePool = function (pool) {
     pool.die_cost = wtcc.model.updateEffects(pool.effects);
     pool.points = (pool.die_cost * pool.normal) +
                   (2 * pool.die_cost * pool.hard) +
                   (4 * pool.die_cost * pool.wiggle);
 };
 
-wtcc.model.updateEffects = function(effects) {
-    var total_die_cost = 0;
+wtcc.model.updateEffects = function (effects) {
+    var total_die_cost, i, effect;
 
-    var i;
-    var effect;
+    total_die_cost = 0;
     for (i = 0; i < effects.length; i = i + 1) {
         effect = effects[i];
         if (wtcc.util.myTypeOf(effect) !== 'object') {
@@ -94,10 +95,10 @@ wtcc.model.updateEffects = function(effects) {
     return total_die_cost;
 };
 
-wtcc.model.updateEffect = function(effect) {
-    var total_mod = 0;
-    var i;
-    var modifier;
+wtcc.model.updateEffect = function (effect) {
+    var total_mod, i, modifier;
+
+    total_mod = 0;
     for (i = 0; i < effect.modifiers.length; i = i + 1) {
         modifier = effect.modifiers[i];
         if (wtcc.util.myTypeOf(modifier) !== 'object') {
@@ -113,10 +114,11 @@ wtcc.model.updateEffect = function(effect) {
     effect.die_cost = effect.cost + total_mod;
 };
 
-wtcc.model.updateArchetype = function(archetype) {
+wtcc.model.updateArchetype = function (archetype) {
+    var i, mq;
+
     archetype.points = 0;
-    var i;
-    var mq;
+
     for (i = 0; i < archetype.meta_qualities.length; i = i + 1) {
         mq = archetype.meta_qualities[i];
         if (wtcc.util.myTypeOf(mq) !== 'object') {
@@ -130,9 +132,9 @@ wtcc.model.updateArchetype = function(archetype) {
     }
 };
 
-wtcc.model.updateArchetypes = function(archetypes) {
-    var i;
-    var archetype;
+wtcc.model.updateArchetypes = function (archetypes) {
+    var i, archetype;
+
     for (i = 0; i < archetypes.length; i = i + 1) {
         archetype = archetypes[i];
         if (wtcc.util.myTypeOf(archetype) !== 'object') {
@@ -142,8 +144,10 @@ wtcc.model.updateArchetypes = function(archetypes) {
     }
 };
 
-wtcc.model.updateConfig = function(config) {
-    if (config.element !== 'data') throw new wtcc.Exception('updateConfig cannot update: ' + config.element);
+wtcc.model.updateConfig = function (config) {
+    if (config.element !== 'data') {
+        throw new wtcc.Exception('updateConfig cannot update: ' + config.element);
+    }
 
     wtcc.schema.verify(config);
     wtcc.model.updatePools(config.powers);
