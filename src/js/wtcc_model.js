@@ -13,7 +13,9 @@ wtcc.model.createCharacter = function() {
     var pool;
     var stat;
     var cur;
-    for each (cur in stats) {
+    var i;
+    for (i = 0; i < stats.length; i = i + 1) {
+        cur = stats[i];
         if (wtcc.util.myTypeOf(cur) !== 'object') {
             continue;
         }
@@ -54,7 +56,10 @@ wtcc.model.updateWillpower = function(char) {
 wtcc.model.updatePools = function(pools) {
     var total_points = 0;
 
-    for each (pool in pools) {
+    var i;
+    var pool;
+    for (i = 0; i < pools.length; i = i + 1) {
+        pool = pools[i];
         if (wtcc.util.myTypeOf(pool) !== 'object') {
             continue;
         }
@@ -75,7 +80,10 @@ wtcc.model.updatePool = function(pool) {
 wtcc.model.updateEffects = function(effects) {
     var total_die_cost = 0;
 
-    for each (effect in effects) {
+    var i;
+    var effect;
+    for (i = 0; i < effects.length; i = i + 1) {
+        effect = effects[i];
         if (wtcc.util.myTypeOf(effect) !== 'object') {
             continue;
         }
@@ -88,7 +96,10 @@ wtcc.model.updateEffects = function(effects) {
 
 wtcc.model.updateEffect = function(effect) {
     var total_mod = 0;
-    for each (modifier in effect.modifiers) {
+    var i;
+    var modifier;
+    for (i = 0; i < effect.modifiers.length; i = i + 1) {
+        modifier = effect.modifiers[i];
         if (wtcc.util.myTypeOf(modifier) !== 'object') {
             continue;
         }
@@ -104,8 +115,11 @@ wtcc.model.updateEffect = function(effect) {
 
 wtcc.model.updateArchetype = function(archetype) {
     archetype.points = 0;
-    for each (mq in archetype.meta_qualities) {
-        if (wtcc.util.myTypeOf(modifier) !== 'object') {
+    var i;
+    var mq;
+    for (i = 0; i < archetype.meta_qualities.length; i = i + 1) {
+        mq = archetype.meta_qualities[i];
+        if (wtcc.util.myTypeOf(mq) !== 'object') {
             continue;
         }
 
@@ -117,8 +131,11 @@ wtcc.model.updateArchetype = function(archetype) {
 };
 
 wtcc.model.updateArchetypes = function(archetypes) {
-    for each (archetype in archetypes) {
-        if (wtcc.util.myTypeOf(effect) !== 'object') {
+    var i;
+    var archetype;
+    for (i = 0; i < archetypes.length; i = i + 1) {
+        archetype = archetypes[i];
+        if (wtcc.util.myTypeOf(archetype) !== 'object') {
             continue;
         }
         wtcc.model.updateArchetype(archetype);

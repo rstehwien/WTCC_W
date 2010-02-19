@@ -226,8 +226,10 @@ wtcc.schema.findBy = function(obj, property, match, first, notchildren) {
     var ret = [];
 
     var item;
+    var i;
     if (wtcc.util.myTypeOf(obj) === 'array') {
-        for each (item in obj) {
+        for (i = 0; i < obj.length; i = i+1) {
+            item = obj[i];
             if (wtcc.util.myTypeOf(item) !== 'object') {
                 continue;
             }
@@ -276,7 +278,9 @@ wtcc.schema.copy = function(orig) {
 
     var ids = wtcc.schema.findBy(obj, 'id', reg);
     var item;
-    for each (item in ids) {
+    var i;
+    for (i = 0; i < ids.length; i = i+1) {
+        item = ids[i];
         if (wtcc.util.myTypeOf(item) !== 'object') {
             continue;
         }
