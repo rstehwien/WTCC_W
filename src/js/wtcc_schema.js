@@ -34,7 +34,7 @@ wtcc.schema.elements = {
             {"element": "archetype"}
         ],        // built archetypes
         "powers": [
-            {"element": "pools"}
+            {"element": "pool"}
         ],                // built powers
         "tables": [
             {"element": "table"}
@@ -44,13 +44,18 @@ wtcc.schema.elements = {
     "character": {
         "version": 1,
         "name": "",
-        "points": 0,
+        "points_stats": 0,
+        "points_skills": 0,
+        "points_powers": 0,
+        "points_total": 0,
         "infos": [
             {"element": "info"}
         ],
         "willpower": {"element": "willpower"},
         "archetype": {"element": "archetype"},
-        "pools": {"element": "pools"},
+        "stats": [{"element": "pool"}],
+        "skills": [{"element": "pool"}],
+        "powers": [{"element": "pool"}],
         "custom_modifiers": [
             {"element": "effect"}
         ],
@@ -78,15 +83,6 @@ wtcc.schema.elements = {
         "type": "",
         "value": 0,
         "name": ""
-    },
-
-    "pools": {
-        "points_stats": 0,
-        "points_skills": 0,
-        "points_powers": 0,
-        "list": [
-            {"element": "pool"}
-        ]
     },
 
     "pool": {

@@ -28,7 +28,7 @@ wtcc.model.createCharacter = function() {
         pool.type = 'stat';
         pool.effects.push(stat);
 
-        char.pools.list.push(pool);
+        char.stats.push(pool);
     }
     wtcc.model.updateCharacter(char);
 	return char;

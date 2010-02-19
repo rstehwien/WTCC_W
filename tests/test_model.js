@@ -19,8 +19,8 @@ var ModelTestCase = JSTest.TestCase({
 
     testCreateCharacter: function () {
         var char = wtcc.model.createCharacter();
-        this.assertGreaterThan(char.pools.list.length, 1);
-        this.assertEqual(char.pools.list[0].effects[0].modifiers.length, 1);
+        this.assertGreaterThan(char.stats.length, 1);
+        this.assertEqual(char.stats[0].effects[0].modifiers.length, 1);
         //wtcc.log(Ext.util.JSON.encode(char));
     },
 
