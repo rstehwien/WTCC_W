@@ -9,7 +9,7 @@ wtcc.ui.pools.create = function (title, pools) {
 
     colModel = new Ext.grid.ColumnModel({
         columns: [
-            { header: 'Name', dataIndex: 'name'},
+            { header: 'Name', dataIndex: 'name', width: 200},
             { header: 'Cost', dataIndex: 'die_cost'},
             { header: 'd', dataIndex: 'normal'},
             { header: 'hd', dataIndex: 'hard'},
@@ -19,7 +19,7 @@ wtcc.ui.pools.create = function (title, pools) {
         defaults: {
             sortable: false,
             menuDisabled: true,
-            width: 100
+            width: 50
         }
     });
 
@@ -28,7 +28,9 @@ wtcc.ui.pools.create = function (title, pools) {
         collapsible: true,
         store: store,
         colModel: colModel,
-        height: 200
+        autoHeight: true,
+        //autoWidth: true,
+        stripeRows: true,
     });
 
     // TODO fix scrolling

@@ -1,22 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="02f754be-199b-4abb-a4b2-854c1c3e9b4d" name="Default" comment="fix unsupported for/each to for">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/wtcc_app.js" afterPath="$PROJECT_DIR$/src/js/wtcc_app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/wtcc_ui_pools.js" afterPath="$PROJECT_DIR$/src/js/wtcc_ui_pools.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/wtcc_model_default_config.js" afterPath="$PROJECT_DIR$/src/js/wtcc_model_default_config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/wtcc_util.js" afterPath="$PROJECT_DIR$/src/js/wtcc_util.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/wtcc_ui.js" afterPath="$PROJECT_DIR$/src/js/wtcc_ui.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/extjs/adapter/jquery/ext-jquery-adapter.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/wtcc_model.js" afterPath="$PROJECT_DIR$/src/js/wtcc_model.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/wtcc_ui_viewport.js" afterPath="$PROJECT_DIR$/src/js/wtcc_ui_viewport.js" />
+    <list default="true" readonly="true" id="02f754be-199b-4abb-a4b2-854c1c3e9b4d" name="Default" comment="pool grids auto height">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_schema.js" afterPath="$PROJECT_DIR$/tests/test_schema.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/wtcc.js" afterPath="$PROJECT_DIR$/src/js/wtcc.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/wtcc_schema.js" afterPath="$PROJECT_DIR$/src/js/wtcc_schema.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/extjs/adapter/jquery/ext-jquery-adapter-debug.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/wtcc_ui_pools.js" afterPath="$PROJECT_DIR$/src/js/wtcc_ui_pools.js" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="web.iws" />
@@ -40,73 +27,19 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="wtcc_ui.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/wtcc_ui.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="2" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wtcc_ui_pools.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/wtcc_ui_pools.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="19" selection-start="890" selection-end="890" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="wtcc_ui_viewport.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/wtcc_ui_viewport.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="26" selection-start="0" selection-end="2714" vertical-scroll-proportion="0.0">
+            <state line="42" column="63" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wtcc_util.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/js/wtcc_util.js">
+      <file leaf-file-name="wtcc_ui_pools.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/js/wtcc_ui_pools.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="867" selection-end="867" vertical-scroll-proportion="0.3618677">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/test.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="4" selection-start="14" selection-end="1433" vertical-scroll-proportion="-21.473684">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="99" selection-start="148" selection-end="148" vertical-scroll-proportion="-2.5263157">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wtcc.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/wtcc.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="2" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wtcc_app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/wtcc_app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="45" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
+            <state line="25" column="55" selection-start="782" selection-end="782" vertical-scroll-proportion="0.3058104">
               <folding />
             </state>
           </provider>
@@ -115,16 +48,7 @@
       <file leaf-file-name="wtcc_model.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/wtcc_model.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="12" selection-start="0" selection-end="4693" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wtcc_model_default_config.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/wtcc_model_default_config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6859" column="68" selection-start="0" selection-end="306221" vertical-scroll-proportion="0.0">
+            <state line="33" column="0" selection-start="1079" selection-end="1079" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -147,15 +71,15 @@
         <option value="$PROJECT_DIR$/tests/test.html" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/tests/test_schema.js" />
-        <option value="$PROJECT_DIR$/src/js/wtcc_model.js" />
-        <option value="$PROJECT_DIR$/src/js/wtcc_ui_viewport.js" />
         <option value="$PROJECT_DIR$/src/js/wtcc_app.js" />
         <option value="$PROJECT_DIR$/src/js/wtcc_model_default_config.js" />
         <option value="$PROJECT_DIR$/src/js/wtcc_schema.js" />
-        <option value="$PROJECT_DIR$/src/js/wtcc_ui_pools.js" />
-        <option value="$PROJECT_DIR$/src/js/wtcc_util.js" />
         <option value="$PROJECT_DIR$/src/js/wtcc.js" />
         <option value="$PROJECT_DIR$/src/js/wtcc_ui.js" />
+        <option value="$PROJECT_DIR$/src/js/wtcc_util.js" />
+        <option value="$PROJECT_DIR$/src/js/wtcc_ui_viewport.js" />
+        <option value="$PROJECT_DIR$/src/js/wtcc_model.js" />
+        <option value="$PROJECT_DIR$/src/js/wtcc_ui_pools.js" />
       </list>
     </option>
   </component>
@@ -185,7 +109,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -258,54 +181,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extjs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extjs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adapter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -327,17 +202,18 @@
         </subPane>
       </pane>
       <pane id="Favorites" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="com.intellij.profile.codeInspection.ui.PlatformInspectionsConfigurable" />
-    <property name="options.searchVisible" value="true" />
+    <property name="recentsLimit" value="5" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.test.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration default="false" name="index.html" type="JavascriptDebugSession" factoryName="Local" temporary="true">
       <JSDebuggerConfigurationSettings>
         <option name="engineId" value="embedded" />
@@ -399,16 +275,16 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20857143" sideWeight="0.99913496" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24134947" sideWeight="0.7864286" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27445462" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24134947" sideWeight="0.7207143" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2742857" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20857143" sideWeight="0.99913496" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -428,7 +304,7 @@
     <option name="ENABLE_BACKGROUND_PROCESSES" value="true" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="5" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix unsupported for/each to for" />
+    <option name="LAST_COMMIT_MESSAGE" value="run everything through JSLint" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -459,6 +335,7 @@
     <MESSAGE value="characters now have lists of stats, skills, and powers rather than on set of pools" />
     <MESSAGE value="add basic point calculations for character and data" />
     <MESSAGE value="fix unsupported for/each to for" />
+    <MESSAGE value="run everything through JSLint" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -476,91 +353,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_schema.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="24" selection-start="956" selection-end="956" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="32" column="24" selection-start="956" selection-end="956" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_model.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="64" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="12" column="64" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/wtcc_schema.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="277" column="0" selection-start="6975" selection-end="6975" vertical-scroll-proportion="-15.538462">
-          <folding />
-        </state>
+        <state line="277" column="0" selection-start="6975" selection-end="6975" vertical-scroll-proportion="-15.538462" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/wtcc_ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="2" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="4" selection-start="14" selection-end="1433" vertical-scroll-proportion="-21.473684">
+        <state line="34" column="4" selection-start="14" selection-end="1433" vertical-scroll-proportion="0.30155212">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="99" selection-start="148" selection-end="148" vertical-scroll-proportion="-2.5263157">
+        <state line="4" column="99" selection-start="148" selection-end="148" vertical-scroll-proportion="0.035476718">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/wtcc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="2" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
+        <state line="7" column="2" selection-start="176" selection-end="176" vertical-scroll-proportion="0.06122449">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/wtcc_app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="45" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
+        <state line="3" column="45" selection-start="103" selection-end="103" vertical-scroll-proportion="0.02652911">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/wtcc_model_default_config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6859" column="68" selection-start="0" selection-end="306221" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/wtcc_model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="12" selection-start="0" selection-end="4693" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/wtcc_ui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="2" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/wtcc_ui_pools.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="19" selection-start="890" selection-end="890" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/wtcc_ui_viewport.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="26" selection-start="0" selection-end="2714" vertical-scroll-proportion="0.0">
+        <state line="6859" column="68" selection-start="0" selection-end="306221" vertical-scroll-proportion="0.008843036">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/wtcc_util.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="867" selection-end="867" vertical-scroll-proportion="0.3618677">
+        <state line="31" column="0" selection-start="867" selection-end="867" vertical-scroll-proportion="0.27494457">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/wtcc_model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="1079" selection-end="1079" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/wtcc_ui_viewport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="63" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/wtcc_ui_pools.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="55" selection-start="782" selection-end="782" vertical-scroll-proportion="0.3058104">
           <folding />
         </state>
       </provider>
