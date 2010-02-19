@@ -53,9 +53,15 @@ wtcc.schema.elements = {
         ],
         "willpower": {"element": "willpower"},
         "archetype": {"element": "archetype"},
-        "stats": [{"element": "pool"}],
-        "skills": [{"element": "pool"}],
-        "powers": [{"element": "pool"}],
+        "stats": [
+            {"element": "pool"}
+        ],
+        "skills": [
+            {"element": "pool"}
+        ],
+        "powers": [
+            {"element": "pool"}
+        ],
         "custom_modifiers": [
             {"element": "effect"}
         ],
@@ -220,66 +226,14 @@ wtcc.schema.verify = function(obj) {
     }
 };
 
-wtcc.schema.findBy = function(obj, property, match, first, notchildren) {
-    // TODO need better search like jsonquery
-
-    var ret = [];
-
-    var item;
-    var i;
-    if (wtcc.util.myTypeOf(obj) === 'array') {
-        for (i = 0; i < obj.length; i = i+1) {
-            item = obj[i];
-            if (wtcc.util.myTypeOf(item) !== 'object') {
-                continue;
-            }
-            ret = ret.concat(wtcc.schema.findBy(item, property, match, first, notchildren));
-            if (first === true && ret.length > 0) {
-                return ret;
-            }
-        }
-        return ret;
-    }
-    else if (wtcc.util.myTypeOf(obj) === 'object') {
-        var prop = obj[property];
-
-        if (wtcc.util.myTypeOf(match) === 'string' && prop === match) {
-            ret.push(obj);
-        }
-        else if (wtcc.util.myTypeOf(match.test) === 'function' && match.test(prop)) {
-            ret.push(obj);
-        }
-
-        if (first === true && ret.length > 0) {
-            return ret;
-        }
-
-        var cur;
-        var itemtype;
-        for (cur in obj) {
-            item = obj[cur];
-            itemtype = wtcc.util.myTypeOf(item);
-            if (itemtype === 'object' || itemtype === 'array') {
-                if (notchildren === true) continue;
-                ret = ret.concat(wtcc.schema.findBy(item, property, match, first, notchildren));
-                if (first === true && ret.length > 0) {
-                    return ret;
-                }
-            }
-        }
-    }
-
-    return ret;
-};
-
 wtcc.schema.copy = function(orig) {
     var obj = wtcc.util.cloneJSON(orig);
     var reg = /[\w-]*/i;
 
-    var ids = wtcc.schema.findBy(obj, 'id', reg);
+    var ids = JSONQuery("..[?id]", obj);
     var item;
     var i;
-    for (i = 0; i < ids.length; i = i+1) {
+    for (i = 0; i < ids.length; i = i + 1) {
         item = ids[i];
         if (wtcc.util.myTypeOf(item) !== 'object') {
             continue;
@@ -322,7 +276,9 @@ wtcc.schema.metadata = function(name) {
 wtcc.schema.trim = function(obj) {
     var name = obj.element;
     var scheme = wtcc.schema.elements[name];
-    if (scheme === null || scheme === undefined) {return;}
+    if (scheme === null || scheme === undefined) {
+        return;
+    }
 
     for (property in scheme) {
         if (obj[property] === undefined) continue;

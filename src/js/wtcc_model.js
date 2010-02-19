@@ -1,15 +1,15 @@
 Ext.namespace('wtcc.model');
 
 wtcc.model.init = function() {
-  wtcc.model.config = wtcc.model.defaultConfig;
-  wtcc.model.updateConfig(wtcc.model.config);
-  wtcc.model.character = wtcc.model.createCharacter();
+    wtcc.model.config = wtcc.model.defaultConfig;
+    wtcc.model.updateConfig(wtcc.model.config);
+    wtcc.model.character = wtcc.model.createCharacter();
 };
 
 wtcc.model.createCharacter = function() {
-	var char = wtcc.schema.create("character");
-    var stats = wtcc.schema.findBy(wtcc.model.config.effects, 'type', 'stat');
-    var native = wtcc.schema.findBy(wtcc.model.config.modifiers, 'id', '63337583-a1ce-4085-a83e-28243e11bf8c')[0];
+    var char = wtcc.schema.create("character");
+    var stats = JSONQuery("[?type='stat']", wtcc.model.config.effects);
+    var native = JSONQuery("[?id='63337583-a1ce-4085-a83e-28243e11bf8c']", wtcc.model.config.modifiers)[0];
     var pool;
     var stat;
     var cur;
@@ -33,7 +33,7 @@ wtcc.model.createCharacter = function() {
         char.stats.push(pool);
     }
     wtcc.model.updateCharacter(char);
-	return char;
+    return char;
 };
 
 wtcc.model.updateCharacter = function(char) {
