@@ -16,7 +16,7 @@ wtcc.model.defaultConfig = {
         "is_link_required": false,
         "is_add_measurement": false,
         "die_cost": 0,
-        "source": "",
+        "source": "WT2E",
         "modifiers": []
     }, {
         "element": "effect",
@@ -30,7 +30,7 @@ wtcc.model.defaultConfig = {
         "is_link_required": false,
         "is_add_measurement": false,
         "die_cost": 0,
-        "source": "",
+        "source": "WT2E",
         "modifiers": []
     }, {
         "element": "effect",
@@ -44,7 +44,7 @@ wtcc.model.defaultConfig = {
         "is_link_required": false,
         "is_add_measurement": false,
         "die_cost": 0,
-        "source": "",
+        "source": "WT2E",
         "modifiers": []
     }, {
         "element": "effect",
@@ -58,7 +58,7 @@ wtcc.model.defaultConfig = {
         "is_link_required": false,
         "is_add_measurement": false,
         "die_cost": 0,
-        "source": "",
+        "source": "WT2E",
         "modifiers": []
     }, {
         "element": "effect",
@@ -72,7 +72,7 @@ wtcc.model.defaultConfig = {
         "is_link_required": false,
         "is_add_measurement": false,
         "die_cost": 0,
-        "source": "",
+        "source": "WT2E",
         "modifiers": []
     }, {
         "element": "effect",
@@ -86,7 +86,7 @@ wtcc.model.defaultConfig = {
         "is_link_required": false,
         "is_add_measurement": false,
         "die_cost": 0,
-        "source": "",
+        "source": "WT2E",
         "modifiers": []
     }, {
         "element": "effect",
@@ -3259,7 +3259,7 @@ wtcc.model.defaultConfig = {
         "is_link_required": false,
         "is_add_measurement": false,
         "die_cost": 0,
-        "source": "",
+        "source": "WT2E",
         "modifiers": []
     }, {
         "element": "effect",
@@ -3273,7 +3273,7 @@ wtcc.model.defaultConfig = {
         "is_link_required": false,
         "is_add_measurement": false,
         "die_cost": 0,
-        "source": "",
+        "source": "WT2E",
         "modifiers": []
     }, {
         "element": "effect",
@@ -3287,7 +3287,7 @@ wtcc.model.defaultConfig = {
         "is_link_required": false,
         "is_add_measurement": false,
         "die_cost": 0,
-        "source": "",
+        "source": "WT2E",
         "modifiers": []
     }, {
         "element": "effect",
@@ -3301,7 +3301,7 @@ wtcc.model.defaultConfig = {
         "is_link_required": false,
         "is_add_measurement": false,
         "die_cost": 0,
-        "source": "",
+        "source": "WT2E",
         "modifiers": []
     }],
     "modifiers": [{
@@ -3408,7 +3408,7 @@ wtcc.model.defaultConfig = {
         "is_link_required": false,
         "mod": 0,
         "is_chosen": true,
-        "source": ""
+        "source": "WT2E"
     }, {
         "element": "modifier",
         "id": "121af033-35b8-4966-9d7e-65fd78e04f0d",
@@ -3423,7 +3423,7 @@ wtcc.model.defaultConfig = {
         "is_link_required": false,
         "mod": 0,
         "is_chosen": true,
-        "source": ""
+        "source": "WT2E"
     }, {
         "element": "modifier",
         "id": "79b38c84-6a95-4ef7-82ea-f6b858372efc",
@@ -3438,7 +3438,7 @@ wtcc.model.defaultConfig = {
         "is_link_required": false,
         "mod": 0,
         "is_chosen": true,
-        "source": ""
+        "source": "WT2E"
     }, {
         "element": "modifier",
         "id": "6cf7086b-382e-4c15-a40f-c60624d5049f",

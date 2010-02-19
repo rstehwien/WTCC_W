@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="02f754be-199b-4abb-a4b2-854c1c3e9b4d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/wtcc_ui_viewport.js" afterPath="$PROJECT_DIR$/src/js/wtcc_ui_viewport.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_model.js" afterPath="$PROJECT_DIR$/tests/test_model.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/wtcc_schema.js" afterPath="$PROJECT_DIR$/src/js/wtcc_schema.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/wtcc_model_default_config.js" afterPath="$PROJECT_DIR$/src/js/wtcc_model_default_config.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/wtcc_model.js" afterPath="$PROJECT_DIR$/src/js/wtcc_model.js" />
     </list>
     <ignored path=".idea/workspace.xml" />
@@ -33,16 +31,16 @@
       <file leaf-file-name="wtcc_schema.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/wtcc_schema.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="37" selection-start="1871" selection-end="1871" vertical-scroll-proportion="-5.5384617">
+            <state line="83" column="99" selection-start="2271" selection-end="2271" vertical-scroll-proportion="-11.538462">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wtcc_model_default_config.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="wtcc_model_default_config.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/wtcc_model_default_config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5868" column="5" selection-start="169332" selection-end="169338" vertical-scroll-proportion="-19.961538">
+            <state line="3444" column="17" selection-start="101365" selection-end="101373" vertical-scroll-proportion="-1.0042735">
               <folding />
             </state>
           </provider>
@@ -69,16 +67,16 @@
       <file leaf-file-name="wtcc_model.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/wtcc_model.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="27" selection-start="1043" selection-end="1043" vertical-scroll-proportion="-15.230769">
+            <state line="46" column="131" selection-start="1641" selection-end="1641" vertical-scroll-proportion="-7.3846154">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_model.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="test_model.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_model.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="75" selection-start="688" selection-end="688" vertical-scroll-proportion="0.3631778">
+            <state line="29" column="0" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -94,7 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/doc/foo.json" />
         <option value="$PROJECT_DIR$/src/js/wtcc_model_schema.js" />
         <option value="$PROJECT_DIR$/src/js/wtcc_viewport.js" />
         <option value="$PROJECT_DIR$/src/js/wtcc_app.js" />
@@ -108,8 +105,9 @@
         <option value="$PROJECT_DIR$/src/js/wtcc_ui_pools.js" />
         <option value="$PROJECT_DIR$/src/js/wtcc_schema.js" />
         <option value="$PROJECT_DIR$/src/js/wtcc_ui_viewport.js" />
-        <option value="$PROJECT_DIR$/src/js/wtcc_model.js" />
         <option value="$PROJECT_DIR$/tests/test_model.js" />
+        <option value="$PROJECT_DIR$/src/js/wtcc_model_default_config.js" />
+        <option value="$PROJECT_DIR$/src/js/wtcc_model.js" />
       </list>
     </option>
   </component>
@@ -288,11 +286,11 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4039409" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4039409" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23846154" sideWeight="0.591133" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27445462" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23846154" sideWeight="0.72061926" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27445462" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -316,7 +314,7 @@
     <option name="ENABLE_BACKGROUND_PROCESSES" value="true" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="5" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="add grids fro stats, skills, and powers" />
+    <option name="LAST_COMMIT_MESSAGE" value="characters now have lists of stats, skills, and powers rather than on set of pools" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -344,6 +342,7 @@
     <MESSAGE value="Implement and test deep verifys and trim" />
     <MESSAGE value="remove the long text as it is too busy at this point" />
     <MESSAGE value="add grids fro stats, skills, and powers" />
+    <MESSAGE value="characters now have lists of stats, skills, and powers rather than on set of pools" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -395,16 +394,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/wtcc_model_default_config.js">
+    <entry file="file://$PROJECT_DIR$/tests/test_model.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5868" column="5" selection-start="169332" selection-end="169338" vertical-scroll-proportion="-19.961538">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/wtcc_schema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="37" selection-start="1871" selection-end="1871" vertical-scroll-proportion="-5.5384617">
+        <state line="29" column="0" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -425,14 +417,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/wtcc_model.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="27" selection-start="1043" selection-end="1043" vertical-scroll-proportion="-15.230769">
+        <state line="46" column="131" selection-start="1641" selection-end="1641" vertical-scroll-proportion="-7.3846154">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_model.js">
+    <entry file="file://$PROJECT_DIR$/src/js/wtcc_schema.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="75" selection-start="688" selection-end="688" vertical-scroll-proportion="0.3631778">
+        <state line="83" column="99" selection-start="2271" selection-end="2271" vertical-scroll-proportion="-11.538462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/wtcc_model_default_config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3444" column="17" selection-start="101365" selection-end="101373" vertical-scroll-proportion="-1.0042735">
           <folding />
         </state>
       </provider>
