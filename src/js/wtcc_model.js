@@ -1,7 +1,7 @@
 Ext.namespace('wtcc.model');
 
 wtcc.model.init = function () {
-    wtcc.model.config = wtcc.model.defaultConfig;
+    wtcc.model.config = wtcc.defaultConfig;
     wtcc.model.updateConfig(wtcc.model.config);
     wtcc.model.character = wtcc.model.createCharacter();
 };

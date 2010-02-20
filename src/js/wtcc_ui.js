@@ -1,7 +1,7 @@
 Ext.namespace('wtcc.ui');
 
 wtcc.ui.init = function () {
-    wtcc.ui.viewport.init();
+    wtcc.ui.main.init();
 };
 
 wtcc.ui.longText = "<p>Lorem ipsum dolor sit amet, nec fermentum pharetra donec massa, nulla velit at, nisl consequat vestibulum vestibulum auctor, euismod integer placerat sed. Porta pede enim sodales laudantium vulputate integer, sed vitae vitae quis nostrud tortor hymenaeos. Sed et nam nullam magna nunc lectus, metus in leo elit justo in, vitae nunc, accumsan turpis porttitor velit vestibulum aliquet. Lacinia condimentum sed consectetuer, libero ac sem sollicitudin eleifend et, tortor nec risus a dolor nulla accumsan, egestas vel vel gravida nulla elit mi. In pellentesque venenatis mattis risus interdum nunc, at et sollicitudin sapien nec duis litora, conubia diam eu, in libero praesent. Vel sapiente sit nibh sodales, sed morbi. Elit imperdiet, amet vivamus sodales vestibulum praesent, libero arcu consectetuer ligula, rutrum adipisci magnis. In praesent ipsum, mauris enim non arcu mattis wisi libero.</p>\

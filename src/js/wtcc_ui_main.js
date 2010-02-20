@@ -1,11 +1,11 @@
-Ext.namespace('wtcc.ui.viewport');
+Ext.namespace('wtcc.ui.main');
 
-wtcc.ui.viewport.init = function () {
-    wtcc.ui.viewport.createMainWindow();
+wtcc.ui.main.init = function () {
+    wtcc.ui.main.createMainWindow();
     // Ext.getCmp('wtcc_ui_center').getLayout().setActiveItem(0)
 };
 
-wtcc.ui.viewport.createMainWindow = function () {
+wtcc.ui.main.createMainWindow = function () {
     var toolbar, infoPanel, archetypePanel, poolsStats, poolsSkills, poolsPowers,
             willpowerPanel, characterEditor, centerCards, statusBar, viewport;
 
