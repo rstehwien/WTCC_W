@@ -36,6 +36,31 @@ wtcc.model = function () {
 
             character.stats.push(pool);
         }
+
+        // TODO these values are entered so there will be something to see
+        character.name = "Some Name";
+        var info;
+        info = wtcc.schema.create("info");
+        info.name = "Alias";
+        info.text = "Mr. Clark Kent";
+        character.infos.push(info);
+        info = wtcc.schema.create("info");
+        info.name = "Story";
+        info.text = wtcc.ui.longText;
+        character.infos.push(info);
+        var archetype = JSONQuery("[?id='edb47b05-e9cb-428b-8408-e4e66d975d1c']", wtcc.model.config.archetypes)[0];
+        character.archetype = wtcc.schema.copy(archetype);
+        var motivation;
+        motivation = wtcc.schema.create("motivation");
+        motivation.name = "Protect the weak";
+        motivation.value = 7;
+        character.willpower.motivations.push(motivation);
+        motivation = wtcc.schema.create("motivation");
+        motivation.name = "What would superman do?";
+        motivation.value = 10;
+        character.willpower.motivations.push(motivation);
+        //////////
+
         wtcc.model.updateCharacter(character);
         return character;
     };
@@ -53,6 +78,8 @@ wtcc.model = function () {
         myprivate.updateArchetype(character.archetype);
         myprivate.updateWillpower(character);
         character.points_total = character.points_stats + character.points_skills + character.points_powers + character.archetype.points + character.willpower.points;
+
+        character.html = wtcc.templates.character.apply(character);
     };
 
     myprivate.updateWillpower = function (character) {

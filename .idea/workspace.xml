@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="02f754be-199b-4abb-a4b2-854c1c3e9b4d" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/js/wtcc_ui_info.js" afterPath="$PROJECT_DIR$/src/js/wtcc_ui_edit_info.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/wtcc_ui_effect.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/js/wtcc_ui_infos.js" afterPath="$PROJECT_DIR$/src/js/wtcc_ui_edit_infos.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/js/wtcc_ui_archetype.js" afterPath="$PROJECT_DIR$/src/js/wtcc_ui_edit_archetype.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/js/wtcc_ui_editcards.js" afterPath="$PROJECT_DIR$/src/js/wtcc_ui_edit_cards.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/wtcc_ui_edit_pool.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/wtcc_ui_edit_effect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/wtcc_ui_edit_character.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/wtcc_ui_main.js" afterPath="$PROJECT_DIR$/src/js/wtcc_ui_main.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/js/wtcc_ui_willpower.js" afterPath="$PROJECT_DIR$/src/js/wtcc_ui_edit_willpower.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/wtcc_ui_view.js" afterPath="$PROJECT_DIR$/src/js/wtcc_ui_view.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/wtcc_templates.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/wtcc_ui_character.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/js/wtcc_ui_modifier.js" afterPath="$PROJECT_DIR$/src/js/wtcc_ui_edit_modifier.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/js/wtcc_ui_pools.js" afterPath="$PROJECT_DIR$/src/js/wtcc_ui_edit_pools.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/wtcc_ui_pool.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/wtcc_model.js" afterPath="$PROJECT_DIR$/src/js/wtcc_model.js" />
     </list>
     <ignored path="web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,82 +30,19 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="wtcc_ui_edit_character.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/js/wtcc_ui_edit_character.js">
+      <file leaf-file-name="wtcc_templates.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/js/wtcc_templates.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="812" selection-end="812" vertical-scroll-proportion="0.23441021">
+            <state line="43" column="91" selection-start="1522" selection-end="1522" vertical-scroll-proportion="0.39389312">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wtcc_ui_edit_effect.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/wtcc_ui_edit_effect.js">
+      <file leaf-file-name="wtcc_ui_view.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/wtcc_ui_view.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="62" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wtcc_ui_edit_info.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/wtcc_ui_edit_info.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="67" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wtcc_ui_edit_infos.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/wtcc_ui_edit_infos.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="71" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wtcc_ui_edit_modifier.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/wtcc_ui_edit_modifier.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wtcc_ui_edit_pool.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/wtcc_ui_edit_pool.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wtcc_ui_edit_pools.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/wtcc_ui_edit_pools.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="22" selection-start="999" selection-end="999" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wtcc_ui_edit_willpower.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/wtcc_ui_edit_willpower.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wtcc_ui_main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/wtcc_ui_main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0">
+            <state line="12" column="43" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -125,7 +51,43 @@
       <file leaf-file-name="wtcc_model.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/wtcc_model.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="59" column="29" selection-start="2212" selection-end="2212" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wtcc_default_config.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/wtcc_default_config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5868" column="55" selection-start="186956" selection-end="186992" vertical-scroll-proportion="-15.307693">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="84" selection-start="400" selection-end="400" vertical-scroll-proportion="-5.0526314">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wtcc_ui_edit_info.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/wtcc_ui_edit_info.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="0" selection-start="37" selection-end="359" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wtcc_schema.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/wtcc_schema.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="88" column="20" selection-start="2584" selection-end="2591" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -141,10 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/js/wtcc_ui_modifier.js" />
-        <option value="$PROJECT_DIR$/src/js/wtcc_ui_info.js" />
-        <option value="$PROJECT_DIR$/src/js/wtcc_ui_infos.js" />
-        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/js/wtcc_ui_editcards.js" />
         <option value="$PROJECT_DIR$/src/js/wtcc_ui_edit_archetype.js" />
         <option value="$PROJECT_DIR$/src/js/wtcc_ui_edit_cards.js" />
@@ -157,6 +115,10 @@
         <option value="$PROJECT_DIR$/src/js/wtcc_ui_main.js" />
         <option value="$PROJECT_DIR$/src/js/wtcc_ui_edit_pools.js" />
         <option value="$PROJECT_DIR$/src/js/wtcc_ui_edit_character.js" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/js/wtcc_ui_view.js" />
+        <option value="$PROJECT_DIR$/src/js/wtcc_model.js" />
+        <option value="$PROJECT_DIR$/src/js/wtcc_templates.js" />
       </list>
     </option>
   </component>
@@ -285,7 +247,7 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="com.intellij.profile.codeInspection.ui.PlatformInspectionsConfigurable" />
+    <property name="options.lastSelected" value="preferences.general" />
     <property name="recentsLimit" value="5" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -381,7 +343,7 @@
     <option name="ENABLE_BACKGROUND_PROCESSES" value="true" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="5" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="add the last couple editor stubs (info and modifier)" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename all the editor screens" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -394,7 +356,6 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="rename wtcc_model_schema to wtcc_schema (tired of typing whole thing)" />
     <MESSAGE value="restructure UI component heiarchy" />
     <MESSAGE value="fix the default ExtJS image path" />
     <MESSAGE value="split up the viewport creation" />
@@ -419,44 +380,12 @@
     <MESSAGE value="remove the long test text" />
     <MESSAGE value="add back in scrolling center.  using long text to force scroll until fill out controls" />
     <MESSAGE value="add the last couple editor stubs (info and modifier)" />
+    <MESSAGE value="rename all the editor screens" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/js/wtcc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/wtcc_app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="40" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/wtcc_default_config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/wtcc_schema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/wtcc_ui_edit_archetype.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="17" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/wtcc_ui_edit_cards.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="16" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0">
@@ -466,63 +395,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/wtcc_ui_edit_effect.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="62" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/wtcc_ui_edit_info.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="67" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
+        <state line="10" column="62" selection-start="312" selection-end="312" vertical-scroll-proportion="0.091533184">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/wtcc_ui_edit_infos.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="71" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0">
+        <state line="11" column="71" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0977054">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/wtcc_ui_edit_modifier.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
+        <state line="12" column="0" selection-start="340" selection-end="340" vertical-scroll-proportion="0.106587715">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/wtcc_ui_edit_pool.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0">
+        <state line="12" column="0" selection-start="317" selection-end="317" vertical-scroll-proportion="0.106587715">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/wtcc_ui_edit_willpower.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0">
+        <state line="14" column="0" selection-start="400" selection-end="400" vertical-scroll-proportion="0.12253829">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/wtcc_ui_main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/wtcc_model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="23" column="0" selection-start="622" selection-end="622" vertical-scroll-proportion="0.20353982">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/wtcc_ui_edit_pools.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="22" selection-start="999" selection-end="999" vertical-scroll-proportion="0.0">
+        <state line="31" column="22" selection-start="999" selection-end="999" vertical-scroll-proportion="0.2713348">
           <folding />
         </state>
       </provider>
@@ -530,6 +445,55 @@
     <entry file="file://$PROJECT_DIR$/src/js/wtcc_ui_edit_character.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="0" selection-start="812" selection-end="812" vertical-scroll-proportion="0.23441021">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/wtcc_ui_edit_info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="37" selection-end="359" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/wtcc_ui_view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="43" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/wtcc_default_config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5868" column="55" selection-start="186956" selection-end="186992" vertical-scroll-proportion="-15.307693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/wtcc_schema.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="20" selection-start="2584" selection-end="2591" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="84" selection-start="400" selection-end="400" vertical-scroll-proportion="-5.0526314">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/wtcc_model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="29" selection-start="2212" selection-end="2212" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/wtcc_templates.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="91" selection-start="1522" selection-end="1522" vertical-scroll-proportion="0.39389312">
           <folding />
         </state>
       </provider>
