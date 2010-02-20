@@ -21,6 +21,9 @@ wtcc.schema.elements = {
         "version": 1,
         "cost_willpower_base": 3,
         "cost_willpower": 1,
+        "id_native": "",
+        "mult_hard": 2,
+        "mult_wiggle": 4,
         "effects": [
             {"element": "effect"}
         ],              // stats, skills, base powers

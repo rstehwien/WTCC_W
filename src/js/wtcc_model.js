@@ -11,7 +11,7 @@ wtcc.model.createCharacter = function () {
 
     character = wtcc.schema.create("character");
     stats = JSONQuery("[?type='stat']", wtcc.model.config.effects);
-    native_modifier = JSONQuery("[?id='63337583-a1ce-4085-a83e-28243e11bf8c']", wtcc.model.config.modifiers)[0];
+    native_modifier = JSONQuery("[?id='"+wtcc.model.config.id_native+"']", wtcc.model.config.modifiers)[0];
 
     for (i = 0; i < stats.length; i = i + 1) {
         cur = stats[i];
@@ -75,8 +75,8 @@ wtcc.model.updatePools = function (pools) {
 wtcc.model.updatePool = function (pool) {
     pool.die_cost = wtcc.model.updateEffects(pool.effects);
     pool.points = (pool.die_cost * pool.normal) +
-                  (2 * pool.die_cost * pool.hard) +
-                  (4 * pool.die_cost * pool.wiggle);
+                  (wtcc.model.config.mult_hard * pool.die_cost * pool.hard) +
+                  (wtcc.model.config.mult_wiggle * pool.die_cost * pool.wiggle);
 };
 
 wtcc.model.updateEffects = function (effects) {

@@ -7,6 +7,9 @@ wtcc.defaultConfig = {
     "version": 1,
     "cost_willpower_base": 3,
     "cost_willpower": 1,
+    "id_native": "63337583-a1ce-4085-a83e-28243e11bf8c",
+    "mult_hard": 2,
+    "mult_wiggle": 4,
     "effects": [
         {
             "element": "effect",
