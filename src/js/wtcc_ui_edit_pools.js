@@ -1,11 +1,11 @@
-Ext.namespace('wtcc.ui.pools');
+Ext.namespace('wtcc.ui.edit.pools');
 
-wtcc.ui.pools = function () {
+wtcc.ui.edit.pools = function () {
     var mypublic, myprivate;
     mypublic = {};
     myprivate = {};
 
-    mypublic.create = function (title, pools) {
+    mypublic.create = function (title, type, pools) {
         var meta, store, colModel, grid;
 
         meta = wtcc.schema.metadata('pool');
@@ -29,13 +29,14 @@ wtcc.ui.pools = function () {
         });
 
         grid = new Ext.grid.GridPanel({
+            id: 'wtcc_ui_edit_pools_'+type,
             title: title,
             collapsible: true,
             store: store,
             colModel: colModel,
             autoHeight: true,
             autoWidth: true,
-            stripeRows: true,
+            stripeRows: true
         });
 
         // TODO fix scrolling

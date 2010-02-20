@@ -1,6 +1,6 @@
-Ext.namespace('wtcc.ui.editcards');
+Ext.namespace('wtcc.ui.edit.cards');
 
-wtcc.ui.editcards = function () {
+wtcc.ui.edit.cards = function () {
     var mypublic, myprivate;
     mypublic = {};
     myprivate = {};
@@ -10,16 +10,17 @@ wtcc.ui.editcards = function () {
         curItem = 0;
         maxItem = 4;
         panel = new Ext.Panel({
+            id: 'wtcc_ui_edit_cards',
             layout: 'card',
             title: 'Edit',
             frame: true,
-            activeItem: 'wtcc_ui_editor_character',
+            activeItem: 'wtcc_ui_edit_character',
             items: [
-                wtcc.ui.character.create(),
-                wtcc.ui.pool.create(),
-                wtcc.ui.effect.create(),
-                wtcc.ui.info.create(),
-                wtcc.ui.modifier.create()
+                wtcc.ui.edit.character.create(),
+                wtcc.ui.edit.pool.create(),
+                wtcc.ui.edit.effect.create(),
+                wtcc.ui.edit.info.create(),
+                wtcc.ui.edit.modifier.create()
             ],
             // TODO hide this bar when logic hooked in to edit
             bbar: [

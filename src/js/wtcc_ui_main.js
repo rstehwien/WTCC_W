@@ -6,9 +6,7 @@ wtcc.ui.main = function () {
     myprivate = {};
 
     mypublic.create = function () {
-        var view;
-
-        view = new Ext.Viewport({
+        return new Ext.Viewport({
             layout: 'border',
             items:[
                 {
@@ -17,14 +15,12 @@ wtcc.ui.main = function () {
                     activeTab: 0,
                     defaults:{ autoScroll:true },
                     items:[
-                        wtcc.ui.editcards.create(),
+                        wtcc.ui.edit.cards.create(),
                         wtcc.ui.view.create()
                     ]
                 }
             ]
         });
-
-        return view;
     };
 
     return mypublic;

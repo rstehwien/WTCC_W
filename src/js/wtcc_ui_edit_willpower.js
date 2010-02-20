@@ -1,18 +1,17 @@
-Ext.namespace('wtcc.ui.willpower');
+Ext.namespace('wtcc.ui.edit.willpower');
 
-wtcc.ui.willpower = function () {
+wtcc.ui.edit.willpower = function () {
     var mypublic, myprivate;
     mypublic = {};
     myprivate = {};
 
     mypublic.create = function () {
-        var panel;
-        panel = new Ext.Panel({
+        return new Ext.Panel({
+            id: 'wtcc_ui_edit_willpower',
             title: 'Willpower',
             html: '<h1>Willpower goes here</h1>'+wtcc.ui.longText,
             collapsible: true
         });
-        return panel;
     };
 
     return mypublic;
