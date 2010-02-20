@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="02f754be-199b-4abb-a4b2-854c1c3e9b4d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/wtcc_model_default_config.js" afterPath="$PROJECT_DIR$/src/js/wtcc_model_default_config.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/wtcc_schema.js" afterPath="$PROJECT_DIR$/src/js/wtcc_schema.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/wtcc_model.js" afterPath="$PROJECT_DIR$/src/js/wtcc_model.js" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="web.iws" />
@@ -92,10 +90,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wtcc_model.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="wtcc_model.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/wtcc_model.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="5" selection-start="1066" selection-end="1067" vertical-scroll-proportion="0.36958614">
+            <state line="32" column="5" selection-start="1066" selection-end="1067" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -110,10 +108,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wtcc_schema.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="wtcc_schema.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/wtcc_schema.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="853" selection-end="853" vertical-scroll-proportion="0.0">
+            <state line="11" column="66" selection-start="432" selection-end="432" vertical-scroll-proportion="-2.8521402">
               <folding />
             </state>
           </provider>
@@ -143,8 +141,8 @@
         <option value="$PROJECT_DIR$/src/js/wtcc_ui.js" />
         <option value="$PROJECT_DIR$/src/js/wtcc_ui_main.js" />
         <option value="$PROJECT_DIR$/src/js/wtcc_model_default_config.js" />
-        <option value="$PROJECT_DIR$/src/js/wtcc_schema.js" />
         <option value="$PROJECT_DIR$/src/js/wtcc_model.js" />
+        <option value="$PROJECT_DIR$/src/js/wtcc_schema.js" />
       </list>
     </option>
   </component>
@@ -369,7 +367,7 @@
     <option name="ENABLE_BACKGROUND_PROCESSES" value="true" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="5" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename viewport to main and model.defaultConfig to defaultConfig" />
+    <option name="LAST_COMMIT_MESSAGE" value="store native id and die cost multipliers in config" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -403,6 +401,7 @@
     <MESSAGE value="run everything through JSLint" />
     <MESSAGE value="pool grids auto height" />
     <MESSAGE value="rename viewport to main and model.defaultConfig to defaultConfig" />
+    <MESSAGE value="store native id and die cost multipliers in config" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -498,16 +497,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/wtcc_schema.js">
+    <entry file="file://$PROJECT_DIR$/src/js/wtcc_model.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="853" selection-end="853" vertical-scroll-proportion="0.0">
+        <state line="32" column="5" selection-start="1066" selection-end="1067" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/wtcc_model.js">
+    <entry file="file://$PROJECT_DIR$/src/js/wtcc_schema.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="5" selection-start="1066" selection-end="1067" vertical-scroll-proportion="0.36958614">
+        <state line="11" column="66" selection-start="432" selection-end="432" vertical-scroll-proportion="-2.8521402">
           <folding />
         </state>
       </provider>
