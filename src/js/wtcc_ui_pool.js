@@ -1,6 +1,6 @@
-Ext.namespace('wtcc.ui.archetype');
+Ext.namespace('wtcc.ui.pool');
 
-wtcc.ui.archetype = function () {
+wtcc.ui.pool = function () {
     var mypublic, myprivate;
     mypublic = {};
     myprivate = {};
@@ -8,9 +8,7 @@ wtcc.ui.archetype = function () {
     mypublic.create = function () {
         var panel;
         panel = new Ext.Panel({
-            title: 'Archetype',
-            html: '<h1>Archetype goes here</h1>'+wtcc.ui.longText,
-            collapsible: true
+            html: '<h1>Pool goes here</h1>'+wtcc.ui.longText,
         });
         return panel;
     };

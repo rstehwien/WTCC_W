@@ -11,7 +11,7 @@ wtcc.app = function () {
         Ext.QuickTips.init();
 
         wtcc.model.init();
-        wtcc.ui.main.init();
+        wtcc.ui.main.create();
 
         // TODO uncomment for production
         //if (wtcc.util.myTypeOf(Titanium) === 'undefined') window.onbeforeunload = function () { return 'About to loose any changes.'; };

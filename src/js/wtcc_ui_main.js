@@ -5,92 +5,25 @@ wtcc.ui.main = function () {
     mypublic = {};
     myprivate = {};
 
-    mypublic.init = function () {
-        myprivate.createMainWindow();
-        // Ext.getCmp('wtcc_ui_center').getLayout().setActiveItem(0)
-    };
-
-    myprivate.createMainWindow = function () {
-        var toolbar, characterEditor, centerCards, statusBar, viewport;
-
-        toolbar = new Ext.Toolbar({
-            id: 'wtcc_ui_toolbar',
-            region: 'north',
-            height: 30,
-            items: [
-                {
-                    xtype: 'tbspacer'
-                },
-                {
-                    xtype: 'tbbutton',
-                    text: 'Menu',
-                    menu: [
-                        {
-                            text: 'Load'
-                        },
-                        {
-                            text: 'Save'
-                        },
-                        {
-                            text: 'Export'
-                        },
-                        '-',
-                        {
-                            text: 'Config'
-                        },
-                        '-',
-                        {
-                            text: 'About'
-                        },
-                        {
-                            text: 'Help'
-                        }
-                    ]
-                },
-                {
-                    xtype: 'tbfill'
-                }
+    mypublic.create = function () {
+        var tabs = new Ext.TabPanel({
+            renderTo: document.body,
+            activeTab: 0,
+            frame:true,
+            defaults:{autoHeight: true},
+            items:[
+                wtcc.ui.editcards.create(),
+                wtcc.ui.view.create()
             ]
         });
 
-        characterEditor = new Ext.Panel({
-            id: 'wtcc_ui_character_editor',
-            xtype: 'panel',
-            autoScroll: true,
-            items: [
-                wtcc.ui.info.create(),
-                wtcc.ui.pools.create('Stats', wtcc.model.character.stats),
-                wtcc.ui.pools.create('Skills', wtcc.model.character.skills),
-                wtcc.ui.archetype.create(),
-                wtcc.ui.pools.create('Powers', wtcc.model.character.powers),
-                wtcc.ui.willpower.create()
-            ]
-        });
-
-        centerCards = new Ext.Container({
-            region: 'center',
-            id: 'wtcc_ui_center',
-            layout: 'card',
-            activeItem: 'wtcc_ui_character_editor',
-            items: [characterEditor]
-        });
-
-        statusBar = new Ext.Toolbar({
-            region: 'south',
-            id: 'wtcc_ui_bottom',
-            height: 40
-        });
-
-        viewport = new Ext.Viewport({
-            layout: 'border',
-            items: [toolbar, centerCards, statusBar]
-        });
-        return viewport;
+        return tabs;
     };
-
 
     return mypublic;
 }();
+
+// Ext.getCmp('wtcc_ui_center').getLayout().setActiveItem(0)
 
 
 wtcc.ui.longText = "<p>Lorem ipsum dolor sit amet, nec fermentum pharetra donec massa, nulla velit at, nisl consequat vestibulum vestibulum auctor, euismod integer placerat sed. Porta pede enim sodales laudantium vulputate integer, sed vitae vitae quis nostrud tortor hymenaeos. Sed et nam nullam magna nunc lectus, metus in leo elit justo in, vitae nunc, accumsan turpis porttitor velit vestibulum aliquet. Lacinia condimentum sed consectetuer, libero ac sem sollicitudin eleifend et, tortor nec risus a dolor nulla accumsan, egestas vel vel gravida nulla elit mi. In pellentesque venenatis mattis risus interdum nunc, at et sollicitudin sapien nec duis litora, conubia diam eu, in libero praesent. Vel sapiente sit nibh sodales, sed morbi. Elit imperdiet, amet vivamus sodales vestibulum praesent, libero arcu consectetuer ligula, rutrum adipisci magnis. In praesent ipsum, mauris enim non arcu mattis wisi libero.</p>\

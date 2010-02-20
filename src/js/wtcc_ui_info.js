@@ -9,7 +9,7 @@ wtcc.ui.info = function () {
         var infoPanel;
         infoPanel = new Ext.Panel({
             title: 'Character',
-            html: '<h1>Character goes here</h1>',
+            html: '<h1>Character goes here</h1>'+wtcc.ui.longText,
             collapsible: true
         });
         return infoPanel;
