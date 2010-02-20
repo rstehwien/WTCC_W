@@ -11,8 +11,7 @@ wtcc.ui.main = function () {
     };
 
     myprivate.createMainWindow = function () {
-        var toolbar, infoPanel, archetypePanel, poolsStats, poolsSkills, poolsPowers,
-                willpowerPanel, characterEditor, centerCards, statusBar, viewport;
+        var toolbar, characterEditor, centerCards, statusBar, viewport;
 
         toolbar = new Ext.Toolbar({
             id: 'wtcc_ui_toolbar',
@@ -54,33 +53,18 @@ wtcc.ui.main = function () {
             ]
         });
 
-        infoPanel = new Ext.Panel({
-            title: 'Character',
-            html: '<h1>Character goes here</h1>',
-            collapsible: true
-        });
-
-        archetypePanel = new Ext.Panel({
-            title: 'Archetype',
-            html: '<h1>Archetype goes here</h1>',
-            collapsible: true
-        });
-
-        poolsStats = wtcc.ui.pools.create('Stats', wtcc.model.character.stats);
-        poolsSkills = wtcc.ui.pools.create('Skills', wtcc.model.character.skills);
-        poolsPowers = wtcc.ui.pools.create('Powers', wtcc.model.character.powers);
-
-        willpowerPanel = new Ext.Panel({
-            title: 'Willpower',
-            html: '<h1>Willpower goes here</h1>',
-            collapsible: true
-        });
-
         characterEditor = new Ext.Panel({
             id: 'wtcc_ui_character_editor',
             xtype: 'panel',
             autoScroll: true,
-            items: [infoPanel, poolsStats, poolsSkills, archetypePanel, poolsPowers, willpowerPanel]
+            items: [
+                wtcc.ui.info.create(),
+                wtcc.ui.pools.create('Stats', wtcc.model.character.stats),
+                wtcc.ui.pools.create('Skills', wtcc.model.character.skills),
+                wtcc.ui.archetype.create(),
+                wtcc.ui.pools.create('Powers', wtcc.model.character.powers),
+                wtcc.ui.willpower.create()
+            ]
         });
 
         centerCards = new Ext.Container({
