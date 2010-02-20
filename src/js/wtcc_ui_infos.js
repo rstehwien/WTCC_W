@@ -6,13 +6,14 @@ wtcc.ui.infos = function () {
     myprivate = {};
 
     mypublic.create = function () {
-        var infoPanel;
-        infoPanel = new Ext.Panel({
+        var panel;
+        panel = new Ext.Panel({
+            id: 'wtcc_ui_infos',
             title: 'Information',
             html: '<h1>Character info goes here</h1>'+wtcc.ui.longText,
             collapsible: true
         });
-        return infoPanel;
+        return panel;
     };
 
     return mypublic;

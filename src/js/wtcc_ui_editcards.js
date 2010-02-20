@@ -8,16 +8,18 @@ wtcc.ui.editcards = function () {
     mypublic.create = function () {
         var panel, curItem, maxItem;
         curItem = 0;
-        maxItem = 2;
+        maxItem = 4;
         panel = new Ext.Panel({
             layout: 'card',
             title: 'Edit',
             frame: true,
-            activeItem: 'wtcc_ui_character_editor',
+            activeItem: 'wtcc_ui_editor_character',
             items: [
                 wtcc.ui.character.create(),
                 wtcc.ui.pool.create(),
-                wtcc.ui.effect.create()
+                wtcc.ui.effect.create(),
+                wtcc.ui.info.create(),
+                wtcc.ui.modifier.create()
             ],
             // TODO hide this bar when logic hooked in to edit
             bbar: [

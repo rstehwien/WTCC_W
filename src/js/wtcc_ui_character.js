@@ -7,7 +7,7 @@ wtcc.ui.character = function () {
 
     mypublic.create = function () {
         var panel = new Ext.Panel({
-            id: 'wtcc_ui_character_editor',
+            id: 'wtcc_ui_editor_character',
             autoHeight: true,
             autoWidth: true,
             items: [
