@@ -1,39 +1,48 @@
 Ext.namespace('wtcc.ui.pools');
 
-wtcc.ui.pools.create = function (title, pools) {
-    var meta, store, colModel, grid;
+wtcc.ui.pools = function () {
+    var mypublic, myprivate;
+    mypublic = {};
+    myprivate = {};
 
-    meta = wtcc.schema.metadata('pool');
-    meta.data = {"rows": pools};
-    store = new Ext.data.JsonStore(meta);
+    mypublic.create = function (title, pools) {
+        var meta, store, colModel, grid;
 
-    colModel = new Ext.grid.ColumnModel({
-        columns: [
-            { header: 'Name', dataIndex: 'name', width: 200},
-            { header: 'Cost', dataIndex: 'die_cost'},
-            { header: 'd', dataIndex: 'normal'},
-            { header: 'hd', dataIndex: 'hard'},
-            { header: 'wd', dataIndex: 'wiggle'},
-            { header: 'Points', dataIndex: 'points'}
-        ],
-        defaults: {
-            sortable: false,
-            menuDisabled: true,
-            width: 50
-        }
-    });
+        meta = wtcc.schema.metadata('pool');
+        meta.data = {"rows": pools};
+        store = new Ext.data.JsonStore(meta);
 
-    grid = new Ext.grid.GridPanel({
-        title: title,
-        collapsible: true,
-        store: store,
-        colModel: colModel,
-        autoHeight: true,
-        //autoWidth: true,
-        stripeRows: true,
-    });
+        colModel = new Ext.grid.ColumnModel({
+            columns: [
+                { header: 'Name', dataIndex: 'name', width: 200},
+                { header: 'Cost', dataIndex: 'die_cost'},
+                { header: 'd', dataIndex: 'normal'},
+                { header: 'hd', dataIndex: 'hard'},
+                { header: 'wd', dataIndex: 'wiggle'},
+                { header: 'Points', dataIndex: 'points'}
+            ],
+            defaults: {
+                sortable: false,
+                menuDisabled: true,
+                width: 50
+            }
+        });
 
-    // TODO fix scrolling
+        grid = new Ext.grid.GridPanel({
+            title: title,
+            collapsible: true,
+            store: store,
+            colModel: colModel,
+            autoHeight: true,
+            autoWidth: true,
+            stripeRows: true,
+        });
 
-    return grid;
-};
+        // TODO fix scrolling
+
+        return grid;
+    };
+
+    return mypublic;
+}();
+
