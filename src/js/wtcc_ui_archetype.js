@@ -9,7 +9,7 @@ wtcc.ui.archetype = function () {
         var panel;
         panel = new Ext.Panel({
             title: 'Archetype',
-            html: '<h1>Archetype goes here</h1>'+wtcc.ui.longText,
+            html: '<h1>Archetype goes here</h1>',
             collapsible: true
         });
         return panel;

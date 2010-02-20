@@ -10,7 +10,7 @@ wtcc.ui.view = function () {
         panel = new Ext.Panel({
             title: 'View',
             frame: true,
-            html: '<h1>Viewer goes here</h1>'+wtcc.ui.longText,
+            html: '<h1>Viewer goes here</h1>',
         });
         return panel;
     };

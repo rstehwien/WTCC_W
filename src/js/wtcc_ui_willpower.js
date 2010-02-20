@@ -9,7 +9,7 @@ wtcc.ui.willpower = function () {
         var panel;
         panel = new Ext.Panel({
             title: 'Willpower',
-            html: '<h1>Willpower goes here</h1>'+wtcc.ui.longText,
+            html: '<h1>Willpower goes here</h1>',
             collapsible: true
         });
         return panel;
