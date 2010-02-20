@@ -1,18 +1,27 @@
 Ext.namespace('wtcc.app');
 
-wtcc.app.init = function () {
-    wtcc.log('wtccDebug', 'wtcc.init begin');
+wtcc.app = function () {
+    var mypublic, myprivate;
+    mypublic = {};
+    myprivate = {};
 
-    Ext.QuickTips.init();
+    mypublic.init = function () {
+        wtcc.log('wtccDebug', 'wtcc.init begin');
 
-    wtcc.model.init();
-    wtcc.ui.init();
+        Ext.QuickTips.init();
 
-    // TODO uncomment for production
-    //if (wtcc.util.myTypeOf(Titanium) === 'undefined') window.onbeforeunload = function () { return 'About to loose any changes.'; };
+        wtcc.model.init();
+        wtcc.ui.init();
 
-    wtcc.log('wtccDebug', 'wtcc.init complete');
-};
+        // TODO uncomment for production
+        //if (wtcc.util.myTypeOf(Titanium) === 'undefined') window.onbeforeunload = function () { return 'About to loose any changes.'; };
+
+        wtcc.log('wtccDebug', 'wtcc.init complete');
+    };
+
+    return mypublic;
+}();
+
 
 Ext.onReady(wtcc.app.init);
 
