@@ -1,6 +1,6 @@
-Ext.namespace('wtcc.ui.info');
+Ext.namespace('wtcc.ui.infos');
 
-wtcc.ui.info = function () {
+wtcc.ui.infos = function () {
     var mypublic, myprivate;
     mypublic = {};
     myprivate = {};
@@ -8,8 +8,8 @@ wtcc.ui.info = function () {
     mypublic.create = function () {
         var infoPanel;
         infoPanel = new Ext.Panel({
-            title: 'Character',
-            html: '<h1>Character goes here</h1>'+wtcc.ui.longText,
+            title: 'Information',
+            html: '<h1>Character info goes here</h1>'+wtcc.ui.longText,
             collapsible: true
         });
         return infoPanel;

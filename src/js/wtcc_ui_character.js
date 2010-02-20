@@ -11,7 +11,7 @@ wtcc.ui.character = function () {
             autoHeight: true,
             autoWidth: true,
             items: [
-                wtcc.ui.info.create(),
+                wtcc.ui.infos.create(),
                 wtcc.ui.pools.create('Stats', wtcc.model.character.stats),
                 wtcc.ui.pools.create('Skills', wtcc.model.character.skills),
                 wtcc.ui.archetype.create(),
