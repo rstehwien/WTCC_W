@@ -19,6 +19,7 @@ wtcc.ui.editcards = function () {
                 wtcc.ui.pool.create(),
                 wtcc.ui.effect.create()
             ],
+            // TODO hide this bar when logic hooked in to edit
             bbar: [
                 {
                     text: '< Prev',

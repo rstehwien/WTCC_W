@@ -8,7 +8,7 @@ wtcc.ui.pool = function () {
     mypublic.create = function () {
         var panel;
         panel = new Ext.Panel({
-            html: '<h1>Pool goes here</h1>',
+            html: '<h1>Pool goes here</h1>'+wtcc.ui.longText,
         });
         return panel;
     };

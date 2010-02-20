@@ -6,18 +6,25 @@ wtcc.ui.main = function () {
     myprivate = {};
 
     mypublic.create = function () {
-        var tabs = new Ext.TabPanel({
-            renderTo: document.body,
-            activeTab: 0,
-            frame:true,
-            defaults:{autoHeight: true},
+        var view;
+
+        view = new Ext.Viewport({
+            layout: 'border',
             items:[
-                wtcc.ui.editcards.create(),
-                wtcc.ui.view.create()
+                {
+                    region: 'center',
+                    xtype: 'tabpanel',
+                    activeTab: 0,
+                    defaults:{ autoScroll:true },
+                    items:[
+                        wtcc.ui.editcards.create(),
+                        wtcc.ui.view.create()
+                    ]
+                }
             ]
         });
 
-        return tabs;
+        return view;
     };
 
     return mypublic;
@@ -31,3 +38,4 @@ wtcc.ui.longText = "<p>Lorem ipsum dolor sit amet, nec fermentum pharetra donec 
 <p>Eget dolor, fringilla massa massa morbi ultrices non, risus metus blandit mauris rhoncus rutrum faucibus, aliquam vestibulum proin, varius ut erat vitae eu. Duis placerat etiam wisi suspendisse, odio est et, nonummy nulla lorem. Ab vel lectus litora suscipit congue, vivamus integer vel lobortis ut sed tellus, suspendisse veniam turpis massa wisi euismod, orci tellus, orci vivamus tortor sapien nulla condimentum. Amet pharetra orci porta velit, nullam sed vitae in, vel elit auctor facilisis interdum volutpat turpis, lacus libero, et nulla nec dui metus. Nec laoreet quae viverra temporibus vel, vulputate erat tellus, exercitation sollicitudin odio donec consectetuer etiam, consequat et molestie suspendisse libero. Est suscipit consectetuer morbi, tempor sit, id sed cursus rutrum nonummy donec quam, cras imperdiet phasellus donec in, nulla orci mattis quis elementum. Eget ante egestas in sapien, elit elit, tellus dui ante phasellus parturient, aliquam sapien quis nulla, pulvinar nec. Donec non.\
 <p>Sagittis proin urna, orci blandit a ante, pretium nullam varius in aliqua et. Nunc tortor elementum fermentum, dapibus proin quis luctus mollis, purus mollis risus, justo a quisque nullam laoreet nisl eget. Ac metus etiam elit fusce turpis, cursus ultricies tellus, at phasellus non duis et sed. Sapien dictum convallis purus quis eget. Elit viverra ac mauris ullamcorper, aliquam mollis ut, etiam aliquam nibh praesent habitant sit, phasellus sodales ut wisi, mauris neque. Placerat nibh faucibus, nunc amet orci diam vitae tincidunt adipiscing. Sit semper mauris malesuada leo, volutpat fusce, cras ultricies mi ac. Nibh nullam nunc purus dolor in turpis. Laoreet interdum, semper scelerisque pede, at vel, donec elit turpis quis non eleifend feugiat, dapibus vivamus pharetra iaculis iaculis consequatur id.</p>"
 ;
+
